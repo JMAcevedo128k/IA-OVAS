@@ -1,0 +1,421 @@
+.txtblue{
+    color: #181363 !important;
+}
+
+.azul_banner{
+    background: #0187C4;
+    padding: 20px 25px;
+    height: 120px;
+}
+
+.targetas_ejemplo_blue{
+    background: #181363;padding: 14px;border-radius: 15px;height: 111px;
+}
+.targetas_ejemplo_orange{
+    background: #FF7F00;padding: 14px;border-radius: 15px;height: 111px;
+}
+
+.circle_ejemplo{
+    width: 90px;height: 90px;background: white;border-radius: 50%;
+}
+
+.boton_ejemplo{
+    background: #181363;
+    padding: 10px;
+    border-radius: 20px;
+    height: 115px;
+}
+
+.banner_ejemplo{
+    background: white;border: solid #181363;padding: 20px;height: 288px;border-radius: 30px;
+}
+
+.close_banner{
+    background: #181363;height: 30px;width: 30px;border-radius: 50%;color: white;position: relative;top: -29px;left: 28px;
+}
+
+
+.border-with-dot {
+    position: relative;
+    padding-right: 20px;
+    border-bottom: 2px solid #181363;
+    width: fit-content;
+}
+  
+.border-with-dot::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    right: -7px;
+    transform: translate(-50%, -50%);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #181363;
+}
+
+
+.verde_banner{
+    background: #8DC640;
+    border-radius: 30px;
+    height: 300px;
+}
+
+
+.bola{
+    height: 15px;
+      width: 15px;
+      background:#FF7F00;
+      border-radius: 50%;
+      margin-left: 5px;
+}
+.bolaActive{
+    background: #8DC640 !important;
+}
+
+.bola_2{
+    height: 15px;
+      width: 15px;
+      background:#181363;
+      border-radius: 50%;
+      margin-left: 5px;
+}
+.bolaActive2{
+    background: #FF7F00 !important;
+}
+
+.bac_1{
+    background-image: url(../../assets/img_ova/bac_1.png);
+    background-size: 200px 350px;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.cuadro_ban{
+    background: #0187C4;height: 280px;
+    padding: 10px;
+}
+
+
+.conection{
+    background: #FF7F00;height: 55px;width: 90%;border-radius: 1px 10px 10px 1px;
+}
+.conection_2{
+    background: #FF7F00;height: 55px;width: 90%;border-radius: 1px 10px 10px 1px;
+}
+.conection_3{
+    background: #181363;height: 55px;width: 90%;border-radius: 1px 10px 10px 1px;
+}
+.conectionActive{
+    background: #181363 !important;
+    width: 100% !important;
+    border-radius: 0px !important;
+}
+.conectionActive2{
+    background: #0187C4 !important;
+    width: 100% !important;
+    border-radius: 0px !important;
+}
+.conectionActive3{
+    background: #FF7F00 !important;
+    width: 100% !important;
+    border-radius: 0px !important;
+}
+
+.ban_cuadro{
+    background: #181363;height: 280px;
+}
+.ban_cuadro_2{
+    background: #181363;height: 280px;
+}
+.ban_cuadro_3{
+    background: #FF7F00;height: 280px;
+}
+
+.title_white{
+    background: white;padding: 10px;border-radius: 5px;z-index: 1;position: relative;
+}
+
+.circulo_tittle{
+    height: 90px;width: 90px;background: white;border-radius: 50%;margin-top: -14px;
+}
+
+.bot_blus{
+    background: #181363;
+    height: 85px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.boton_azulOsc{
+    background: #181363;height: 56px;padding: 1px 25px;border-radius: 10px;
+}
+
+.closes{
+    background: #181363;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    color: white;
+}
+
+.ban_verd{
+    background: #8DC640;
+    padding: 30px;
+    margin-left: -12px;
+    height: 253px;
+    border-radius: 1px 20px 20px 1px;
+}
+
+.triangulo {
+    width: 0;
+    height: 0;
+    border-left: 34px solid #181363;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    cursor: pointer;
+}
+
+.conclusion{
+    background: white;
+    padding: 15px 30px;
+    border-radius: 30px;
+    height: 190px;
+}
+
+.aqua{
+    background: #0187C4;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+.uni_bande{
+    background: #130b65;
+    height: 50px;
+}
+
+.headers_uni{    
+    background-color: white;
+    width: 28px;
+    height: 40px;
+    border-radius: 1px 50px 50px 1px;
+}
+
+
+/*acordeon horizontal*/
+.acordeon { width:100%; overflow:hidden; margin:10px auto; color:#474747;; padding:10px; }
+
+.acordeon section:hover {background: #0187C4;}
+
+.flecha_acor{
+  position: relative;
+  font-size: 18px;
+  color: black;
+  margin-left: 6px;
+}
+
+.horizontal section h2 { 
+  position:relative; 
+  top:0px;
+  z-index: 8;
+} 
+.cordeon-columna{
+  height: 100%;
+  width: 100%;
+}
+.radius-50{
+  border-radius: 50%;
+}
+.radius-1{
+  border-radius: 15px;
+}
+
+#acordeon_1_1{
+    background-color: #0187C4 !important;
+}
+#acordeon_1_2{
+    background-color: #8DC640 !important;
+}
+#acordeon_1_3{
+    background-color: #181363 !important;
+}
+/*acordeon horizontal fin */
+
+
+.circulo_blanco{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.azu_osc{
+    background-color: #130b65;
+    border-radius: 30px;
+    padding: 30px;
+    height: 300px;
+}
+
+.boton_verde{
+    background-color: #8DC640;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    z-index: 1;
+}
+.boton_verdeActive{
+    background-color: #0187C4 !important;
+}
+.linea{
+    height: 3px;
+    background-color: #8DC640;
+    margin-top: -40px;
+}
+
+.bote_blue{
+    background: #0187C4;
+    padding: 10px 30px;
+    border-radius: 30px;
+    height: 150px;
+}
+
+.naranja{
+    background-color: #FF7F00;
+    border-radius: 30px;
+    height: 200px;
+    padding: 10px 30px;
+}
+
+.bote_verde{
+    background-color: #8DC640;
+    border-radius: 30px;
+    padding: 20px 40px;
+    padding-bottom: 40px;
+}
+
+.circle_borde{
+    height: 100px;
+    width: 100px;
+    margin: -45px 60px;
+    border-radius: 50%;
+    background: white;
+    border: solid 4px #8DC640;
+}
+
+.mini_circle{
+    width: 40px;
+    height: 40px;
+    background: #8DC640;
+    border-radius: 50%;
+    position: relative;
+    z-index: 1;
+}
+
+.corp_mini{
+    background: #8dc640;
+    height: 30px;
+    margin-left: -10px;
+    width: 100%;
+    padding-left: 20px;
+    border-radius: 5px;
+}
+
+.mini_circle2{
+    width: 40px;
+    height: 40px;
+    background: #020940;
+    border-radius: 50%;
+    position: relative;
+    z-index: 1;
+}
+
+.corp_mini2{
+    width: 100%;
+    padding-left: 20px;
+    height: 260px;
+    margin-left: -20px;
+    border-radius: 1px 25px 25px 25px;
+    background: #020940;
+}
+
+.triangulo2 {
+    width: 0;
+    height: 0;
+    border-left: 13px solid #181363;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    cursor: pointer;
+    transform: rotate(90deg);
+}
+
+.closes_mini{
+    background-color: white;
+    height: 30px;
+    border-radius: 50%;
+    width: 30px;
+    color: #020940;
+}
+
+.target_hed{
+    background: #020940;height: 50px;border-radius: 20px;    margin-top: 45px;
+}
+.target_ball{
+    width: 90px;height: 90px;border-radius: 50%;background: #020940;border: solid white;margin-top: -47px;
+}
+
+.triangulo3{
+    width: 0;
+    height: 0;
+    border-left: 13px solid #181363;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    cursor: pointer;
+    transform: rotate(90deg);
+}
+
+.target_corpo{
+    background: #8DC640;
+    height: 200px;
+    border-radius: 1px 1px 30px 30px;
+}
+
+.blancos{
+    background: white;
+    width: 40px;
+    border-radius: 15px 15px 1px 1px;
+}
+.orange{
+    background: #FF7F00;
+    height: 90px;
+}
+.blu_osc{
+    background: #020940;
+    height: 90px;
+}
+
+.close_carr5{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #130b65;
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.bann_orange{
+    background: #FF7F00;
+    height: 180px;
+    padding: 10px;
+}
+.bann_blueOsc{
+    background: #020940;
+    height: 180px;
+    padding: 10px;
+}
+
+.head_activiti{
+    background: #FF7F00;
+    padding: 10px;
+    border-radius: 10px;
+}
