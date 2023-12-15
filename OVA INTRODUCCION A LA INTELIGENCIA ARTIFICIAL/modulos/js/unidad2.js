@@ -364,3 +364,8 @@ function lineaVertical(num){
     $('.div').addClass('d-none');
     $('.div'+num).removeClass('d-none');
 }
+
+function filo(num){
+    $('.AzlBan').addClass('d-none');
+    $('.AzlBan'+num).removeClass('d-none');
+}

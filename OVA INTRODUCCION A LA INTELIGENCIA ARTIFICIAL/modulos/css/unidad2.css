@@ -647,3 +647,22 @@ input[type=range]::-ms-fill-upper {
 .encription{
   width: 50px;height: 50px;background: #020940;border-radius: 50%;margin-top: -25px;
 }
+
+.balls{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: #020940;
+  cursor: pointer;
+}
+
+.balas{
+  background: #FF7F00;height: 290px;border-radius: 1px 118px 118px 1px;
+}
+
+.AzlBan{
+  background-color: #020940;
+  height: 280px;
+  padding: 20px 30px;
+  border-radius: 30px;
+}
