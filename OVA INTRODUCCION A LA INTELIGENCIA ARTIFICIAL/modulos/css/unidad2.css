@@ -449,3 +449,201 @@ background: #0187C4;
 .numerator_body{
   background: #8bc43f;height: 45px;border-radius: 10px;margin-top: -20px;padding: 6px;
 }
+
+
+.triangulo_white {
+  width: 0;
+  height: 0;
+  border-left: 24px solid white;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  cursor: pointer;
+}
+
+.acordeon1{
+  background: #FF7F00;height: 60px;
+}
+.acordeon2{
+  background: #8DC640;height: 60px;
+}
+.acordeon3{
+  background: #0187C4;height: 60px;
+}
+.acordeon4{
+  background: #020940;height: 60px;
+}
+.identity{
+  width: 60px;height: 45px;background: white;border-radius: 1px 1px 25px 25px;
+}
+
+.bodyCordeon{
+  height: 332px;
+}
+
+.slices1{
+  background: #0187C4;height: 230px;border-radius: 30px;
+}
+
+.slices2{
+  background: #8DC640;height: 230px;border-radius: 30px;
+}
+.slices3{
+  background: #FF7F00;height: 230px;border-radius: 30px;
+}
+.slices4{
+  background: #020940;height: 230px;border-radius: 30px;
+}
+.slices5{
+  background: #8DC640;height: 230px;border-radius: 30px;
+}
+
+.retro1{
+  height: 230px;
+    background: #0187C4;
+    border-radius: 15px;
+}
+.retro2{
+  height: 230px;
+    background: #8DC640;
+    border-radius: 15px;
+}
+.retro3{
+  height: 230px;
+    background: #FF7F00;
+    border-radius: 15px;
+}
+.retro4{
+  height: 230px;
+    background: #020940;
+    border-radius: 15px;
+}
+
+
+
+/* --------RECURSO # 2 BARRA DESLIZADORA HORIZONTAL---------*/
+.inputDiv,.inputDiv4 {
+	width: 100%;
+	display:block;
+	color:#aaa;
+	position:relative;
+}
+.output{display:none; width:40px; text-align:center;}
+ 
+input[type='range'] {
+	display: inline-block;
+	width: 98%;
+	background: none;
+}
+ 
+input[type='range']:focus {
+	outline: none;
+	background: none;
+}
+ 
+input[type='range'],
+input[type='range']::-webkit-slider-runnable-track,
+input[type='range']::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	background: none;
+}
+ 
+input[type=range]::-webkit-slider-thumb {
+	background-image: url('../../assets/img_ova/btn_scroll2.png');
+	background-size: 100% 100%;
+	width: 30px;
+	height: 30px;
+	border: none;
+	margin-top: -15px;
+	cursor: pointer;
+}
+ 
+input[type=range]::-moz-range-thumb {
+	background-image: url('../../assets/img_ova/btn_scroll2.png');
+	background-size: 100% 100%;
+	width: 30px;
+	height: 30px;
+	border: none;
+	cursor: pointer;
+}
+ 
+input[type=range]::-ms-thumb {
+	background-image: url('../../assets/img_ova/btn_scroll2.png');
+	background-size: 100% 100%;
+	width: 30px;
+	height: 30px;
+	border: none;
+	cursor: pointer;
+}
+ 
+input[type=range]::-webkit-slider-runnable-track {
+	background: #020940;
+	height: 3px;
+	margin-bottom: 20px;
+}
+ 
+input[type=range]:focus::-webkit-slider-runnable-track {
+	outline: none;
+}
+ 
+input[type=range]::-moz-range-track {
+	background: #020940;
+	height: 3px;
+	margin-bottom: 20px;
+}
+ 
+input[type=range]::-ms-track {
+	background: #020940;
+	height: 3px;
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+ 
+input[type=range]::-ms-fill-lower {
+	background: #020940;
+	cursor: pointer;
+}
+   
+input[type=range]::-ms-fill-upper {
+	background: #020940;
+	cursor: pointer;
+}
+  /*scroll fin*/
+
+
+.bann1{
+  background: #FF7F00;
+  padding: 35px 50px;
+  border-radius: 20px;
+}
+.bann2{
+  background: #020940;
+  padding: 35px 50px;
+  border-radius: 20px;
+}
+.bann3{
+  background: #8DC640;
+  padding: 35px 50px;
+  border-radius: 20px;
+}
+.bann4{
+  background: #0187C4;
+  padding: 35px 50px;
+  border-radius: 20px;
+}
+.bann5{
+  background: #020940;
+  padding: 35px 50px;
+  border-radius: 20px;
+  height: 135px;
+}
+
+.heders{
+  height: 50px;background: #020940;border-radius: 10px;
+}
+.boders{
+  width: 96%;background: #0187C4;height: 315px;border-radius: 1px 1px 30px 30px;padding: 30px;
+}
+
+.encription{
+  width: 50px;height: 50px;background: #020940;border-radius: 50%;margin-top: -25px;
+}

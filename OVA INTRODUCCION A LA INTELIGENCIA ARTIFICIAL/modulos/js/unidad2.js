@@ -166,6 +166,32 @@ function entrar() {
       }(n));
     }
 }
+function entrar2() {
+    $(".i3").html('')    
+    var elementoPadre1 = document.querySelector(".inputDiv.i3");
+    var elementoPadre2 = document.querySelector(".inputDiv.i4");
+    var inputsRy = [];  
+    // cantidad de texto
+    var i = new Input(2);
+    i.crear(elementoPadre1);
+    inputsRy.push(i);
+    // cantidad de texto
+    var i2 = new Input(2);
+    i2.att.value = 70;
+    i2.att.min = 20;
+    i2.att.max = 120;
+    i2.crear(elementoPadre2);
+    inputsRy.push(i2);
+ 
+    for (var n = 0; n < inputsRy.length; n++) {
+      (function(n) {
+        inputsRy[n].input.addEventListener("input", function() {
+            /* se define a que funcion dentro de la funcion input se quiere entrar */
+          inputsRy[n].actualizar2();
+        }, false)
+      }(n));
+    }
+}
 
 function Input(num) {
     //<input type="range" value="35" min="0" max="100" autocomplete="off" step="1">
@@ -294,4 +320,47 @@ function botonCuadro(num) {
             // statements_def 
             break;
     }
+}
+
+function acordeon(num){
+    switch (parseInt(num)) {
+        case 0:
+            $('.bodyCordeon').addClass('d-none');
+            $('.bodyCordeon'+num).removeClass('d-none');
+            break;
+        case 1:
+            $('.bodyCordeon').addClass('d-none');
+            $('.bodyCordeon'+num).removeClass('d-none');
+            break;
+        case 2:
+            $('.bodyCordeon').addClass('d-none');
+            $('.bodyCordeon'+num).removeClass('d-none');
+            break;
+        case 3:
+            $('.bodyCordeon').addClass('d-none');
+            $('.bodyCordeon'+num).removeClass('d-none');
+            break;
+        case 4:
+            $('.bodyCordeon').addClass('d-none');
+            $('.bodyCordeon'+num).removeClass('d-none');
+            break;
+        case 5:
+            $('.bodyCordeon').addClass('d-none');
+            $('.bodyCordeon'+num).removeClass('d-none');
+            break;
+        default:
+            // statements_def 
+            break;
+    }
+}
+
+
+$('#imagen13').on('show.bs.modal', function () {
+    entrar2();
+    // Puedes realizar acciones adicionales cuando el modal se abre.
+});
+
+function lineaVertical(num){
+    $('.div').addClass('d-none');
+    $('.div'+num).removeClass('d-none');
 }
