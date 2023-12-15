@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Diplomado</title>
+    <link href="assets/plugins/bootstrap5/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="assets/plugins/animate/animate.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/plugins/jquery-smartwizard/css/smart_wizard_all.min.css" rel="stylesheet">
+</head>
+
+<body style="height: 100%;">
+    <div class="container d-flex align-items-center" style="height: 100%;">
+        <div class="back_init img-100">
+            <header class="navbar navbar-dark sticky-top bg-template flex-md-nowrap p-0">
+                <img src="assets/img_template/logo.png" alt="" class="imagen_utp">
+                <!-- <span class="titulo_header_ova animate__animated  animate__bounceInDown">Diplomado
+                    Educación ambiental y el
+                    desarrollo sostenible en el departamento de Risaralda</span> -->
+                <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-nav">
+                    <div class="nav-item text-nowrap">
+                        <img src="assets/img_template/logo_gob.png" class="imagen_gob" alt="" style="visibility: hidden;">
+                    </div>
+                </div>
+            </header>
+            <div class="contenedor_gen">
+                
+                <div class="auto-width contenido_ed">
+                    <div class="row">
+                        <div class="col">
+                            <div id="smartwizard">
+                                <ul class="nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#step-0">
+    
+                                        </a>
+                                    </li>
+                                </ul>
+    
+                                <div class="tab-content">
+                                    <div id="step-0" class="tab-pane" role="tabpanel" aria-labelledby="step-0">
+                                        <div class="row">
+                                            <div class="col-md-8">
+                                                <div class="col">
+                                                    <h6 class="text-bienvenida">Bienvenido al Objeto virtual de aprendizaje</h6>
+                                                    <h2 class="nombre_ova"><b>INTRODUCCIÓN A INTELIGENCIA ARTIFICIAL Y LAS HERRAMIENTAS RELACIONADAS.</b></h2>
+                                                </div>
+                                                <div class="col-md-12 row m-0" style="padding-left: 40px;">
+                                                    <div class="col-md-3 animaciones_btn animate__bounceIn">
+                                                        <div class="d-flex justify-content-center">
+                                                            <div class="Head_btn_modal btnMd btnMd_1 d-flex align-items-center justify-content-center cursor" onclick="Openmodals(1)">
+                                                                <img src="assets/img_template/presentacion.png" width="60%" alt="">
+                                                            </div>
+                                                        </div>
+                                                        <div class="body_btn_modals btnMd btnMd_1 d-flex align-items-center justify-content-center cursor" onclick="Openmodals(1)">
+                                                            <p class="text-center m-0 font16">
+                                                                <b>Introducción</b>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-3 animaciones_btn animate__bounceIn">
+                                                        <div class="d-flex justify-content-center">
+                                                            <div class="Head_btn_modal btnMd btnMd_2 d-flex align-items-center justify-content-center cursor" onclick="Openmodals(2)">
+                                                                <img src="assets/img_template/meta.png" width="60%" alt="">
+                                                            </div>
+                                                        </div>
+                                                        <div class="body_btn_modals btnMd btnMd_2 d-flex align-items-center justify-content-center cursor" onclick="Openmodals(2)">
+                                                            <p class="text-center m-0 font16">
+                                                                <b>Objetivos de aprendizaje</b>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-3 animaciones_btn animate__bounceIn">
+                                                        <div class="d-flex justify-content-center">
+                                                            <div class="Head_btn_modal btnMd btnMd_3 d-flex align-items-center justify-content-center cursor" onclick="Openmodals(3)">
+                                                                <img src="assets/img_template/libro-abierto.png" width="60%" alt="">
+                                                            </div>
+                                                        </div>
+                                                        <div class="body_btn_modals btnMd btnMd_3 d-flex align-items-center justify-content-center cursor" onclick="Openmodals(3)">
+                                                            <p class="text-center m-0 font16">
+                                                                <b>Contenido <br> temático</b>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+            <div class="d-flex justify-content-end" style="z-index: 1000;
+            position: relative;">
+                <div class="modals_objects modalObj1 animate__animated animate__rubberBand d-none">
+                    <div class="d-flex justify-content-end p-2">
+                        <div class="closesModal d-flex justify-content-center align-items-center cursor" onclick="Closemodals(1)">
+                            X
+                        </div>
+                    </div>
+
+                    <div class="d-flex justify-content-center img-100">
+                        <div class="col-md-4 animaciones_btn animate__bounceIn">
+                            <div class="d-flex justify-content-center">
+                                <div class="Head_btn_modal2 d-flex align-items-center justify-content-center cursor">
+                                    <img src="assets/img_template/presentacion1.png" width="60%" alt="">
+                                </div>
+                            </div>
+                            <div class="body_btn_modals2 d-flex align-items-center justify-content-center cursor">
+                                <p class="text-center m-0 font16 text-white">
+                                    <b>Introducción</b>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="text_modal">
+                        <p class="font16 justificado">
+                            Introducción a Inteligencia Artificial y las herramientas relacionadas, es un materias pedagógico, diseñado con el fin de orientar el proceso de enseñanza – aprendizaje en función de los nuevas formas de interpretar el mundo tecnológico y su participación en la sociedad. 
+                            <br><br>
+                            En este Objeto virtual de aprendizaje se podrá observar un recorrido por la historia de la Inteligencia artificial, las herramientas más utilizadas y sofisticadas al momento de trabajar en esta área y finalmente un recorrido por los retos y desafíos que tiene la disciplina en un mundo que día a día se enfrenta a más cambios y evoluciones. 
+                        </p>
+                    </div>
+                </div>
+                <div class="modals_objects modalObj2 animate__animated animate__rubberBand d-none">
+                    <div class="d-flex justify-content-end p-2">
+                        <div class="closesModal d-flex justify-content-center align-items-center cursor" onclick="Closemodals(2)">
+                            X
+                        </div>
+                    </div>
+    
+                    <div class="d-flex justify-content-center img-100">
+                        <div class="col-md-4 animaciones_btn animate__bounceIn">
+                            <div class="d-flex justify-content-center">
+                                <div class="Head_btn_modal2 d-flex align-items-center justify-content-center cursor">
+                                    <img src="assets/img_template/meta1.png" width="60%" alt="">
+                                </div>
+                            </div>
+                            <div class="body_btn_modals2 d-flex align-items-center justify-content-center cursor">
+                                <p class="text-center m-0 font16 text-white">
+                                    <b>Objetivos de aprendizaje</b>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text_modal">
+                        <p class="font16 txtblue negrita">
+                            <b>Objetivo general:</b>
+                        </p>
+                        <p class="font16 justificado">
+                            Reconocer la Inteligencia Artificial, como un proceso tecnológico inmerso en  el desarrollo de la vida contemporánea.
+                        </p>
+                        <p class="font16 txtblue negrita">
+                            <b>Objetivos específicos: </b>
+                        </p>
+                        <ul class="font16 justificado">
+                            <li>
+                                Conocer el desarrollo de la Inteligencia Artificial y su impacto desde su aparición. 
+                            </li>
+                            <br>
+                            <li>
+                                Identificar las principales y más importantes herramientas utilizadas en el desarrollo de la Inteligencia Artificial. 
+                            </li>
+                            <br>
+                            <li>
+                                Analizar y reflexionar sobre los retos y desafios que tiene la Inteligencia Artificial en el desarrollo tecnologico actual.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="modals_objects modalObj3 animate__animated animate__rubberBand d-none">
+                    <div class="d-flex justify-content-end p-2">
+                        <div class="closesModal d-flex justify-content-center align-items-center cursor" onclick="Closemodals(3)">
+                            X
+                        </div>
+                    </div>
+    
+                    <div class="d-flex justify-content-center img-100">
+                        <div class="col-md-4 animaciones_btn animate__bounceIn">
+                            <div class="d-flex justify-content-center">
+                                <div class="Head_btn_modal2 d-flex align-items-center justify-content-center cursor">
+                                    <img src="assets/img_template/libro-abierto1.png" width="60%" alt="">
+                                </div>
+                            </div>
+                            <div class="body_btn_modals2 d-flex align-items-center justify-content-center cursor">
+                                <p class="text-center m-0 font16 text-white">
+                                    <b>Contenido <br> temático </b>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text_modal">
+                        <p class="font16 txtblue justificado" style="line-height: 20px !important;">
+                            El Objeto Virtual de Aprendizaje <b class="negrita">Introducción a la inteligencia artificial y las herramientas relacionadas</b>I, cuenta con 3 unidades de aprendizaje. Haga clic en cada una para iniciar:
+                        </p>
+
+                        <div>
+                            <div class="d-flex init-unidad card_light_1" key="unidades_btn" data-id="1">
+                                <div class="d-flex align-items-center justify-content-center hes_uni card_light_1">
+                                    <img src="assets/img_template/historia.png" class="img-70" alt="">
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <div class="bod_uni d-flex align-items-center card_light_1">
+                                        <p class="m-0 font16 negrita text-white text-center">
+                                            <b>Introducción a la Inteligencia Artificial</b>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="d-flex init-unidad card_light_2" key="unidades_btn" data-id="2">
+                                <div class="d-flex align-items-center justify-content-center hes_uni card_light_2">
+                                    <img src="assets/img_template/innovacion.png" class="img-70" alt="">
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <div class="bod_uni d-flex align-items-center card_light_2">
+                                        <p class="m-0 font16 negrita text-white text-center img-100">
+                                            <b>Herramientas</b>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="d-flex init-unidad card_light_3" key="unidades_btn" data-id="3">
+                                <div class="d-flex align-items-center justify-content-center hes_uni card_light_3">
+                                    <img src="assets/img_template/meta3.png" class="img-70" alt="">
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <div class="bod_uni d-flex align-items-center card_light_3">
+                                        <p class="m-0 font16 negrita text-white text-center img-100">
+                                            <b>Principales retos y <br>desafíos de la AI</b>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            
+        </div>
+        
+    </div>
+
+    <script src="assets/plugins/jquery/jquery.min.js" type="text/javascript"></script>
+    <script src="assets/plugins/bootstrap5/js/bootstrap.bundle.min.js" type="text/javascript"></script>
+    <script src="modulos/js/SCORM_API_wrapper.js"></script>
+    <script src="modulos/js/controlador_scorm.js"></script>
+    
+    <!-- JavaScript -->
+    <script src="assets/plugins/jquery-smartwizard/js/jquery.smartWizard.min.js" type="text/javascript"></script>
+    <script src="index.js"></script>
+    <script src="unidades.js"></script>
+</body>
+
+</html>
