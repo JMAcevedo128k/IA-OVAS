@@ -6,30 +6,30 @@ var letters = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M",
 			   "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
 
 var words = [
+				{ "word": "APRENDIZAJE", "direction": "E", "start": 217 },
+				{ "word": "AUTOMATICO", "direction": "E", "start": 37 },
 				{ "word": "DATOS", "direction": "E", "start": 2 },
-				{ "word": "COMPUTACION", "direction": "E", "start": 217 },
-				{ "word": "INTELIGENCIA", "direction": "E", "start": 37 },
+				{ "word": "MODELOS", "direction": "NE", "start": 199 },
+				{ "word": "VALIDACION", "direction": "E", "start": 201 },
+				{ "word": "ALGORITMO", "direction": "E", "start": 184 },
+				{ "word": "VECTORIAL", "direction": "E", "start": 56 },
+				{ "word": "REDES", "direction": "E", "start": 74 },
+				{ "word": "TAREAS", "direction": "S", "start": 13 },
 				{ "word": "ARTIFICIAL", "direction": "S", "start": 18 },
-				{ "word": "BIGDATA", "direction": "NE", "start": 199 },
-				{ "word": "SOFTWARE", "direction": "E", "start": 201 },
-				{ "word": "INFORMATICA", "direction": "E", "start": 56 },
-				{ "word": "SISTEMAS", "direction": "E", "start": 74 },
-				{ "word": "PROGRAMAS", "direction": "S", "start": 13 },
-				{ "word": "ALGORITMOS", "direction": "E", "start": 184 },
 				
 		 ];	   
 
 var words2 = [
+			  { "word": "Aprendizaje"},
+			  { "word": "Automático"},
 			  { "word": "Datos"},
-			  { "word": "Computación"},
-			  { "word": "Inteligencia"},
+			  { "word": "Modelos"},
+			  { "word": "Validación"},
+			  { "word": "Algoritmo"},
+			  { "word": "Vectorial"},
+			  { "word": "Redes"},
+			  { "word": "Tareas"},
 			  { "word": "Artificial"},
-			  { "word": "Bigdata"},
-			  { "word": "Software"},
-			  { "word": "Informatica"},
-			  { "word": "Sistemas"},
-			  { "word": "Programas"},
-			  { "word": "Algoritmos"},
 			  
 			];
 

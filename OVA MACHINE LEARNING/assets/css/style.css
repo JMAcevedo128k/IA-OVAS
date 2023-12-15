@@ -230,7 +230,7 @@ p {
 }
 
 .nombre_ova {
-    font-size: 35px;
+    font-size: 44px;
     font-weight: 900;
     width: 90%;
     margin: 40px 40px;
@@ -720,7 +720,7 @@ html{
     width: 470px;
     height: 610px;
     position: absolute;
-    top: -589px;
+    top: -558px;
     box-shadow: 1px 1px 5px 0px;
 }
 
@@ -804,4 +804,8 @@ html{
     border-radius: 50%;
     height: 45px;
     width: 45px;padding: 0px;
+}
+
+.color_font_primary{
+    color: var(--color-primary);
 }
