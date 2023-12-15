@@ -1,0 +1,451 @@
+.verde_ban{
+  background: #8DC640;height: 160px;border-radius: 30px;box-shadow: 1px 1px 4px 0px;margin-top: 40px;
+}
+
+.border-with-dot {
+  position: relative;
+  padding-right: 20px;
+  border-bottom: 2px solid #181363;
+  width: fit-content;
+}
+
+.border-with-dot::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  right: -7px;
+  transform: translate(-50%, -50%);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #181363;
+}
+
+.blue_clar{
+  background: #0187C4;
+  border-radius: 15px;
+}
+
+.plates{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: #020940;
+  border: solid white;
+  margin-top: -29px;
+}
+
+.gestion_head{
+  width: 90px;
+  height: 90px;
+  background-color: #020940;
+  border-radius: 50%;
+}
+
+.banner_osc{
+  background: #020940;height: 300px;border-radius: 25px;
+}
+
+.cuadro{
+  height: 20px;
+  width: 35px;
+  background: #0187C4;
+  margin-left: 5px;
+}
+.cuadroActive{
+  background-color: #8DC640 !important;
+}
+
+
+
+.bac_1{
+  background-image: url(../../assets/img_ova/fondo_ball.png);
+  background-size: 290px 340px;
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.beige_verd{
+  background: #E2F0D9;
+  padding: 20px;
+}
+
+
+.uni_bande{
+  background: #130b65;
+  height: 50px;
+}
+
+.orange_pdf{
+  background: #FF7F00;padding: 20px;border-radius: 15px;
+}
+
+.corp_pdf{
+  width: 90%;border: solid #ff7f00;height: 200px;margin-top: -4px;border-radius: 1px 1px 30px 30px;
+}
+
+.caja_verde{
+  width: 80px;
+  height: 35px;
+  background: #8DC640;
+  margin-left: 20px;
+}
+
+.cuadro_verde{
+  background: #8DC640;
+  height: 150px;
+  margin-top: 30px;
+  border-radius: 20px;
+}
+
+.caja_verdeActive{
+  height: 67px !important;
+}
+.caja_verdeActive img{
+  display: none;
+}
+
+.azul_border{
+  background: #020940;height: 40px;border-radius: 10px;
+}
+
+.circulo1{
+  background-color: #020940;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+
+.font15{
+  font-size: 15px;
+  line-height: 15px;
+}
+
+.boton_azulOsc{
+  background: #181363;height: 56px;padding: 1px 25px;border-radius: 10px;
+}
+
+.naranja_mag{
+  background: #FF7F00;border-radius: 30px;box-shadow: 1px 1px 3px 0px;
+}
+
+.azul_mag{
+  background: #020940;height: 130px;border-radius: 20px;
+}
+
+
+.big_data{
+  background-image: url(../../assets/img_ova/bigdata.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 280px;
+  width: 280px;
+}
+
+.gris{
+  width: 20px;
+  height: 20px;
+  background: #767171;
+  font-size: 15px;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+}
+.grisActive{
+  background-color: #0187C4 !important;
+}
+
+.nube{
+  background-color: #0187C4;
+  border-radius: 20px;
+  padding: 20px 30px;
+}
+
+
+/* --------RECURSO # 1 BARRA DESLIZADORA HORIZONTAL---------*/
+.inputDiv,.inputDiv2 {
+	width: 100%;
+	display:block;
+	color:#aaa;
+	position:relative;
+}
+.output{display:none; width:40px; text-align:center;}
+ 
+input[type='range'] {
+	display: inline-block;
+	width: 98%;
+	background: none;
+}
+ 
+input[type='range']:focus {
+	outline: none;
+	background: none;
+}
+ 
+input[type='range'],
+input[type='range']::-webkit-slider-runnable-track,
+input[type='range']::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	background: none;
+}
+ 
+input[type=range]::-webkit-slider-thumb {
+	background-image: url('../../assets/img_ova/btn_scroll.png');
+	background-size: 100% 100%;
+	width: 30px;
+	height: 30px;
+	border: none;
+	margin-top: -15px;
+	cursor: pointer;
+}
+ 
+input[type=range]::-moz-range-thumb {
+	background-image: url('../../assets/img_ova/btn_scroll.png');
+	background-size: 100% 100%;
+	width: 30px;
+	height: 30px;
+	border: none;
+	cursor: pointer;
+}
+ 
+input[type=range]::-ms-thumb {
+	background-image: url('../../assets/img_ova/btn_scroll.png');
+	background-size: 100% 100%;
+	width: 30px;
+	height: 30px;
+	border: none;
+	cursor: pointer;
+}
+ 
+input[type=range]::-webkit-slider-runnable-track {
+	background: white;
+	height: 3px;
+	margin-bottom: 20px;
+}
+ 
+input[type=range]:focus::-webkit-slider-runnable-track {
+	outline: none;
+}
+ 
+input[type=range]::-moz-range-track {
+	background: white;
+	height: 3px;
+	margin-bottom: 20px;
+}
+ 
+input[type=range]::-ms-track {
+	background: white;
+	height: 3px;
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+ 
+input[type=range]::-ms-fill-lower {
+	background: white;
+	cursor: pointer;
+}
+   
+input[type=range]::-ms-fill-upper {
+	background: white;
+	cursor: pointer;
+}
+  /*scroll fin*/
+
+
+  /* ejemplo 2 */
+.ban2{
+	background: #3B3283;
+    padding: 15px 15px 15px 45px;
+    border-radius: 1px 30px 30px 1px;
+    height: 160px;
+}
+
+.content_barra{
+	width: 0px;
+    display: flex;
+    align-items: center;
+}
+.barra{
+	width: 20px;
+    height: 90px;
+    background: #ABAA3C;
+    margin-left: -54px
+}
+
+.software{
+  background-image: url(../../assets/img_ova/hardware.png);
+  background-size: 100% 100%;
+  background-position: 0px 0px;
+  height: 350px;
+  width: 570px;
+}
+
+.banner_orange{
+  background: #FF7F00;height: 240px;padding: 10px;border-radius: 15px;
+}
+.banner_scetian{
+  background: #020940;height: 240px;padding: 10px;border-radius: 15px;
+}
+
+.scencial{
+  background: #020940;
+  padding: 20px 30px;
+  height: 280px;
+  border-radius: 30px;
+}
+.scencial2{
+  background: #8DC640;
+  padding: 20px 30px;
+  height: 280px;
+  border-radius: 30px;
+}
+
+.bar_blus{
+  background: #020940;padding: 10px;border-radius: 15px;
+}
+
+.social{
+  background: #0187C4;
+  height: 230px;
+}
+
+.una-unidad{
+  background: #FF7F00;
+  height: 230px;
+}
+
+.cromo{
+  background: #020940;
+  height: 230px;
+}
+
+.rec_1{
+  background: #0187C4;
+    height: 230px;
+    padding: 10px;
+}
+.rec_2{
+  background: #FF7F00;
+    height: 230px;
+    padding: 10px;
+}
+.rec_3{
+  background: #020940;
+    height: 230px;
+    padding: 10px;
+}
+
+.closes{
+  background: #181363;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  color: white;
+}
+
+.blancox{
+  background-color: white;
+  padding: 10px;
+}
+
+.resalt{
+  background-color: #0187C4;
+  color: white;
+  border-radius: 5px;
+}
+
+.triangulo {
+  width: 0;
+  height: 0;
+  border-left: 24px solid #181363;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  cursor: pointer;
+}
+
+.fech_corp{
+  width: 90%;
+  border: solid #FF7F00;
+  height: 215px;
+  padding: 20px;
+}
+
+.hed_fech{
+  background: #FF7F00;
+    padding: 20px;
+}
+
+.cuadro_azulOsc{
+  background-color: #020940;
+  padding: 20px 30px;
+}
+
+.crema{
+  background: #FBE5D6;
+  height: 300px;
+  padding: 10px;
+}
+
+.bolaverde{
+  height: 90px;
+  width: 90px;
+  background-color: #8DC640;
+  border: solid white;
+  border-radius: 50%;
+}
+
+.verdes{
+  background: #8dc640;border-radius: 30px;margin-top: 70px;
+}
+
+.dash{
+  background-color: #8DC640;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-left: 3%;
+    border: dashed #130b65;
+    z-index: 1;
+    cursor: pointer;
+}
+.dashActive{
+  background-color: #020940 !important;
+  border: solid #020940 !important;
+}
+.blass{
+  background: #020940;
+  padding: 15px 25px;
+  border-radius: 15px;
+}
+
+.verd_c{
+  background-color: #E2F0D9;
+  padding: 10px;
+}
+
+
+/*RECURSO #20 SUBMENÚ BOTONES A LA DERECHA */
+.ban_piel{ 
+	background: #0187C4; 
+  padding: 25px 25px; 
+  border-radius: 20px; 
+  height: 230px; 
+} 
+.boton_cuadro{ 
+    width: 80px;
+    background: #020940;
+    height: 70px;
+    border-radius: 10px;
+    margin-left: 10px;
+} 
+.boton_cuadroActive{ 
+background: #0187C4; 
+} 
+
+.numerator_head{
+  background: #8DC640;width: 60px;height: 60px;border-radius: 50%;border: solid white;
+}
+
+.numerator_body{
+  background: #8bc43f;height: 45px;border-radius: 10px;margin-top: -20px;padding: 6px;
+}
