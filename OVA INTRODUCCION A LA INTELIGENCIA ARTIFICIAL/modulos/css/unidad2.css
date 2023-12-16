@@ -666,3 +666,36 @@ input[type=range]::-ms-fill-upper {
   padding: 20px 30px;
   border-radius: 30px;
 }
+
+.organchange{
+  background: #FF7F00;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.pineaple{
+  background: #ff7f00;
+  height: 210px;
+  border-radius: 30px;
+  padding: 20px 30px;
+}
+
+.verds{
+  height: 40px;
+    border-left: solid 13px #8DC640;
+    border-right: 50px solid #8dc640;
+    color: #8bc43f;
+    cursor: pointer;
+}
+
+.cuadricula_verd{
+  background: #8dc640;
+  padding: 20px;
+  height: 264px;
+}
+
+.verdsActive{
+  width: 118px !important;
+  border-right: 75px solid #8dc640 !important;
+  color: #020940 !important;
+}

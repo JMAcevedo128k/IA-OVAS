@@ -369,3 +369,15 @@ function filo(num){
     $('.AzlBan').addClass('d-none');
     $('.AzlBan'+num).removeClass('d-none');
 }
+function organ(num){
+    $('.pineaple').addClass('d-none');
+    $('.pineaple'+num).removeClass('d-none');
+}
+
+function verds(num){
+    $('.verds').removeClass('verdsActive');
+    $('.verds'+num).addClass('verdsActive');
+
+    $('.cuadricula_verd').addClass('d-none');
+    $('.cuadricula_verd'+num).removeClass('d-none');
+}
