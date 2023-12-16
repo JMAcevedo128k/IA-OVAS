@@ -699,3 +699,42 @@ input[type=range]::-ms-fill-upper {
   border-right: 75px solid #8dc640 !important;
   color: #020940 !important;
 }
+
+.letters{
+  background: #0187C4;
+    width: 40px;
+    border-radius: 10px;
+    height: 35px;
+  cursor: pointer;
+}
+.lettersActive{
+  background: #FF7F00 !important;
+}
+.apart_rriba{
+  background: #8DC640;
+    height: 35px;
+    border-radius: 10px 10px 1px 1px;
+}
+
+.apart_bajo{
+  background: #5786DE;
+  height: 150px;
+  border-radius: 1px 1px 10px 10px;
+  padding: 10px 15px;
+}
+
+.saltbase{
+  background: #020940;
+    padding: 20px 60px 20px 20px;
+    border-radius: 20px;
+    height: 136px;
+}
+
+.sphere{
+  width: 140px;
+  height: 140px;
+  background: white;
+  border-radius: 50%;
+  margin-top: -53px;
+  z-index: 1;
+}
