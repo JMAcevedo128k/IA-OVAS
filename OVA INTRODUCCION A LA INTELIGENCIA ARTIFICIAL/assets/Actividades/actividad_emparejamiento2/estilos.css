@@ -1,10 +1,10 @@
 :root {
-    --bg-color: #4D5858;
-    --bg-color-dark: #C3C301;
-    --bg-light:#6E7C7C;
-    --bg-second: #4D585A;
-    --bg-second-2:#6E7A7B;
-    --bg-color-2:#9EACAB;
+    --bg-color: #181363;
+  --bg-color-dark: #181363;
+  --bg-light:#FF7F00;
+  --bg-second: #4D585A;
+  --bg-second-2:#6E7A7B;
+  --bg-color-2:#DE9857;
 }
 
 @font-face {
@@ -45,7 +45,7 @@ body{
     display: table;
     background: transparent;
     height: 25px;
-    width: 90%;
+    width: 50%;
     position: relative;
     border: 2px dashed #ad123c;
     margin: 10px 0px 33px 0px;
@@ -113,7 +113,7 @@ body{
     left: -15px;
     right: -15px;
     bottom: -15px;
-    border: solid #928FB9 2px;
+    border: solid #020940 2px;
     border-radius: 10px;
     background: transparent;
     box-shadow: 9px 9px 5px 0px rgba(0, 0, 0, 0.3);
@@ -151,16 +151,16 @@ body{
     color: #000;
 }
 #actividad-1 ul#grupoA li.list-group-item1:after{
-    background-color: #3B3283;
-    border: solid #3B3283 2px;
+    background-color: #020940;
+    border: solid #020940 2px;
 }
 #actividad-1 ul#grupoA li.list-group-item2:after{
-    background-color: #5F560E;
-    border: solid #5F560E 2px;
+    background-color: #020940;
+    border: solid #020940 2px;
 }
 #actividad-1 ul#grupoA li.list-group-item3:after{
-    background-color: #C3C300;
-    border: solid #C3C300 2px;
+    background-color: #020940;
+    border: solid #020940 2px;
 }
 #actividad-1 ul#grupoA li.list-group-item4:after{
     background-color: #C64B8B;
@@ -193,7 +193,8 @@ body{
     text-align: left;
     margin: 0;
     color: black;
-    font-size: 14px;
+    font-size: 12px;
+    line-height: 12px;
 }
 
 /*encabezado*/
@@ -349,8 +350,27 @@ body{
     font-size: 22px;
 }
 .btnsModal{
-    background: #C3C301;
+    background: #181363;
     color: white;
     font-weight: bold;
     height: 50px;
+}
+
+
+
+.ban_naranja{
+    background: #FF7F00;
+    padding: 5px 30px;
+    border-radius: 10px;
+}
+  
+.boton_calificar{
+background-color: #8DC640;
+font-weight: bold;
+    color: black;
+    border: none;
+    padding: 5px 5px;
+    border-radius: 10px;
+    width: 110px;
+    box-shadow: 3px 2px 5px -1px;
 }
