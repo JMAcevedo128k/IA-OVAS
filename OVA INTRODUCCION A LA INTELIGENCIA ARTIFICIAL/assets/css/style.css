@@ -805,3 +805,12 @@ html{
     height: 45px;
     width: 45px;padding: 0px;
 }
+
+
+.final{
+    background: #020940;
+    height: 50px;
+    border-radius: 15px;
+    width: 200px;
+    color: white;
+}

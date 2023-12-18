@@ -120,3 +120,26 @@ function Barrs(num){
     $(".pantBarr").addClass('d-none');
     $(".pantBarr"+num).removeClass('d-none');
 }
+
+function explis(num){
+    $(".triangulo").addClass('d-none');
+    $(".triangulo"+num).removeClass('d-none');
+
+    $(".expli_content").addClass('d-none');
+    $(".expli_content"+num).removeClass('d-none');
+}
+
+function resp(num){
+    $(".trianguloVerde").addClass('d-none');
+    $(".trianguloVerde"+num).removeClass('d-none');
+
+    $(".res_ban").addClass('d-none');
+    $(".res_ban"+num).removeClass('d-none');
+}
+
+function grises(num){
+    $('.grises'+num).addClass('grisesActive'+num);
+
+    $(".infras").addClass('d-none');
+    $(".infras"+num).removeClass('d-none');
+}
