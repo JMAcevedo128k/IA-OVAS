@@ -115,3 +115,8 @@ $("#smartwizard").on("showStep", function (e, anchorObject, stepIndex, stepDirec
         // code block
     }
 });
+
+function Barrs(num){
+    $(".pantBarr").addClass('d-none');
+    $(".pantBarr"+num).removeClass('d-none');
+}
