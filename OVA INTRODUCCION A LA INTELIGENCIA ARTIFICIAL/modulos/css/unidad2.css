@@ -171,25 +171,25 @@
 }
 .output{display:none; width:40px; text-align:center;}
  
-input[type='range'] {
+.i1 input[type='range'] {
 	display: inline-block;
 	width: 98%;
 	background: none;
 }
  
-input[type='range']:focus {
+.i1 input[type='range']:focus {
 	outline: none;
 	background: none;
 }
  
-input[type='range'],
+.i1 input[type='range'],
 input[type='range']::-webkit-slider-runnable-track,
 input[type='range']::-webkit-slider-thumb {
 	-webkit-appearance: none;
 	background: none;
 }
  
-input[type=range]::-webkit-slider-thumb {
+.i1 input[type=range]::-webkit-slider-thumb {
 	background-image: url('../../assets/img_ova/btn_scroll.png');
 	background-size: 100% 100%;
 	width: 30px;
@@ -199,7 +199,7 @@ input[type=range]::-webkit-slider-thumb {
 	cursor: pointer;
 }
  
-input[type=range]::-moz-range-thumb {
+.i1 input[type=range]::-moz-range-thumb {
 	background-image: url('../../assets/img_ova/btn_scroll.png');
 	background-size: 100% 100%;
 	width: 30px;
@@ -208,7 +208,7 @@ input[type=range]::-moz-range-thumb {
 	cursor: pointer;
 }
  
-input[type=range]::-ms-thumb {
+.i1 input[type=range]::-ms-thumb {
 	background-image: url('../../assets/img_ova/btn_scroll.png');
 	background-size: 100% 100%;
 	width: 30px;
@@ -217,35 +217,35 @@ input[type=range]::-ms-thumb {
 	cursor: pointer;
 }
  
-input[type=range]::-webkit-slider-runnable-track {
+.i1 input[type=range]::-webkit-slider-runnable-track {
 	background: white;
 	height: 3px;
 	margin-bottom: 20px;
 }
  
-input[type=range]:focus::-webkit-slider-runnable-track {
+.i1 input[type=range]:focus::-webkit-slider-runnable-track {
 	outline: none;
 }
  
-input[type=range]::-moz-range-track {
+.i1 input[type=range]::-moz-range-track {
 	background: white;
 	height: 3px;
 	margin-bottom: 20px;
 }
  
-input[type=range]::-ms-track {
+.i1 input[type=range]::-ms-track {
 	background: white;
 	height: 3px;
 	margin-bottom: 20px;
 	cursor: pointer;
 }
  
-input[type=range]::-ms-fill-lower {
+.i1 input[type=range]::-ms-fill-lower {
 	background: white;
 	cursor: pointer;
 }
    
-input[type=range]::-ms-fill-upper {
+.i1 input[type=range]::-ms-fill-upper {
 	background: white;
 	cursor: pointer;
 }
@@ -529,25 +529,25 @@ background: #0187C4;
 }
 .output{display:none; width:40px; text-align:center;}
  
-input[type='range'] {
+.i3 input[type='range'] {
 	display: inline-block;
 	width: 98%;
 	background: none;
 }
  
-input[type='range']:focus {
+.i3 input[type='range']:focus {
 	outline: none;
 	background: none;
 }
  
-input[type='range'],
+.i3 input[type='range'],
 input[type='range']::-webkit-slider-runnable-track,
 input[type='range']::-webkit-slider-thumb {
 	-webkit-appearance: none;
 	background: none;
 }
  
-input[type=range]::-webkit-slider-thumb {
+.i3 input[type=range]::-webkit-slider-thumb {
 	background-image: url('../../assets/img_ova/btn_scroll2.png');
 	background-size: 100% 100%;
 	width: 30px;
@@ -557,7 +557,7 @@ input[type=range]::-webkit-slider-thumb {
 	cursor: pointer;
 }
  
-input[type=range]::-moz-range-thumb {
+.i3 input[type=range]::-moz-range-thumb {
 	background-image: url('../../assets/img_ova/btn_scroll2.png');
 	background-size: 100% 100%;
 	width: 30px;
@@ -566,7 +566,7 @@ input[type=range]::-moz-range-thumb {
 	cursor: pointer;
 }
  
-input[type=range]::-ms-thumb {
+.i3 input[type=range]::-ms-thumb {
 	background-image: url('../../assets/img_ova/btn_scroll2.png');
 	background-size: 100% 100%;
 	width: 30px;
@@ -575,35 +575,35 @@ input[type=range]::-ms-thumb {
 	cursor: pointer;
 }
  
-input[type=range]::-webkit-slider-runnable-track {
+.i3 input[type=range]::-webkit-slider-runnable-track {
 	background: #020940;
 	height: 3px;
 	margin-bottom: 20px;
 }
  
-input[type=range]:focus::-webkit-slider-runnable-track {
+.i3 input[type=range]:focus::-webkit-slider-runnable-track {
 	outline: none;
 }
  
-input[type=range]::-moz-range-track {
+.i3 input[type=range]::-moz-range-track {
 	background: #020940;
 	height: 3px;
 	margin-bottom: 20px;
 }
  
-input[type=range]::-ms-track {
+.i3 input[type=range]::-ms-track {
 	background: #020940;
 	height: 3px;
 	margin-bottom: 20px;
 	cursor: pointer;
 }
  
-input[type=range]::-ms-fill-lower {
+.i3 input[type=range]::-ms-fill-lower {
 	background: #020940;
 	cursor: pointer;
 }
    
-input[type=range]::-ms-fill-upper {
+.i3 input[type=range]::-ms-fill-upper {
 	background: #020940;
 	cursor: pointer;
 }
