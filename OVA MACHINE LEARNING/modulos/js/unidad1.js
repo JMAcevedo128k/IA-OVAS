@@ -452,3 +452,64 @@ function showBackCardU1_5(num) {
         $(".back4").removeClass('d-none');
     } 
 }
+
+
+function barroco(num) {
+    switch (parseInt(num)) {
+        case 1:
+            $('.btn_barroco').removeClass('btn_barrocoActive');
+            $('.barroco1').addClass('btn_barrocoActive');
+
+            $('.ban_blue').addClass('d-none');
+            $('.banB_1').removeClass('d-none');
+
+            $('.triangulo').addClass('invisible');
+            $('.triangulo_1').removeClass('invisible');
+
+
+            break;
+        case 2:
+            $('.btn_barroco').removeClass('btn_barrocoActive');
+            $('.barroco2').addClass('btn_barrocoActive');
+
+            $('.ban_blue').addClass('d-none');
+            $('.banB_2').removeClass('d-none');
+
+            $('.triangulo').addClass('invisible');
+            $('.triangulo_2').removeClass('invisible');
+            break;
+        case 3:
+            $('.btn_barroco').removeClass('btn_barrocoActive');
+            $('.barroco3').addClass('btn_barrocoActive');
+
+            $('.ban_blue').addClass('d-none');
+            $('.banB_3').removeClass('d-none');
+
+            $('.triangulo').addClass('invisible');
+            $('.triangulo_3').removeClass('invisible');
+            break;
+        case 4:
+            $('.btn_barroco').removeClass('btn_barrocoActive');
+            $('.barroco4').addClass('btn_barrocoActive');
+
+            $('.ban_blue').addClass('d-none');
+            $('.banB_4').removeClass('d-none');
+
+            $('.triangulo').addClass('invisible');
+            $('.triangulo_4').removeClass('invisible');
+            break;
+        case 5:
+            $('.btn_barroco').removeClass('btn_barrocoActive');
+            $('.barroco5').addClass('btn_barrocoActive');
+
+            $('.ban_blue').addClass('d-none');
+            $('.banB_5').removeClass('d-none');
+
+            $('.triangulo').addClass('invisible');
+            $('.triangulo_5').removeClass('invisible');
+            break;
+        default:
+            break;
+    }
+}
+
