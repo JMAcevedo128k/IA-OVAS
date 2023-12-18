@@ -89,6 +89,7 @@ $("#smartwizard").on("showStep", function (e, anchorObject, stepIndex, stepDirec
             break;
         case 1:
             $("#prev").removeClass('escondida');
+            entrar();
             break;
         case 2:
             
@@ -332,4 +333,122 @@ function bote(num) {
 function vista(num) {
     $(".vistas").addClass('d-none');
     $(".vista" + num).removeClass('d-none');
+}
+
+
+
+
+
+
+
+
+/* RECURSO # 1 BARRA DESLIZADORA HORIZONTAL */
+
+/* se debe hacer el llamado a esta funcion el el Ready o en el case correspondiente de la pantalla donde se vaya a ubicar*/
+function entrar() {
+    $(".i1").html('')
+    var elementoPadre1 = document.querySelector(".inputDiv.i1");
+    var elementoPadre2 = document.querySelector(".inputDiv.i2");
+    var inputsRy = [];
+    // cantidad de texto
+    var i = new Input(4);
+    i.crear(elementoPadre1);
+    inputsRy.push(i);
+    // cantidad de texto
+    var i2 = new Input(4);
+    i2.att.value = 70;
+    i2.att.min = 20;
+    i2.att.max = 120;
+    i2.crear(elementoPadre2);
+    inputsRy.push(i2);
+
+    for (var n = 0; n < inputsRy.length; n++) {
+        (function (n) {
+            inputsRy[n].input.addEventListener("input", function () {
+                /* se define a que funcion dentro de la funcion input se quiere entrar */
+                inputsRy[n].actualizar();
+            }, false)
+        }(n));
+    }
+}
+/* esta funcion la usaran los distintos tipos de deslizadores  */
+function Input(num) {
+    //<input type="range" value="35" min="0" max="100" autocomplete="off" step="1">
+    this.att = {};
+    this.att.type = "range";
+    this.att.value = 0;
+    this.att.min = 0;
+    this.att.max = num;
+    this.att.autocomplete = "off";
+    this.att.step = "1";
+    this.input;
+    this.att.style = "background: #fff0;"
+    this.output;
+
+    this.crear = function (elementoPadre) {
+        // crea un nuevo elemento input
+        this.input = document.createElement("input");
+        //para cada propiedad del objeto att establece un nuevo atributo del elemento input
+        for (var name in this.att) {
+            if (this.att.hasOwnProperty(name)) {
+                this.input.setAttribute(name, this.att[name]);
+            }
+        }
+        // crea un nuevo elemento div
+        this.output = document.createElement("div");
+        // establece el valor del atributo class del nuevo div
+        this.output.setAttribute("class", "output");
+        // y el contenido (innerHTML) de este
+        this.output.innerHTML = this.att.value;
+
+        // inserta los dos elementos creados al final  del elemento Padre
+        elementoPadre.appendChild(this.input);
+        elementoPadre.appendChild(this.output);
+    }
+
+    /* esta parte es la encargada de hacer el llamado correspondiente a la funcion que realizara la funcionalidad deseada */
+    this.actualizar = function () {
+        /* se llama a la funcion deseada y se le manda el valor desde el 0 en adelante*/
+        lineaHorizontal(this.input.value);
+        this.output.innerHTML = this.input.value;
+        this.att.value = this.input.value;
+    }
+
+    this.actualizar2 = function () {
+        lineaVertical(this.input.value);
+        this.output.innerHTML = this.input.value;
+        this.att.value = this.input.value;
+    }
+    $("input[type=range]").on('change', function () {
+    });
+}
+function lineaHorizontal(num) {
+    $(".deslizador").addClass('d-none');
+    $(".desliza_" + num).removeClass('d-none');
+}
+
+
+function showBackCardU1_5(num) {
+    $(".front1").removeClass('d-none'); $(".front2").removeClass('d-none'); $(".front3").removeClass('d-none'); $(".front4").removeClass('d-none');
+    $(".back1").addClass('d-none'); $(".back2").addClass('d-none'); $(".back3").addClass('d-none'); $(".back4").addClass('d-none');
+
+    if (num == 1) {
+        $(".front1").addClass('d-none');
+        $(".back1").removeClass('d-none');
+        
+
+    } else if (num == 2) {
+        $(".front2").addClass('d-none');
+        $(".back2").removeClass('d-none');
+        
+        
+    } else if (num == 3) {
+        $(".front3").addClass('d-none');
+        $(".back3").removeClass('d-none');
+        
+        
+    } else if (num == 4) {
+        $(".front4").addClass('d-none');
+        $(".back4").removeClass('d-none');
+    } 
 }
