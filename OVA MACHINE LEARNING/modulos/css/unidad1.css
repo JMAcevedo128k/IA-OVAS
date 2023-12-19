@@ -622,3 +622,26 @@ input[type=range]::-ms-fill-upper {
   .bg-naranja{
     background-color: #FF7F00;
   }
+
+
+  .bg-slide-blue{
+    background-color: #0187C4;
+  }
+  .circle_blue{
+    width: 60px;
+    height: 60px;
+    background-color: #0187C4;
+    border-radius: 50%;
+    border: 3px solid white;
+    position: absolute;
+    
+  }
+  .circle_blue2{
+    width: 45px;
+    height: 45px;
+    background-color: #0187C4;
+    border-radius: 50%;
+    border: 3px solid white;
+    position: absolute;
+    
+  }
