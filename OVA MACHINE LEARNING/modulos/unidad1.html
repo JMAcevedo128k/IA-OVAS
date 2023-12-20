@@ -1135,7 +1135,7 @@
                                                     </div>
                                                     <div class="col-md-4">
                                                         <div class="bot_blus d-flex align-items-center cursor"
-                                                            onclick="pantalla(4)">
+                                                            onclick="pantalla(8)">
                                                             <p
                                                                 class="m-0 font16 text-center text-white negrita img-100">
                                                                 <b>Monitoreo y mantenimiento continuo </b>
@@ -1144,7 +1144,7 @@
                                                     </div>
                                                     <div class="col-md-4">
                                                         <div class="bot_blus d-flex align-items-center cursor"
-                                                            onclick="pantalla(7)">
+                                                            onclick="pantalla(9)">
                                                             <p
                                                                 class="m-0 font16 text-center text-white negrita img-100">
                                                                 <b>Refinamiento continuo</b>
@@ -1155,7 +1155,7 @@
                                                 <div class="row d-flex justify-content-center align-items-center">
                                                     <div class="col-md-4">
                                                         <div class="bot_blus d-flex align-items-center cursor"
-                                                            onclick="pantalla(1)">
+                                                            onclick="pantalla(10)">
                                                             <p
                                                                 class="m-0 font16 text-center text-white negrita img-100">
                                                                 <b>Interpretación de resultados</b>
@@ -2196,94 +2196,491 @@
                                                
                                             </div>
                                         </div>
-                                        <div class="col-md-12 pantallas pantalla8 d-none">
-                                            <div class="ban_verd">
-                                                <div class="d-flex justify-content-end" style="height: 0px;">
-                                                    <div class="negrita closes font16 d-flex align-items-center justify-content-center cursor"
-                                                        onclick="pantalla(0)" style="margin-top: -22px;    z-index: 1;">
-                                                        <p class="m-0">X</p>
+                                        <div class="row m-0 padding_controls  col-md-12 pantallas pantalla8 d-none">
+                                            <div class="row m-0 pt-3 px-1"
+                                                style="border: 2px solid #181363; background-color: #DEEBF7;">
+
+                                                <div class="col-md-5">
+
+                                                    <p class="negrita justificado font16 txtblue border-with-dot m-0">
+                                                        <b>Fases necesarias para aplicar Machine Learning </b>
+                                                    </p>
+                                                    <div class="bg-azul_oscuro p-2 " style="width: 85%;">
+                                                        <p
+                                                            class="font16 justificado negrita text-white text-center m-0">
+                                                            Monitoreo y mantenimiento continuo 
+                                                        </p>
                                                     </div>
                                                 </div>
-                                                <div class="h-100 d-flex align-items-center">
-                                                    <div>
-                                                        <p class="font16 justificado negrita">AI en agricultura: </p>
-                                                        <div class="row">
-                                                            <div class="col-md-2">
-                                                                <img src="../assets/img_ova/irrigacion(1).png"
-                                                                    width="100px" alt="">
-                                                            </div>
-                                                            <div class="col-md-10 d-flex align-items-center">
-                                                                <p class="font16 justificado">
-                                                                    La IA se utiliza en la agricultura para la
-                                                                    monitorización de cultivos, gestión de cosechas y
-                                                                    toma de decisiones agrícolas basadas en datos.
-                                                                </p>
+                                                <div class="col-md-7">
+                                                    <div class="d-flex mt-4  mb-3 justify-content-end">
+                                                        <!-- <div class="negrita closes font16 d-flex align-items-center justify-content-center cursor" onclick="pantalla(0)" style="    margin-top: -22px;">
+                                                            ⨯
+                                                        </div> -->
+                                                        <img src="../assets/img_ova/img/close.png" class=" cursor"
+                                                            onclick="pantalla(0)"
+                                                            style="width: 7%;    margin-top: -22px;">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12 ">
+                                                    
+                                                    <div class="row mb-4">
+                                                        <div class="m-0 p-0" style="width: 95%;">
+                                                            <div id="carouselExampleFade" class="carousel slide carousel-fade"
+                                                               
+                                                                style="z-index: 0;">
+                                                                <div class="carousel-inner">
+                                                                    <div class="carousel-item active">
+                
+                                                                        <div class=" row m-0 " style="height: 300px;">
+                                                                            <div class="col-md-4 p-0 d-flex justify-content-center align-items-center flex-column" style="background-color: #181363;">
+                                                                               <div class="d-flex justify-content-center align-items-center">
+                                                                                    <img src="../assets/img_ova/img/panel-de-administrador.png" class="img-20">
+                                                                               </div>
+                                                                               <div class="p-3">
+                                                                                    <p class="justificado font16 m-0 text-white">
+                                                                                        El monitoreo y mantenimiento continuo del modelo son pasos fundamentales en el ciclo de vida de la aplicación de Machine Learning, que aseguran la eficacia y relevancia del modelo a lo largo del tiempo. Es crucial realizar ajustes y actualizaciones periódicas para garantizar que el modelo siga siendo efectivo a medida que los datos cambian con el tiempo.
+                                                                                    </p> 
+                                                                               </div>
+                                                                            </div>
+                                                                            <div class="col-md-4 p-0 d-flex justify-content-center align-items-center flex-column" style="background-color: #8DC640;">
+                                                                                <div class="p-3">
+                                                                                    <p class="justificado font16 m-0 ">
+                                                                                        Después del despliegue, se establece un sistema de <b class="negrita"> monitoreo en tiempo real</b> para supervisar el rendimiento del modelo. Esto implica rastrear las predicciones que hace el modelo en producción y evaluar su precisión. El monitoreo en tiempo real permite detectar de manera proactiva cualquier cambio en el comportamiento del modelo, identificar posibles problemas y tomar medidas correctivas de manera rápida.
+                                                                                    </p> 
+                                                                               </div>
+                                                                            </div>
+                                                                            <div class="col-md-4 p-0 d-flex justify-content-center align-items-center flex-column" style="background-color: #0187C4;">
+                                                                                <div class="d-flex justify-content-center align-items-center">
+                                                                                     <img src="../assets/img_ova/img/sistema-de-monitoreo.png" class="img-20">
+                                                                                </div>
+                                                                                <div class="p-3">
+                                                                                     <p class="justificado font16 m-0 text-white">
+                                                                                        Se definen <strong class="negrita"> indicadores clave de rendimiento (KPI)</strong> que reflejan la eficacia del modelo en la producción. Estos KPI pueden incluir métricas de precisión, recall, F1-score, tiempos de respuesta, entre otros, dependiendo de los objetivos específicos del modelo y las necesidades del negocio. El monitoreo de estos KPI proporciona una visión continua del rendimiento del modelo y su alineación con los objetivos comerciales.
+                                                                                     </p> 
+                                                                                </div>
+                                                                             </div>
+                
+                
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="carousel-item">
+                                                                        <div class=" row m-0 " style="height: 300px;">
+                                                                            <div class="col-md-4 p-0 d-flex justify-content-center align-items-center flex-column" style="background-color: #FF7F00;">
+                                                                                <div class="p-3">
+                                                                                    <p class="justificado text-white font16 m-0 ">
+                                                                                        Los datos en el mundo real pueden cambiar con el tiempo debido a tendencias, estacionalidad o cambios en el comportamiento de los usuarios. Por lo tanto, es crucial realizar <strong class="negrita"> ajustes y actualizaciones periódicas</strong> en el modelo para garantizar su relevancia continua. Esto puede implicar la incorporación de nuevos datos de entrenamiento, la optimización de parámetros y la actualización de la arquitectura del modelo.
+                                                                                    </p> 
+                                                                               </div>
+                                                                            </div>
+                                                                            <div class="col-md-4 p-0 d-flex justify-content-center align-items-center flex-column" style="background-color: #181363;">
+                                                                               <div class="d-flex justify-content-center align-items-center">
+                                                                                    <img src="../assets/img_ova/img/monitoreo2.png" class="img-20">
+                                                                               </div>
+                                                                               <div class="p-3">
+                                                                                    <p class="justificado font16 m-0 text-white">
+                                                                                      <strong class="negrita">  La deriva de datos</strong> se refiere a cambios en la distribución de los datos de entrada a lo largo del tiempo. El monitoreo continuo permite detectar la deriva de datos y tomar medidas para adaptar el modelo a estas variaciones. Pueden implementarse estrategias como el reentrenamiento del modelo con datos recientes o el ajuste de parámetros para mitigar los efectos de la deriva.
+                                                                                    </p> 
+                                                                               </div>
+                                                                            </div>
+                                                                            
+                                                                            <div class="col-md-4 p-0 d-flex justify-content-center align-items-center flex-column" style="background-color: #8DC640;">
+                                                                                <div class="d-flex justify-content-center align-items-center">
+                                                                                     <img src="../assets/img_ova/img/clave.png" class="img-20">
+                                                                                </div>
+                                                                                <div class="p-3">
+                                                                                     <p class="justificado font16 m-0 ">
+                                                                                        El monitoreo continuo también aborda aspectos de <strong class="negrita"> seguridad y privacidad.</strong> Se deben implementar medidas de seguridad para proteger el modelo y los datos asociados. Además, es esencial garantizar que el modelo cumpla con las regulaciones de privacidad y que las actualizaciones no comprometan la integridad de los datos.
+                                                                                     </p> 
+                                                                                </div>
+                                                                             </div>
+                
+                
+                                                                        </div>
+                
+                                                                    </div>
+                                                                    <div class="carousel-item">
+                                                                        <div class=" row m-0 " style="height: 300px;">
+                                                                            <div class="col-md-4 p-0 d-flex justify-content-center align-items-center flex-column" style="background-color: #0187C4;">
+                                                                                <div class="p-3">
+                                                                                    <p class="justificado text-white font16 m-0 ">
+                                                                                        Durante el monitoreo continuo, se mantiene una <strong class="negrita"> documentación</strong> detallada de los cambios realizados en el modelo y de su desempeño a lo largo del tiempo. La comunicación efectiva con los equipos técnicos y no técnicos es crucial para asegurar la comprensión y el respaldo continuo del modelo.
 
+                                                                                    </p> 
+                                                                               </div>
+                                                                            </div>
+                                                                            <div class="col-md-4 p-0 d-flex justify-content-center align-items-center flex-column" style="background-color: #FF7F00;">
+                                                                               <div class="d-flex justify-content-center align-items-center">
+                                                                                    <img src="../assets/img_ova/img/monitoreo1.png" class="img-100">
+                                                                               </div>
+                                                                              
+                                                                            </div>
+                                                                            
+                                                                            <div class="col-md-4 p-0 d-flex justify-content-center align-items-center flex-column" style="background-color: #181363;">
+                                                                               
+                                                                                <div class="p-3">
+                                                                                     <p class="justificado text-white font16 m-0 ">
+                                                                                        El monitoreo y mantenimiento continuo son esenciales para garantizar la efectividad y relevancia a largo plazo de los modelos de Machine Learning en producción. Este enfoque proactivo ayuda a abordar desafíos en tiempo real y a mantener el rendimiento del modelo alineado con los objetivos del negocio y las expectativas del usuario.
+                                                                                     </p> 
+                                                                                </div>
+                                                                             </div>
+                
+                
+                                                                        </div>
+                                                                    </div>
+                
+                
+                                                                </div>
+                                                            </div>
+                
+                                                        </div>
+                                                        <div class="cont-flechas" style="width: 2%;">
+                                                            <div class="fecharriba" style="height: 88%;">
+                                                                <div class="fechas cursor" data-bs-target="#carouselExampleFade"
+                                                                    data-bs-slide="prev" style="transform: rotate(-90deg);"></div>
+                                                            </div>
+                                                            <div class="fecharriba" style="height: 2px;">
+                                                                <div class="fechas cursor" data-bs-target="#carouselExampleFade"
+                                                                    data-bs-slide="next"
+                                                                    style="transform: rotate(90deg);margin-top: 380%;"></div>
                                                             </div>
                                                         </div>
                                                     </div>
+                                                    <p class="font16 justificado text-center">
+                                                        Use las flechas para avanzar en la información de Monitoreo y mantenimiento continuo.
+                                                    </p>
                                                 </div>
+                                              
                                             </div>
                                         </div>
-                                        <div class="col-md-12 pantallas pantalla9 d-none">
-                                            <div class="ban_verd">
-                                                <div class="d-flex justify-content-end" style="height: 0px;">
-                                                    <div class="negrita closes font16 d-flex align-items-center justify-content-center cursor"
-                                                        onclick="pantalla(0)" style="margin-top: -22px;    z-index: 1;">
-                                                        <p class="m-0">X</p>
+                                        <div class="row m-0 padding_controls  col-md-12 pantallas pantalla9 d-none">
+                                            <div class="row m-0 pt-3 px-1"
+                                                style="border: 2px solid #181363; background-color: #E2F0D9;">
+
+                                                <div class="col-md-5">
+
+                                                    <p class="negrita justificado font16 txtblue border-with-dot m-0">
+                                                        <b>Fases necesarias para aplicar Machine Learning </b>
+                                                    </p>
+                                                    <div class="bg-azul_oscuro p-2 " style="width: 85%;">
+                                                        <p
+                                                            class="font16 justificado negrita text-white text-center m-0">
+                                                            Refinamiento continuo
+                                                        </p>
                                                     </div>
                                                 </div>
-                                                <div class="h-100 d-flex align-items-center">
-                                                    <div>
-                                                        <p class="font16 justificado negrita">AI en agricultura: </p>
-                                                        <div class="row">
-                                                            <div class="col-md-2">
-                                                                <img src="../assets/img_ova/produccion.png"
-                                                                    width="100px" alt="">
+                                                <div class="col-md-7">
+                                                    <div class="d-flex mt-4  mb-3 justify-content-end">
+                                                        <!-- <div class="negrita closes font16 d-flex align-items-center justify-content-center cursor" onclick="pantalla(0)" style="    margin-top: -22px;">
+                                                            ⨯
+                                                        </div> -->
+                                                        <img src="../assets/img_ova/img/close.png" class=" cursor"
+                                                            onclick="pantalla(0)"
+                                                            style="width: 7%;    margin-top: -22px;">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12 mb-3">
+                                                    <div id="carru2" class="carousel slide" data-bs-touch="false"
+                                                    data-bs-interval="false">
+                                                    <div class="carousel-inner">
+                                                        <div class="carousel-item active">
+                                                            <div class="row d-flex justify-content-center">
+                                                                <div class="col-md-1"></div>
+                                                                <div class="col-md-10">
+                                                                    <div class="row mb-2 rounded-5" style="background-color: #8DC640;">
+                                                                        <div class="col-md-4 mb-3">
+                                                                            <div class=" position-relative mt-5 pt-5 px-4 pb-3 rounded-5 " style="background-color: #E2F0D9;     height: 260px;">
+                                                                                <div class="circle_green d-flex justify-content-center align-items-center" style="top: -39px;left: 33%;">
+                                                                                    <img src="../assets/img_ova/img/R2.png" class="img-80">
+                                                                                </div>
+                                                                                <div>
+                                                                                    <p class="font16 justificado m-0 ">
+                                                                                        El refinamiento continuo es un principio clave en la aplicación exitosa de Machine Learning, ya que
+                                                                                        reconoce la naturaleza dinámica y en constante evolución de este campo. Esto implica estar al tanto de
+                                                                                        avances en técnicas de machine learning y actualizar el modelo y los procesos en consecuencia.
+                                                                                    </p>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-md-4 mb-3">
+                                                                            <div class=" position-relative mt-5 pt-5 px-4 pb-3 rounded-5 " style="background-color: #E2F0D9;     height: 260px;">
+                                                                                <div class="circle_green d-flex justify-content-center align-items-center" style="top: -39px;left: 33%;">
+                                                                                    <img src="../assets/img_ova/img/R1.png" class="img-100">
+                                                                                </div>
+                                                                                <div class="" style="overflow: auto; height: 191px;">
+                                                                                    <p class="font16 justificado m-0 ">
+                                                                                        Dado que el campo de Machine Learning está en constante evolución, es crucial estar al tanto de los <b class="negrita"> avances en técnicas, algoritmos y enfoques.</b> Esto incluye la exploración de nuevas arquitecturas de modelos, métodos de preprocesamiento de datos, algoritmos de optimización y enfoques de evaluación de modelos. Mantenerse actualizado permite aprovechar las mejores prácticas y adaptar el modelo a métodos más eficientes y precisos.
+                                                                                    </p>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-md-4 mb-3">
+                                                                            <div class=" position-relative mt-5 pt-5 px-4 pb-3 rounded-5 " style="background-color: #E2F0D9;     height: 260px;">
+                                                                                <div class="circle_green d-flex justify-content-center align-items-center" style="top: -39px;left: 33%;">
+                                                                                    <img src="../assets/img_ova/img/R3.png" class="img-80">
+                                                                                </div>
+                                                                                <div style="overflow: auto; height: 191px;">
+                                                                                    <p class="font16 justificado m-0 ">
+                                                                                        Los modelos existentes deben ser <b class="negrita"> reevaluados y comparados</b> con las últimas investigaciones y desarrollos. Esto puede implicar la revisión de la arquitectura del modelo, la optimización de hiperparámetros y la consideración de nuevas estrategias de entrenamiento y evaluación. La reevaluación garantiza que el modelo siga siendo competitivo y relevante en el contexto actual.
+                                                                                    </p>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        
+                                                                    </div>
+                                                                   
+                                                                </div>
+                                                                <div
+                                                                    class="col-md-1 d-flex align-items-center justify-content-center">
+                                                                    <div class="bg-slide-blue h-75 position-relative mt-4 pt-5 px-4 pb-3 rounded-3 cursor "
+                                                                        data-bs-target="#carru2" data-bs-slide="next">
+                                                                        <div class="circle_white position-absolute d-flex justify-content-center align-items-center"
+                                                                            style="top: 9px; left: 9px;">
+                                                                           
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
                                                             </div>
-                                                            <div class="col-md-10 d-flex align-items-center">
-                                                                <p class="font16 justificado">
-                                                                    La IA se emplea en la automatización de procesos
-                                                                    industriales, control de calidad, mantenimiento
-                                                                    predictivo y optimización de la cadena de
-                                                                    suministro.
-                                                                </p>
-
+                                                        </div>
+                                                        <div class="carousel-item">
+                                                            <div class="row d-flex justify-content-center">
+                                                                <div class="col-md-1 d-flex align-items-center justify-content-center">
+                                                                    <div class=" h-75 position-relative mt-4 pt-5 px-4 pb-3 rounded-3 cursor " style="background-color:#8DC640;" data-bs-target="#carru2"
+                                                                    data-bs-slide="prev">
+                                                                        <div class="circle_white position-absolute d-flex justify-content-center align-items-center"
+                                                                            style="top: 9px; left: 9px;">
+                                                                
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-10">
+                                                                    <div class="row mb-2 rounded-5" style="background-color: #0187C4;">
+                                                                        <div class="col-md-4 mb-3">
+                                                                            <div class=" position-relative mt-5 pt-5 px-4 pb-3 rounded-5 " style="background-color: #DEEBF7;     height: 260px;">
+                                                                                <div class="circle_azul d-flex justify-content-center align-items-center" style="top: -39px;left: 33%;">
+                                                                                    <img src="../assets/img_ova/img/R4.png" class="img-80">
+                                                                                </div>
+                                                                                <div  style="overflow: auto; height: 191px;">
+                                                                                    <p class="font16 justificado m-0 ">
+                                                                                        A medida que se recopilan <b class="negrita"> nuevos datos,</b> es esencial incorporarlos al modelo. La adición de datos frescos y representativos mejora la capacidad del modelo para adaptarse a cambios en el entorno y garantiza que esté actualizado con las tendencias emergentes. Esto puede incluir la actualización del conjunto de entrenamiento y la repetición del proceso de entrenamiento.
+                                                                                    </p>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-md-4 mb-3">
+                                                                            <div class=" position-relative mt-5 pt-5 px-4 pb-3 rounded-5 " style="background-color: #DEEBF7;     height: 260px;">
+                                                                                <div class="circle_azul d-flex justify-content-center align-items-center" style="top: -39px;left: 33%;">
+                                                                                    <img src="../assets/img_ova/img/R6.png" class="img-70">
+                                                                                </div>
+                                                                                <div class="" style="overflow: auto; height: 191px;">
+                                                                                    <p class="font16 justificado m-0 ">
+                                                                                        La <b class="negrita"> optimización de hiperparámetros</b> es un proceso continuo. A medida que se obtiene más experiencia con el modelo y se recopilan datos adicionales, los hiperparámetros pueden necesitar ajustes para mejorar el rendimiento del modelo. Técnicas como la búsqueda de hiperparámetros y la validación cruzada son herramientas valiosas en este proceso.
+                                                                                    </p>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-md-4 mb-3">
+                                                                            <div class=" position-relative mt-5 pt-5 px-4 pb-3 rounded-5 " style="background-color: #DEEBF7;     height: 260px;">
+                                                                                <div class="circle_azul d-flex justify-content-center align-items-center" style="top: -39px;left: 33%;">
+                                                                                    <img src="../assets/img_ova/img/R5.png" class="img-70">
+                                                                                </div>
+                                                                                <div style="overflow: auto; height: 191px;">
+                                                                                    <p class="font16 justificado m-0 ">
+                                                                                        El refinamiento continuo también abarca la <b class="negrita"> ingeniería de características.</b> Se deben explorar y adoptar nuevas técnicas de extracción de características que puedan mejorar la representación de los datos y, por ende, la capacidad predictiva del modelo. La creación de características más informativas puede ser clave para mejorar el rendimiento del modelo.
+                                                                                    </p>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        
+                                                                    </div>
+                                                                   
+                                                                </div>
+                                                                <div class="col-md-1 d-flex align-items-center justify-content-center">
+                                                                    <div class=" h-75 position-relative mt-4 pt-5 px-4 pb-3 rounded-3 cursor " style="background-color: #FF7F00;" data-bs-target="#carru2"
+                                                                        data-bs-slide="next">
+                                                                        <div class="circle_white position-absolute d-flex justify-content-center align-items-center"
+                                                                            style="top: 9px; left: 9px;">
+                                                                
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="carousel-item">
+                                                            <div class="row d-flex justify-content-center">
+                                                                <div class="col-md-1 d-flex align-items-center justify-content-center">
+                                                                    <div class=" h-75 position-relative mt-4 pt-5 px-4 pb-3 rounded-3 cursor " style="background-color:#0187C4;" data-bs-target="#carru2"
+                                                                    data-bs-slide="prev">
+                                                                        <div class="circle_white position-absolute d-flex justify-content-center align-items-center"
+                                                                            style="top: 9px; left: 9px;">
+                                                                
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-10">
+                                                                    <div class="row mb-2 rounded-5" style="background-color: #FF7F00;">
+                                                                        <div class="col-md-4 mb-3">
+                                                                            <div class=" position-relative mt-5 pt-5 px-4 pb-3 rounded-5 " style="background-color: #FBE5D6;     height: 260px;">
+                                                                                <div class="circle_naranja d-flex justify-content-center align-items-center" style="top: -39px;left: 33%;">
+                                                                                    <img src="../assets/img_ova/img/R7.png" class="img-80">
+                                                                                </div>
+                                                                                <div  style="overflow: auto; height: 191px;">
+                                                                                    <p class="font16 justificado m-0 ">
+                                                                                        El entorno de producción también debe estar sujeto a mejoras continuas. Las <b class="negrita"> actualizaciones en el despliegue</b> del modelo y en los sistemas de monitoreo garantizan que el modelo funcione de manera eficiente y que se aborden problemas en tiempo real. La retroalimentación de los usuarios y los resultados del monitoreo pueden guiar mejoras adicionales en el modelo y su implementación.
+                                                                                    </p>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-md-4 mb-3">
+                                                                            <div class=" position-relative mt-5 pt-5 px-4 pb-3 rounded-5 " style="background-color: #FBE5D6;     height: 260px;">
+                                                                                <div class="circle_naranja d-flex justify-content-center align-items-center" style="top: -39px;left: 33%;">
+                                                                                    <img src="../assets/img_ova/img/R8.png" class="img-70">
+                                                                                </div>
+                                                                                <div class="" style="overflow: auto; height: 191px;">
+                                                                                    <p class="font16 justificado m-0 ">
+                                                                                        La <b class="negrita"> colaboración interdisciplinaria </b> entre equipos técnicos y no técnicos es esencial para el refinamiento continuo. La retroalimentación de las partes interesadas, incluidos los usuarios finales y los expertos en dominios específicos, puede proporcionar información valiosa para adaptar el modelo a las necesidades cambiantes.
+                                                                                    </p>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-md-4 mb-3">
+                                                                            <div class=" position-relative mt-5 pt-5 px-4 pb-3 rounded-5 " style="background-color: #FBE5D6;     height: 260px;">
+                                                                                <div class="circle_naranja d-flex justify-content-center align-items-center" style="top: -39px;left: 33%;">
+                                                                                    <img src="../assets/img_ova/img/R9.png" class="img-70">
+                                                                                </div>
+                                                                                <div style="overflow: auto; height: 191px;">
+                                                                                    <p class="font16 justificado m-0 ">
+                                                                                        El refinamiento continuo es esencial para mantener la relevancia y eficacia de los modelos de Machine Learning en entornos dinámicos. La adaptación constante a nuevos conocimientos y datos garantiza que los modelos sigan siendo herramientas valiosas para la toma de decisiones en un mundo en constante cambio.
+                                                                                    </p>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        
+                                                                    </div>
+                                                                   
+                                                                </div>
+                                                                <div class="col-md-1 d-flex align-items-center justify-content-center">
+                                                                    
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
+                                                    </div>
+                                                    <p class="font16 justificado   text-center mb-1 ">
+                                                        Haga clic en cada tarjeta a la izquierda para conocer los detalles del refinamiento continuo.
+                                                    
+                                                    </p>
+                                                   
                                                 </div>
+                                              
                                             </div>
                                         </div>
-                                        <div class="col-md-12 pantallas pantalla10 d-none">
-                                            <div class="ban_verd">
-                                                <div class="d-flex justify-content-end" style="height: 0px;">
-                                                    <div class="negrita closes font16 d-flex align-items-center justify-content-center cursor"
-                                                        onclick="pantalla(0)" style="margin-top: -22px;    z-index: 1;">
-                                                        <p class="m-0">X</p>
+                                        <div class="row m-0 padding_controls  col-md-12 pantallas pantalla10 d-none">
+                                            <div class="row m-0 pt-3 px-1"
+                                                style="border: 2px solid #181363; background-color: #E2F0D9;">
+
+                                                <div class="col-md-5">
+
+                                                    <p class="negrita justificado font16 txtblue border-with-dot m-0">
+                                                        <b>Fases necesarias para aplicar Machine Learning </b>
+                                                    </p>
+                                                    <div class="bg-azul_oscuro p-2 " style="width: 85%;">
+                                                        <p
+                                                            class="font16 justificado negrita text-white text-center m-0">
+                                                            Interpretación de resultados
+                                                        </p>
                                                     </div>
                                                 </div>
-                                                <div class="h-100 d-flex align-items-center">
-                                                    <div>
-                                                        <p class="font16 justificado negrita">AI en seguridad y
-                                                            vigilancia: </p>
-                                                        <div class="row">
-                                                            <div class="col-md-2">
-                                                                <img src="../assets/img_ova/vigilancia.png"
-                                                                    width="100px" alt="">
-                                                            </div>
-                                                            <div class="col-md-10 d-flex align-items-center">
-                                                                <p class="font16 justificado">
-                                                                    La IA se aplica en sistemas de seguridad y
-                                                                    vigilancia para el reconocimiento de patrones en
-                                                                    cámaras de seguridad, detección de intrusiones y
-                                                                    análisis de comportamiento.
-                                                                </p>
+                                                <div class="col-md-7">
+                                                    <div class="d-flex mt-4  mb-3 justify-content-end">
+                                                        <!-- <div class="negrita closes font16 d-flex align-items-center justify-content-center cursor" onclick="pantalla(0)" style="    margin-top: -22px;">
+                                                            ⨯
+                                                        </div> -->
+                                                        <img src="../assets/img_ova/img/close.png" class=" cursor"
+                                                            onclick="pantalla(0)"
+                                                            style="width: 7%;    margin-top: -22px;">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12 mb-3" style="overflow: auto; height: 300px;">
+                                                    <div class="row">
+                                                        <div class="col-md-4">
+                                                            <img src="../assets/img_ova/img/I1.png" class="img-100" alt="">
+                                                        </div>
+                                                        <div class="col-md-4 mt-4 d-flex justify-content-center ">
+                                                            <p class="justificado font16 ">
+                                                                La interpretación de los resultados en Machine Learning es un aspecto crucial para comprender cómo y por qué
+                                                                el modelo toma decisiones particulares. Esto implica analizar la importancia de las características, la
+                                                                contribución de cada variable a las predicciones y la interpretación general del modelo en el contexto del
+                                                                problema. Esta fase no solo es importante para la transparencia y la confianza en el modelo, sino que
+                                                                también proporciona información valiosa para la toma de decisiones y la mejora continua.
+                                                            </p>
+                                                        </div>
+                                                        <div class="col-md-4 mt-4 d-flex justify-content-center ">
+                                                            <p class="justificado font16 ">
+                                                                Analizar la <b class="negrita"> importancia de las características</b> permite comprender qué variables o
+                                                                atributos del conjunto de datos tienen una influencia significativa en las predicciones del modelo. Métodos
+                                                                como la importancia de características en árboles de decisión o la ponderación de coeficientes en modelos
+                                                                lineales proporcionan información sobre qué características son más relevantes para las predicciones del
+                                                                modelo.
+                                                            </p>
+                                                        </div>
+                                                    
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-4 mt-4">
+                                                            <p class="justificado font16 ">
+                                                                Entender <b class="negrita"> cómo cada variable contribuye</b> a las predicciones del modelo es esencial para obtener insights prácticos. Al analizar la contribución de las variables, se puede identificar el impacto relativo de cada una en las decisiones del modelo. Esto es especialmente relevante en modelos interpretables como regresiones lineales. 
+                                                                <br><br>
+                                                                La interpretación de los resultados también puede implicar la <b class="negrita">visualización</b>
+                                                            </p>
+                                                        </div>
+                                                        <div class="col-md-4 mt-4 d-flex justify-content-center ">
+                                                            <p class="justificado font16 ">
+                                                               <b class="negrita"> de las decisiones</b> del modelo. Gráficos como gráficos de dispersión, diagramas de dependencia parcial y mapas de calor pueden ayudar a ilustrar cómo cambian las predicciones del modelo en respuesta a cambios en variables específicas.
+                                                                <br><br>
+                                                                Entender el <b class="negrita"> modelo en el contexto</b> del problema es esencial. Esto implica no solo mirar las métricas de rendimiento, sino también comprender cómo las decisiones del modelo se traducen en acciones prácticas y cómo se alinean con los objetivos y restricciones del problema real.
 
+                                                            </p>
+                                                        </div>
+                                                        <div class="col-md-4 mt-4 d-flex justify-content-center flex-column ">
+                                                            <p class="justificado font16 ">
+                                                                La interpretación de resultados permite <b class="negrita"> identificar patrones</b> y correlaciones en los datos que el modelo ha aprendido. Esto no solo es útil para comprender el comportamiento del modelo, sino que también puede proporcionar ideas valiosas sobre la naturaleza subyacente del problema.
+                                                            </p>
+                                                            <div class="d-flex justify-content-center align-items-center">
+                                                                <img src="../assets/img_ova/img/I2.png" class="img-30" alt="">
                                                             </div>
                                                         </div>
+                                                    
                                                     </div>
+                                                    <div class="row">
+                                                        <div class="col-md-4 mt-4">
+                                                            <p class="justificado font16 ">
+                                                                La explicabilidad se refiere a la capacidad de entender y explicar el funcionamiento interno del modelo. Modelos interpretables, como árboles de decisión y regresiones lineales, son inherentemente más explicables.
+                                                                <br><br>
+                                                                Sin embargo, incluso en modelos más complejos, como las redes neuronales, se pueden utilizar técnicas como la atención para resaltar áreas importantes de entrada.
+La interpretación de resultados también puede ayudar a validar las decisiones del modelo. 
+                                                            </p>
+                                                        </div>
+                                                        <div class="col-md-4 mt-4 d-flex justify-content-center ">
+                                                            <p class="justificado font16 ">
+                                                                Comparar las predicciones del modelo con el conocimiento experto o las expectativas previas puede proporcionar una capa adicional de confianza en la capacidad del modelo para tomar decisiones fundamentadas.
+                                                                <br><br>
+                                                                La interpretación de los resultados no solo es para el equipo técnico, sino también para las partes interesadas no técnicas. La comunicación efectiva de las decisiones del modelo, la importancia de las características y otras interpretaciones es crucial para construir la confianza en el modelo y su aplicación práctica.
+                                                            </p>
+                                                        </div>
+                                                        <div class="col-md-4 mt-4 d-flex justify-content-center flex-column ">
+                                                            <p class="justificado font16 ">
+                                                                La interpretación de los resultados en Machine Learning es una etapa esencial para comprender cómo y por qué el modelo toma decisiones. Esta comprensión no solo mejora la transparencia y la confianza en el modelo, sino que también proporciona información valiosa para la toma de decisiones informada y la mejora continua del modelo.
+                                                            </p>
+                                                            <div class="d-flex justify-content-center align-items-center ">
+                                                                <img src="../assets/img_ova/img/I3.png" class="img-30" alt="">
+                                                            </div>
+                                                        </div>
+                                                    
+                                                    </div>
+                                                   
                                                 </div>
+                                              
                                             </div>
                                         </div>
                                         <div class="col-md-12 pantallas pantalla11 d-none">
