@@ -257,14 +257,15 @@
 }
 
 .boton_verde{
-    background-color: #8DC640;
+    background-color: #C5E0B4;
     height: 80px;
     width: 80px;
     border-radius: 50%;
     z-index: 1;
+    border: 2px dashed #8DC640;
 }
 .boton_verdeActive{
-    background-color: #0187C4 !important;
+    background-color: #8DC640 !important;
 }
 .linea{
     height: 3px;
@@ -273,7 +274,7 @@
 }
 
 .bote_blue{
-    background: #0187C4;
+    background: #8DC640;
     padding: 10px 30px;
     border-radius: 30px;
     height: 150px;
