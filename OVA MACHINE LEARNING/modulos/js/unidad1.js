@@ -184,6 +184,9 @@ function conection(num){
     $(".conection").removeClass('conectionActive');
     $(".conection" + num).addClass('conectionActive');
 
+    $(".conection").removeClass('text-white');
+    $(".conection" + num).addClass('text-white');
+
     $(".ban_cuadro").addClass('d-none');
     $(".ban_cuadro" + num).removeClass('d-none');
 
@@ -513,3 +516,81 @@ function barroco(num) {
     }
 }
 
+
+/*RECURSO #20 SUBMENÚ BOTONES A LA DERECHA */
+function botonCuadro(num) {
+    switch (parseInt(num)) {
+        case 1:
+            $('.boton_cuadro').removeClass('boton_cuadroActive');
+            $('.boton_C1').addClass('boton_cuadroActive');
+
+            $('.ban_piel').addClass('d-none');
+            $('.banP1').removeClass('d-none');
+            break;
+        case 2:
+            $('.boton_cuadro').removeClass('boton_cuadroActive');
+            $('.boton_C2').addClass('boton_cuadroActive');
+
+            $('.ban_piel').addClass('d-none');
+            $('.banP2').removeClass('d-none');
+            break;
+        case 3:
+            $('.boton_cuadro').removeClass('boton_cuadroActive');
+            $('.boton_C3').addClass('boton_cuadroActive');
+
+            $('.ban_piel').addClass('d-none');
+            $('.banP3').removeClass('d-none');
+            break;
+        case 4:
+            $('.boton_cuadro').removeClass('boton_cuadroActive');
+            $('.boton_C4').addClass('boton_cuadroActive');
+
+            $('.ban_piel').addClass('d-none');
+            $('.banP4').removeClass('d-none');
+            break;
+        case 5:
+            $('.boton_cuadro').removeClass('boton_cuadroActive');
+            $('.boton_C5').addClass('boton_cuadroActive');
+
+            $('.ban_piel').addClass('d-none');
+            $('.banP5').removeClass('d-none');
+            break;
+        case 6:
+            $('.boton_cuadro').removeClass('boton_cuadroActive');
+            $('.boton_C6').addClass('boton_cuadroActive');
+
+            $('.ban_piel').addClass('d-none');
+            $('.banP6').removeClass('d-none');
+            break;
+        case 7:
+            $('.boton_cuadro').removeClass('boton_cuadroActive');
+            $('.boton_C7').addClass('boton_cuadroActive');
+
+            $('.ban_piel').addClass('d-none');
+            $('.banP7').removeClass('d-none');
+            break;
+        case 8:
+            $('.boton_cuadro').removeClass('boton_cuadroActive');
+            $('.boton_C8').addClass('boton_cuadroActive');
+
+            $('.ban_piel').addClass('d-none');
+            $('.banP8').removeClass('d-none');
+            break;
+        default:
+            // statements_def 
+            break;
+    }
+}
+
+
+function target1(){
+    $('.content_targetB').removeClass('invisible');
+}
+
+
+function grises(num){
+    $('.grises'+num).addClass('grisesActive'+num);
+
+    $(".infras").addClass('d-none');
+    $(".infras"+num).removeClass('d-none');
+}

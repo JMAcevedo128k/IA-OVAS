@@ -1097,7 +1097,7 @@
                                                 <div class="row mb-3">
                                                     <div class="col-md-4">
                                                         <div class="bot_blus d-flex align-items-center cursor"
-                                                            onclick="pantalla(1)">
+                                                            onclick="pantalla(4)">
                                                             <p
                                                                 class="m-0 font16 text-center text-white negrita img-100">
                                                                 <b>Optimización del modelo </b>
@@ -1106,7 +1106,7 @@
                                                     </div>
                                                     <div class="col-md-4">
                                                         <div class="bot_blus d-flex align-items-center cursor"
-                                                            onclick="pantalla(4)">
+                                                            onclick="pantalla(5)">
                                                             <p
                                                                 class="m-0 font16 text-center text-white negrita img-100">
                                                                 <b>Evaluación del modelo</b>
@@ -1115,7 +1115,7 @@
                                                     </div>
                                                     <div class="col-md-4">
                                                         <div class="bot_blus d-flex align-items-center cursor"
-                                                            onclick="pantalla(7)">
+                                                            onclick="pantalla(6)">
                                                             <p
                                                                 class="m-0 font16 text-center text-white negrita img-100">
                                                                 <b>Valiacion cruzada</b>
@@ -1126,7 +1126,7 @@
                                                 <div class="row mb-3">
                                                     <div class="col-md-4">
                                                         <div class="bot_blus d-flex align-items-center cursor"
-                                                            onclick="pantalla(1)">
+                                                            onclick="pantalla(7)">
                                                             <p
                                                                 class="m-0 font16 text-center text-white negrita img-100">
                                                                 <b>Despliegue del modelo </b>
@@ -1780,155 +1780,420 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-md-12 pantallas pantalla4 d-none">
-                                            <div class="ban_verd">
-                                                <div class="d-flex justify-content-end" style="height: 0px;">
-                                                    <div class="negrita closes font16 d-flex align-items-center justify-content-center cursor"
-                                                        onclick="pantalla(0)" style="margin-top: -22px;    z-index: 1;">
-                                                        <p class="m-0">X</p>
+                                        <div class="row m-0 padding_controls  col-md-12 pantallas pantalla4 d-none">
+                                            <div class="row m-0 pt-3 px-1"
+                                                style="border: 2px solid #181363; background-color: #EFF5FB;">
+
+                                                <div class="col-md-5">
+                                                    <p class="negrita justificado font16 txtblue border-with-dot m-0">
+                                                        <b>Fases necesarias para aplicar Machine Learning </b>
+                                                    </p>
+                                                    <div class="bg-azul_oscuro p-2 " style="width: 85%;">
+                                                        <p
+                                                            class="font16 justificado negrita text-white text-center m-0">
+                                                            Optimización del modelo </p>
                                                     </div>
+                                                    
+
                                                 </div>
-                                                <div class="h-100 d-flex align-items-center">
-                                                    <div>
-                                                        <p class="font16 justificado negrita">AI en medicina y ciencias
-                                                            de la salud: </p>
-                                                        <div class="row">
-                                                            <div class="col-md-2">
-                                                                <img src="../assets/img_ova/caduceo.png" width="100px"
-                                                                    alt="">
+                                                <div class="row">
+
+                                                    <div class="col-md-4">
+                                                        <div class="mt-3 d-flex justify-content-center align-items-center">
+                                                            <img src="../assets/img_ova/img/o4.png"
+                                                                class="img-20" alt="">
+                                                        </div>
+    
+                                                        <div class="mt-3 ">
+                                                            <p class="font16 justificado">
+                                                                Es una fase crucial en el proceso de aplicar Machine Learning, y se centra en mejorar la eficacia y el rendimiento del modelo ajustando sus parámetros. Este proceso se basa en los resultados obtenidos durante la evaluación del modelo, que generalmente se realiza en un conjunto de datos separado que no se utilizó durante el entrenamiento. Esto puede implicar la modificación de la arquitectura del modelo, la selección de características relevantes o la aplicación de técnicas de regularización.
+                                                                <b class="negrita"> Presione los botones para conocer los pasos de la optimización del modelo. </b>
+    
+                                                            </p>
+                                                        </div>
+
+                                                    </div>
+                                                    <div class="col-md-8">
+                                                        <div class="d-flex mb-3 justify-content-end">
+                                                            <!-- <div class="negrita closes font16 d-flex align-items-center justify-content-center cursor" onclick="pantalla(0)" style="    margin-top: -22px;">
+                                                                ⨯
+                                                            </div> -->
+                                                            <img src="../assets/img_ova/img/close.png" class=" cursor"
+                                                                onclick="pantalla(0)"
+                                                                style="width: 7%;    margin-top: -54px;">
+                                                        </div>
+                                                        <div class="row m-0">
+                                                            <div class="col-md-3 d-flex align-items-center">
+                                                                <div>
+                                                                    <div class="row m-0">
+                                                                        <div class="d-flex mb-5 justify-content-center boton_cuadroActive align-items-center boton_cuadro boton_C1 cursor"
+                                                                            onclick="botonCuadro(1)">
+                                                                            <img src="../assets/img_ova/img/o2.png"
+                                                                                style="width: 50px;">
+                                                                        </div>
+                                                                        <div class="d-flex mb-5 justify-content-center align-items-center boton_cuadro cursor boton_C2"
+                                                                            onclick="botonCuadro(2)">
+                                                                            <img src="../assets/img_ova/img/o1.png"
+                                                                                style="width: 50px;">
+                                                                        </div>
+                                                                        <div class="d-flex mb-5 justify-content-center align-items-center boton_cuadro cursor boton_C3"
+                                                                        onclick="botonCuadro(3)">
+                                                                        <img src="../assets/img_ova/img/o3.png"
+                                                                            style="width: 50px;">
+                                                                    </div>
+                                                                  
+                                                                    </div>
+                                                                    <div class="row m-0 mt-2">
+                                                                      
+                                                                    </div>
+                                                                </div>
                                                             </div>
-                                                            <div class="col-md-10">
-                                                                <p class="font16 justificado">
-                                                                    La aplicación de la Inteligencia Artificial en
-                                                                    Medicina y Ciencias de la Salud ha revolucionado la
-                                                                    forma en que se abordan los desafíos médicos y se
-                                                                    proporciona atención a los pacientes. <b
-                                                                        class="negrita">Haga clic en el botón para
-                                                                        ampliar la información sobre las áreas claves
-                                                                        donde ha tenido un impacto significativo el uso
-                                                                        de la AI:</b>
-                                                                </p>
-                                                                <div class="d-flex justify-content-center img-100">
-                                                                    <div>
-                                                                        <div class="d-flex boton_azulOsc cursor"
-                                                                            data-bs-toggle="modal"
-                                                                            data-bs-target="#imagen12" style="width: 119px;
-                                                                        height: 41px;">
-                                                                            <div style="width: 0px;">
-                                                                                <img src="../assets/img_ova/lupa.png"
-                                                                                    width="50px" alt=""
-                                                                                    style="margin-left: -55px;margin-top: -10px;">
-                                                                            </div>
-                                                                            <div
-                                                                                class="d-flex align-items-center img-100">
-                                                                                <p
-                                                                                    class="text-center img-100 m-0 font16 text-white">
-                                                                                    ver
+                                                            <div class="col-md-9 p-0">
+                                                                <!-- <div class="ban_piel banP0" style="background-color: #FF7F00;">
+                                                                    <div class="row h-100">
+                                                                        <div class="col-md-8 d-flex align-items-center">
+                                                                            <div>
+                                                                                <p class="font16 justificado m-0 negrita">Presione sobre cada cuadro del lado izquierdo para profundizar.
                                                                                 </p>
                                                                             </div>
+                                                                        </div>
+                                                                        <div class="col-md-4 d-flex align-items-end m-0 p-0">
+                                                                            <img src="../assets/img_ova/pp.png" width="100%"
+                                                                                alt="" style="margin-top: -29px;">
+                                                                        </div>
+                                                                    </div>
+                                                                </div> -->
+                                                                <div class="ban_piel banP1">
+                                                                    <div class="d-flex flex-column justify-content-center align-items-center h-100">
+                                                                        <p class="font16 justificado text-white">
+                                                                            Después de entrenar el modelo, se <span class="negrita" style="background-color: #181363;"> evalúa su rendimiento</span> utilizando datos no vistos durante el entrenamiento. Esto proporciona una medida objetiva de cómo el modelo generaliza a nuevas instancias. Los resultados de la evaluación pueden incluir métricas como precisión, recall, F1-score, entre otras, dependiendo del tipo de problema que se esté abordando.
+                                                                        </p>
+                                                                        <p class="font16 justificado text-white m-0">
+                                                                            Basándose en los resultados de la evaluación, se realizan  <span class="negrita" style="background-color: #181363;"> ajustes en los parámetros </span> del modelo. Estos ajustes pueden incluir cambios en la tasa de aprendizaje, la cantidad de capas y nodos en una red neuronal, la profundidad de un árbol de decisión, entre otros. El objetivo es mejorar la capacidad del modelo para hacer predicciones precisas y generalizar a datos no vistos.
+                                                                        </p>
+                                                                    </div>
+                
+                                                                </div>
+                                                                <div class="ban_piel banP2 d-none">
+                                                                    <div class="d-flex flex-column justify-content-center align-items-center h-100">
+                                                                        <p class="font16 justificado text-white">
+                                                                            En algunos casos, la optimización del modelo implica la  <span class="negrita" style="background-color: #181363;"> modificación de la arquitectura</span> del modelo en sí. Esto puede implicar cambios en la complejidad del modelo, la inclusión o eliminación de capas en una red neuronal, o la elección de un tipo diferente de algoritmo. La modificación de la arquitectura busca encontrar un equilibrio óptimo entre la capacidad del modelo para ajustarse a los datos de entrenamiento y su capacidad para generalizar a nuevos datos.
+                                                                        </p>
+                                                                        <p class="font16 justificado text-white m-0">
+                                                                            Otro enfoque en la optimización del modelo es la <span class="negrita" style="background-color: #181363;"> selección de características relevantes.</span> Esto implica identificar y retener solo las características más informativas y significativas para el problema en cuestión. La eliminación de características redundantes o irrelevantes puede mejorar la eficiencia del modelo y reducir el riesgo de sobreajuste.
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="ban_piel banP3 d-none">
+                                                                    <div class="" style="overflow: auto;     height: 258px;" >
+                                                                        <div class="d-flex flex-column justify-content-center align-items-center" >
+                                                                            <p class="font16 justificado text-white">
+                                                                                La <span class="negrita" style="background-color: #181363;"> regularización</span> es una técnica utilizada para evitar el sobreajuste al penalizar ciertos aspectos del modelo, como los coeficientes de los términos de regularización en la regresión. La aplicación de técnicas de regularización, como la L1 (Lasso) o la L2 (Ridge), puede ayudar a mantener el modelo generalizable y evitar que se ajuste demasiado a los datos de entrenamiento.
+    
+                                                                            </p>
+                                                                            <p class="font16 justificado text-white">
+                                                                                La optimización del modelo a menudo implica un <span class="negrita" style="background-color: #181363;"> ciclo iterativo,</span> donde se ajustan los parámetros, se evalúa el rendimiento, y se repite el proceso hasta lograr un modelo satisfactorio. Este enfoque iterativo permite refinar continuamente el modelo para adaptarse a las complejidades y variaciones en los datos.
+                                                                            </p>
+                                                                            <p class="font16 justificado text-white m-0">
+                                                                                La optimización del modelo es una etapa esencial en la aplicación de Machine Learning. Se trata de un proceso dinámico que busca mejorar el rendimiento del modelo, adaptándolo a las características específicas del problema y garantizando su capacidad para realizar predicciones precisas en entornos del mundo real.
+                                                                            </p>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
+                                                     
                                                     </div>
                                                 </div>
+                                               
                                             </div>
                                         </div>
-                                        <div class="col-md-12 pantallas pantalla5 d-none">
-                                            <div class="ban_verd">
-                                                <div class="d-flex justify-content-end" style="height: 0px;">
-                                                    <div class="negrita closes font16 d-flex align-items-center justify-content-center cursor"
-                                                        onclick="pantalla(0)" style="margin-top: -22px;    z-index: 1;">
-                                                        <p class="m-0">X</p>
+                                        <div class="row m-0 padding_controls  col-md-12 pantallas pantalla5 d-none">
+                                            <div class="row m-0 pt-3 px-1"
+                                                style="border: 2px solid #181363; background-color: #FBE5D6;">
+
+                                                <div class="col-md-5 position-relative">
+                                                    <p class="negrita justificado font16 txtblue border-with-dot m-0">
+                                                        <b>Fases necesarias para aplicar Machine Learning </b>
+                                                    </p>
+                                                    <div class="bg-azul_oscuro p-2 " style="width: 85%;">
+                                                        <p
+                                                            class="font16 justificado negrita text-white text-center m-0">
+                                                            Evaluación del modelo </p>
+                                                    </div>
+
+                                                    <div class=" d-flex justify-content-center align-items-center"
+                                                       >
+                                                        <img src="../assets/img_ova/img/evaluacion (1).png"
+                                                            class="img-50 z-2" alt="">
+                                                    </div>
+
+                                                    <div class="p-3 pt-4 position-relative rounded-4" style="background-color: #FF7F00;     top: -32px;">
+                                                        <p class="font16 justificado text-white m-0">La fase de evaluación del modelo es esencial en el proceso de aplicar Machine Learning, ya que proporciona una evaluación objetiva de cómo el modelo se desempeña en datos que no ha visto durante el entrenamiento. Haga clic en la tarjeta para conocer cada detalle sobre la evaluación del modelo.
+
+                                                        </p>
                                                     </div>
                                                 </div>
-                                                <div class="h-100 d-flex align-items-center">
-                                                    <div>
-                                                        <p class="font16 justificado negrita">AI en Finanzas: </p>
-                                                        <div class="row">
-                                                            <div class="col-md-2">
-                                                                <img src="../assets/img_ova/analitica.png" width="100px"
-                                                                    alt="">
+                                                <div class="col-md-7">
+                                                    <div class="d-flex mt-4  mb-3 justify-content-end">
+                                                        <!-- <div class="negrita closes font16 d-flex align-items-center justify-content-center cursor" onclick="pantalla(0)" style="    margin-top: -22px;">
+                                                            ⨯
+                                                        </div> -->
+                                                        <img src="../assets/img_ova/img/close.png" class=" cursor"
+                                                            onclick="pantalla(0)"
+                                                            style="width: 7%;    margin-top: -22px;">
+                                                    </div>
+                                                    <div class="d-flex justify-content-center">
+                                                        <div class="bacCircle img-70 cursor" onclick="target1()">
+                                                            <div class="d-flex justify-content-center">
+                                                                <div class="d-flex align-items-center justify-content-center circulo_border">
+                                                                    <img src="../assets/img_ova/img/eva2.png" class="img-70" alt="">
+                                                                </div>
                                                             </div>
-                                                            <div class="col-md-10">
-                                                                <p class="font16 justificado">
-                                                                    La IA se emplea en el sector financiero para la toma
-                                                                    de decisiones en inversiones, detección de fraudes,
-                                                                    gestión de riesgos y análisis de datos financieros,
-                                                                    los algoritmos de IA pueden analizar patrones en los
-                                                                    mercados financieros y tomar decisiones comerciales
-                                                                    automáticas.
-                                                                </p>
+                                                            
+                                                        </div>
+                                                    </div>
+                                                    <div class="d-flex justify-content-center">
+                                                        <div class="content_targetB invisible">
+                                                            <p class="m-0 font16 justificado langs" key="uni1_text3">
+                                                                Haga clic en el icono para descargar el documento y ampliar la información. 
 
+                                                            </p>
+                                                            <div class= "mt-3 d-flex justify-content-center align-items-center">
+                                                                <a href="../assets/pdf/Fase de evaluación del modelo.pdf" download="Fase de evaluación del modelo.pdf"><img src="../assets/img_ova/botones/btn_pdf.png" width="170px" alt=""></a>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-md-12 pantallas pantalla6 d-none">
-                                            <div class="ban_verd">
-                                                <div class="d-flex justify-content-end" style="height: 0px;">
-                                                    <div class="negrita closes font16 d-flex align-items-center justify-content-center cursor"
-                                                        onclick="pantalla(0)" style="margin-top: -22px;    z-index: 1;">
-                                                        <p class="m-0">X</p>
+                                        <div class="row m-0 padding_controls  col-md-12 pantallas pantalla6 d-none">
+                                            <div class="row m-0 pt-3 px-1"
+                                                style="border: 2px solid #181363; background-color: #E2F0D9;">
+
+                                                <div class="col-md-5">
+
+                                                    <p class="negrita justificado font16 txtblue border-with-dot m-0">
+                                                        <b>Fases necesarias para aplicar Machine Learning </b>
+                                                    </p>
+                                                    <div class="bg-azul_oscuro p-2 " style="width: 85%;">
+                                                        <p
+                                                            class="font16 justificado negrita text-white text-center m-0">
+                                                            Validación cruzada 
+                                                        </p>
                                                     </div>
                                                 </div>
-                                                <div class="h-100 d-flex align-items-center">
-                                                    <div>
-                                                        <p class="font16 justificado negrita">AI en Educación: </p>
-                                                        <div class="row">
-                                                            <div class="col-md-2">
-                                                                <img src="../assets/img_ova/clase-virtual.png"
-                                                                    width="100px" alt="">
-                                                            </div>
-                                                            <div class="col-md-10">
-                                                                <p class="font16 justificado">
-                                                                    La IA se utiliza en la educación para crear sistemas
-                                                                    de tutoría inteligente que personalizan el
-                                                                    aprendizaje y ofrecen retroalimentación a los
-                                                                    estudiantes, también se aplica en sistemas de
-                                                                    evaluación automatizada y en el desarrollo de
-                                                                    contenido educativo.
-                                                                </p>
+                                                <div class="col-md-7">
+                                                    <div class="d-flex mt-4  mb-3 justify-content-end">
+                                                        <!-- <div class="negrita closes font16 d-flex align-items-center justify-content-center cursor" onclick="pantalla(0)" style="    margin-top: -22px;">
+                                                            ⨯
+                                                        </div> -->
+                                                        <img src="../assets/img_ova/img/close.png" class=" cursor"
+                                                            onclick="pantalla(0)"
+                                                            style="width: 7%;    margin-top: -22px;">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12 ">
+                                                    <p class="font16 justificado">
+                                                        La validación cruzada es una técnica esencial en el proceso de aplicar Machine Learning y se utiliza para evaluar la robustez y el rendimiento del modelo de una manera más completa y confiable. Consiste en dividir el conjunto de datos en varios conjuntos de entrenamiento y prueba, entrenando y evaluando el modelo varias veces con diferentes combinaciones de estos conjuntos. <strong class="negrita"> Presione los botones abajo para conocer paso a paso la validación cruzada.</strong>
 
+                                                    </p>
+
+                                                    <div class="infras infras0">
+                                                        <div class="row m-0 p-2 rounded-4" style="background-color: #8DC640;">
+                                                            <div class="col-md-4 d-flex align-items-center ">
+                                                                <p class="m-0 font16 justificado ">
+                                                                    Durante el entrenamiento, se divide el conjunto de datos en dos partes: el conjunto de entrenamiento y el <strong class="negrita"> conjunto de prueba.</strong> El conjunto de prueba actúa como un conjunto de datos independiente que no se utiliza en ninguna etapa del entrenamiento del modelo. Este conjunto de prueba se reserva específicamente para evaluar el rendimiento del modelo una vez que ha sido entrenado.
+                                                                </p>
+                                                            </div>
+                                                            <div class="col-md-4 d-flex align-items-center ">
+                                                                <p class="m-0 font16 justificado ">
+                                                                    Se utilizan diversas <strong class="negrita">métricas para evaluar </strong> el rendimiento del modelo en el conjunto de prueba. Estas métricas pueden incluir la precisión, la recall, la F1-score, la matriz de confusión, la curva ROC, entre otras, dependiendo del tipo de problema que se esté abordando (clasificación, regresión, etc.). Estas métricas proporcionan una visión detallada de cómo el modelo realiza predicciones en diferentes aspectos del problema.
+                                                                </p>
+                                                            </div>
+                                                            <div class="col-md-4 d-flex align-items-center justify-content-center ">
+                                                                <div class="p-4 bg-white rounded-circle">
+                                                                    <img src="../assets/img_ova/img/qa.png"  width="150px" alt="">
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
+                                                    <div class="infras infras1 d-none">
+                                                        <div class="row m-0 p-2 rounded-4" style="background-color: #0187C4;">
+                                                            <div class="col-md-4 d-flex align-items-center justify-content-center ">
+                                                                <div class="p-1 bg-white rounded-circle">
+                                                                    <img src="../assets/img_ova/img/qa2.png"  width="150px" alt="">
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-4 d-flex align-items-center ">
+                                                                <p class="m-0 font16 justificado text-white ">
+                                                                    La evaluación del modelo es crucial para identificar y <strong class="negrita"> prevenir el sobreajuste.</strong> El sobreajuste ocurre cuando el modelo se ajusta demasiado a los datos de entrenamiento y tiene dificultades para generalizar a nuevos datos. Al evaluar el modelo en un conjunto de prueba independiente, se puede determinar si el modelo mantiene su rendimiento en datos no vistos y no simplemente memoriza los ejemplos de entrenamiento.
+
+                                                                </p>
+                                                            </div>
+                                                            <div class="col-md-4 d-flex align-items-center text-white ">
+                                                                <p class="m-0 font16 justificado ">
+                                                                   La <strong class="negrita"> validación cruzada</strong> es una técnica comúnmente utilizada para evaluar la robustez del modelo. Consiste en dividir el conjunto de datos en varias particiones y realizar múltiples rondas de entrenamiento y evaluación, utilizando diferentes combinaciones de conjuntos de entrenamiento y prueba. Esto proporciona una evaluación más robusta del rendimiento del modelo y reduce la dependencia de una única partición de prueba.
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="infras infras2 d-none">
+                                                        <div class="row m-0 p-2 rounded-4" style="background-color: #FF7F00;">
+                                                            <div class="col-md-4 d-flex align-items-center ">
+                                                                <p class="m-0 font16 justificado text-white">
+                                                                    Los resultados de la evaluación a menudo <strong class="negrita"> guían el ajuste de parámetros</strong> del modelo. Si el rendimiento no es satisfactorio, es posible realizar cambios en la arquitectura del modelo, ajustar la tasa de aprendizaje u optimizar otros hiperparámetros para mejorar su capacidad predictiva.
+
+                                                                </p>
+                                                            </div>
+                                                            <div class="col-md-4 d-flex align-items-center ">
+                                                                <p class="m-0 font16 justificado text-white">
+                                                                   Además de las métricas cuantitativas, es crucial realizar una <strong class="negrita"> interpretación cualitativa de los resultados.</strong> Comprender dónde y por qué el modelo comete errores puede proporcionar información valiosa para mejorarlo. La interpretación también puede incluir la identificación de casos difíciles o situaciones en las que el modelo tiene dificultades para generalizar.
+
+                                                                </p>
+                                                            </div>
+                                                            <div class="col-md-4 d-flex align-items-center justify-content-center ">
+                                                                <div class="p-4 bg-white rounded-circle">
+                                                                    <img src="../assets/img_ova/img/qa3.png"  width="150px" alt="">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="infras infras3 d-none">
+                                                        <div class="row m-0 p-3 rounded-4" style="background-color: #181363;">
+                                                            <div class="col-md-4 d-flex align-items-center justify-content-center ">
+                                                                <div class="p-1 bg-white rounded-circle">
+                                                                    <img src="../assets/img_ova/img/qa4.png"  width="150px" alt="">
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-4 d-flex align-items-center ">
+                                                                <p class="m-0 font16 justificado text-white ">
+                                                                    La evaluación del modelo no es un paso único; es un proceso iterativo. A medida que se realizan ajustes en el modelo, se vuelve a evaluar para garantizar que los cambios conduzcan a mejoras y que el modelo siga siendo efectivo en diferentes situaciones y conjuntos de datos.
+                                                                </p>
+                                                            </div>
+                                                            <div class="col-md-4 d-flex align-items-center text-white ">
+                                                                <p class="m-0 font16 justificado ">
+                                                                    La evaluación del modelo es un componente crítico en el desarrollo de soluciones de Machine Learning. Proporciona información valiosa sobre la capacidad del modelo para generalizar a nuevos datos y guía los ajustes necesarios para mejorar su rendimiento en situaciones del mundo real.
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <div class="d-flex justify-content-center mt-3 mb-3">
+                                                        <div class="grises grises1" onclick="grises(1)"></div>
+                                                        <div class="grises grises2" onclick="grises(2)"></div>
+                                                        <div class="grises grises3" onclick="grises(3)"></div>
+                                                        <!-- <div class="grises grises4" onclick="grises(4)"></div> -->
+                                                    </div>
                                                 </div>
+                                              
                                             </div>
                                         </div>
-                                        <div class="col-md-12 pantallas pantalla7 d-none">
-                                            <div class="ban_verd">
-                                                <div class="d-flex justify-content-end" style="height: 0px;">
-                                                    <div class="negrita closes font16 d-flex align-items-center justify-content-center cursor"
-                                                        onclick="pantalla(0)" style="margin-top: -22px;    z-index: 1;">
-                                                        <p class="m-0">X</p>
-                                                    </div>
-                                                </div>
-                                                <div class="h-100 d-flex align-items-center">
-                                                    <div>
-                                                        <p class="font16 justificado negrita">AI en juegos y
-                                                            entretenimiento: </p>
-                                                        <div class="row">
-                                                            <div class="col-md-2">
-                                                                <img src="../assets/img_ova/juegos-de-video.png"
-                                                                    width="100px" alt="">
-                                                            </div>
-                                                            <div class="col-md-10">
-                                                                <p class="font16 justificado">
-                                                                    La IA se utiliza en juegos de video para crear
-                                                                    personajes no jugables (NPCs) inteligentes y ajustar
-                                                                    la dificultad del juego, también se aplica en la
-                                                                    generación de contenido, como música y narrativa en
-                                                                    juegos y entretenimiento interactivo.
-                                                                </p>
+                                        <div class="row m-0 padding_controls  col-md-12 pantallas pantalla7 d-none">
+                                            <div class="row m-0 pt-3 px-1"
+                                                style="border: 2px solid #181363; background-color: #EFF5FB;">
 
+                                                <div class="col-md-5">
+                                                    <p class="negrita justificado font16 txtblue border-with-dot m-0">
+                                                        <b>Fases necesarias para aplicar Machine Learning </b>
+                                                    </p>
+                                                    <div class="bg-azul_oscuro p-2 " style="width: 85%;">
+                                                        <p
+                                                            class="font16 justificado negrita text-white text-center m-0">
+                                                            Despliegue del modelo  
+                                                        </p>
+                                                    </div>
+                                                    
+
+                                                </div>
+                                                <div class="row">
+
+                                                    <div class="col-md-4">
+                                                        <div class="mt-3 d-flex justify-content-center align-items-center">
+                                                            <img src="../assets/img_ova/img/automatizacion.png"
+                                                                class="img-40" alt="">
+                                                        </div>
+    
+                                                        <div class="mt-3 ">
+                                                            <p class="font16 justificado">
+                                                                El despliegue del modelo es una fase crítica en la aplicación de Machine Learning, ya que implica llevar el modelo entrenado y optimizado a un entorno de producción para realizar predicciones en situaciones del mundo real. Esto implica integrar el modelo en sistemas existentes, lo que puede requerir la colaboración con equipos de ingeniería y desarrollo. 
+                                                                <b class="negrita"> Presione los números para continuar.</b>
+    
+                                                            </p>
+                                                        </div>
+
+                                                    </div>
+                                                    <div class="col-md-8">
+                                                        <div class="d-flex mb-3 justify-content-end">
+                                                            <!-- <div class="negrita closes font16 d-flex align-items-center justify-content-center cursor" onclick="pantalla(0)" style="    margin-top: -22px;">
+                                                                ⨯
+                                                            </div> -->
+                                                            <img src="../assets/img_ova/img/close.png" class=" cursor"
+                                                                onclick="pantalla(0)"
+                                                                style="width: 7%;    margin-top: -54px;">
+                                                        </div>
+                                                        <div class="row m-0">
+                                                            <div class="col-md-2 d-flex align-items-center p-0" style="border-left: 2px solid #FF7F00;">
+                                                                <div class="col-md-12">
+                                                                    <div class="conection conection1 conectionActive text-white text-orange d-flex align-items-center cursor" onclick="conection(1)">
+                                                                        <p class="text-center font16 negrita  m-0 img-100">
+                                                                            <b>1</b>
+                                                                        </p>
+                                                                    </div>
+                                                                    <div class="mt-5 conection conection2 d-flex text-orange  align-items-center cursor" onclick="conection(2)">
+                                                                        <p class="text-center font16 negrita  m-0 img-100">
+                                                                            <b>2</b>
+                                                                        </p>
+                                                                    </div>
+                                                                    <div class="mt-5 conection conection3 d-flex text-orange align-items-center cursor" onclick="conection(3)">
+                                                                        <p class="text-center font16 negrita  m-0 img-100">
+                                                                            <b>3</b>
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-10 p-0">
+                                                                <div class="ban_cuadro ban_cuadro1 ">
+                                                                    <div class="d-flex align-items-center h-100">
+                                                                        <div>
+                                                                            <p class="m-0 font16 justificado text-white p-4">
+                                                                                En lugar de depender de una única <strong class="negrita"> división del conjunto</strong> de datos en conjuntos de entrenamiento y prueba, la validación cruzada implica dividir el conjunto de datos en varias particiones o "folds". Por ejemplo, en la validación cruzada de k-fold, el conjunto de datos se divide en k particiones, y el modelo se entrena y evalúa k veces, utilizando una partición diferente como conjunto de prueba en cada iteración.
+                                                                                <br><br>
+                                                                                En cada <strong class="negrita"> iteración</strong> de la validación cruzada, se utiliza una combinación diferente de conjuntos de entrenamiento y prueba. Esto significa que cada instancia en el conjunto de datos se utiliza tanto para entrenar como para evaluar el modelo en alguna de las iteraciones. Este enfoque proporciona una evaluación más completa y reduce el impacto de la variabilidad en la calidad del conjunto de prueba.
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="ban_cuadro ban_cuadro2 d-none">
+                                                                    <div class="d-flex align-items-center h-100">
+                                                                        <div>
+                                                                            <p class="m-0 font16 justificado text-white p-4">
+                                                                                La validación cruzada ayuda a <strong class="negrita"> reducir el sesgo y la varianza </strong> en la evaluación del rendimiento del modelo. El sesgo se refiere a la diferencia entre las predicciones del modelo y los valores reales, mientras que la varianza mide la sensibilidad del modelo a pequeñas variaciones en los datos de entrada. Al realizar múltiples evaluaciones en diferentes conjuntos de datos de prueba, la validación cruzada proporciona una estimación más precisa del rendimiento del modelo, ayudando a mitigar el sesgo y la varianza.
+                                                                                <br><br>
+                                                                                La validación cruzada permite <strong class="font16"> evaluar la robustez </strong>del modelo al exponerlo a diferentes subconjuntos de datos. Esto es especialmente valioso cuando el conjunto de datos es limitado o cuando se desea asegurar que el modelo no esté sobreajustado a una partición específica.
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="ban_cuadro ban_cuadro3 d-none">
+                                                                    <div class="d-flex align-items-center h-100">
+                                                                        <div class="p-4">
+                                                                            <p class="m-0 font16 justificado text-white" style="height: 240px;overflow: auto;">
+                                                                                La validación cruzada es útil no solo para evaluar modelos, sino también para <strong class="negrita"> seleccionar entre diferentes modelos</strong> y configuraciones de hiperparámetros. Al realizar la validación cruzada para cada combinación de modelo o conjunto de hiperparámetros, se puede tomar decisiones informadas sobre cuál es la mejor opción para el problema en cuestión.
+                                                                                <br><br>
+                                                                                La validación cruzada de <strong class="negrita"> k-fold</strong> es una de las variantes más comunes, pero existen otras, como la <strong class="negrita"> leave-one-out (LOO)</strong> y la <strong class="negrita"> stratified k-fold,</strong> cada una con sus propias ventajas y consideraciones. La elección de la técnica de validación cruzada depende del tamaño del conjunto de datos y de la naturaleza del problema.
+                                                                                <br><br>
+                                                                                La validación cruzada es una técnica fundamental en la aplicación de Machine Learning que proporciona una evaluación más robusta y fiable del rendimiento del modelo al utilizar múltiples divisiones del conjunto de datos. Este enfoque mejora la capacidad del modelo para generalizar y ofrece información valiosa para la toma de decisiones en el desarrollo de soluciones de aprendizaje automático.
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
                                                             </div>
                                                         </div>
+                                                     
                                                     </div>
                                                 </div>
+                                               
                                             </div>
                                         </div>
                                         <div class="col-md-12 pantallas pantalla8 d-none">
