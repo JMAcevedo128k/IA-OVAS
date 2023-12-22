@@ -44,3 +44,22 @@
 .dottedActive{
   background-color: #FF7F00 !important;
 }
+
+.target_blue{
+  background: #181363;height: 300px;border-radius: 30px;padding: 20px;
+}
+
+.dot_orange{
+  border: dotted #FF7F00;height: 255px;padding: 10px 20px;border-radius: 30px;
+}
+
+.bola_cam{
+  width: 90px;
+    height: 90px;
+    background: #ff7f00;
+    border-radius: 50%;
+    margin-top: 96px;
+    margin-left: -32px;
+    z-index: 1;
+    position: relative;
+}
