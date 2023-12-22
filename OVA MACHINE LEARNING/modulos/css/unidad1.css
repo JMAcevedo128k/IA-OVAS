@@ -811,3 +811,81 @@ background: #0187C4;
   margin-left: -8px;
   margin-top: 3px;
 }
+
+.bg-modelo{
+  background-image: url(../../assets/img_ova/img/modelos.png);
+  background-size: 500px;
+  background-repeat: no-repeat;
+  
+}
+
+/* --card giratoroas */
+.cards_3{
+	width: 100%;
+	height: 200px;
+	position: absolute;
+	transform-style: preserve-3d;
+	transition: 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+	border-radius: 6px;
+	box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+	cursor: pointer;
+	border-radius: 60px;
+}
+  
+.cards_3 .front22, .back22{
+	position:  absolute;
+	width:  100%;
+	height:  250px;
+	backface-visibility:  hidden;
+	border-radius:  33px;
+	/* display flex: ; */
+	justify-content:  center;
+	align-items:  center;
+	/* font-smoothing:  antialiased; */
+	color:  black;
+}
+.front22{
+	background: #8DC640;
+}
+.container-flip2{
+	width: 100%;
+  height: 270px;
+	position: relative;  
+	perspective: 800px;
+	border-radius: 60px;
+}
+.back22{
+  transform: rotateY(180deg);
+  background: #0187C4;
+  padding: 20px;
+}
+.iconito{
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+	background: #DE83BC;
+}
+
+.flipped{
+  transform: rotateY(180deg);
+}
+/* --card giratoroas fin */
+
+
+/*RECURSO #20 SUBMENÚ BOTONES A LA DERECHA */
+.ban_piell{ 
+	/* background: #0187C4;  */
+  padding: 25px 25px; 
+  border-radius: 20px; 
+  height: 340px; 
+} 
+.boton_cuadro2{ 
+    width: 80px;
+    background: #0187C4;
+    height: 70px;
+    border-radius: 10px;
+    margin-left: 10px;
+} 
+.boton_cuadroActive2{ 
+background: #181363; 
+} 

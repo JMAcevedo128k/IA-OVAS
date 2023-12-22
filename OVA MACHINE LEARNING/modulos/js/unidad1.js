@@ -594,3 +594,87 @@ function grises(num){
     $(".infras").addClass('d-none');
     $(".infras"+num).removeClass('d-none');
 }
+
+
+function giradoras(num){
+    switch (parseInt(num)) {
+        case 1:
+            $('.carta1').toggleClass('flipped');
+           
+            break;
+        case 2:
+            $('.carta2').toggleClass('flipped');
+            break;
+        case 3:
+            $('.carta3').toggleClass('flipped');
+            break;
+        default:
+            break;
+    }
+}
+
+
+/*RECURSO #20 SUBMENÚ BOTONES A LA DERECHA */
+function botonCuadro2(num) {
+    switch (parseInt(num)) {
+        case 1:
+            $('.boton_cuadro2').removeClass('boton_cuadroActive2');
+            $('.boton_C11').addClass('boton_cuadroActive2');
+
+            $('.ban_piell').addClass('d-none');
+            $('.banP11').removeClass('d-none');
+            break;
+        case 2:
+            $('.boton_cuadro2').removeClass('boton_cuadroActive2');
+            $('.boton_C22').addClass('boton_cuadroActive2');
+
+            $('.ban_piell').addClass('d-none');
+            $('.banP22').removeClass('d-none');
+            break;
+        case 3:
+            $('.boton_cuadro2').removeClass('boton_cuadroActive2');
+            $('.boton_C33').addClass('boton_cuadroActive2');
+
+            $('.ban_piell').addClass('d-none');
+            $('.banP33').removeClass('d-none');
+            break;
+        case 4:
+            $('.boton_cuadro').removeClass('boton_cuadroActive');
+            $('.boton_C4').addClass('boton_cuadroActive');
+
+            $('.ban_piel').addClass('d-none');
+            $('.banP4').removeClass('d-none');
+            break;
+        case 5:
+            $('.boton_cuadro').removeClass('boton_cuadroActive');
+            $('.boton_C5').addClass('boton_cuadroActive');
+
+            $('.ban_piel').addClass('d-none');
+            $('.banP5').removeClass('d-none');
+            break;
+        case 6:
+            $('.boton_cuadro').removeClass('boton_cuadroActive');
+            $('.boton_C6').addClass('boton_cuadroActive');
+
+            $('.ban_piel').addClass('d-none');
+            $('.banP6').removeClass('d-none');
+            break;
+        case 7:
+            $('.boton_cuadro').removeClass('boton_cuadroActive');
+            $('.boton_C7').addClass('boton_cuadroActive');
+
+            $('.ban_piel').addClass('d-none');
+            $('.banP7').removeClass('d-none');
+            break;
+        case 8:
+            $('.boton_cuadro').removeClass('boton_cuadroActive');
+            $('.boton_C8').addClass('boton_cuadroActive');
+
+            $('.ban_piel').addClass('d-none');
+            $('.banP8').removeClass('d-none');
+            break;
+        default:
+            // statements_def 
+            break;
+    }
+}
