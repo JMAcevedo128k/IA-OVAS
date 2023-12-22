@@ -67,3 +67,20 @@
 .mar_ban{
   background: #0187C4;padding: 20px 165px 20px 20px;border-radius: 20px;
 }
+
+.heads{
+  background: #181363;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    z-index: 1;
+    position: relative;
+}
+
+.blusMarine{
+  background-color: #0187C4;
+  padding: 10px 20px 10px 60px;
+  border-radius: 20px;
+  margin-left: -35px;
+  height: 100px;
+}
