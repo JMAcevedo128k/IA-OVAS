@@ -889,3 +889,12 @@ background: #0187C4;
 .boton_cuadroActive2{ 
 background: #181363; 
 } 
+
+
+
+.ban_oscuro{
+  background-color: #181363;
+  padding: 20px 165px 20px 20px;
+  border-radius: 20px;
+
+}
