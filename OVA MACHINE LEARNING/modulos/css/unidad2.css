@@ -84,3 +84,11 @@
   margin-left: -35px;
   height: 100px;
 }
+
+.numerator{
+  background: #181363;height: 40px;width: 40px;border-radius: 50%;position: relative;left: -25px;
+}
+
+.oranhe_ban{
+  background: #FF7F00;height: 180px;border-radius: 20px;padding-right: 35px;
+}

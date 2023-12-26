@@ -119,3 +119,8 @@ function dotted(num) {
     $(".dotted").removeClass('dottedActive');
     $(".dotted"+num).addClass('dottedActive');
 }
+
+function pant(num){
+    $(".pants").addClass('d-none');
+    $(".pants_"+num).removeClass('d-none');
+}
