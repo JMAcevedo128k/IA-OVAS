@@ -124,3 +124,8 @@ function pant(num){
     $(".pants").addClass('d-none');
     $(".pants_"+num).removeClass('d-none');
 }
+
+function maspant(num){
+    $(".masPnat").addClass('d-none');
+    $(".masPnat"+num).removeClass('d-none');
+}
