@@ -109,7 +109,9 @@ $("#smartwizard").on("showStep", function (e, anchorObject, stepIndex, stepDirec
             break;
         case 9:
             break;
-        case 20:
+        case 21:
+            break;
+        case 22:
             location.href="../index.html?modulo=1";
             $("#next").addClass('escondida');
             break;
@@ -675,6 +677,59 @@ function botonCuadro2(num) {
             break;
         default:
             // statements_def 
+            break;
+    }
+}
+
+
+
+function barroco2(num) {
+    switch (parseInt(num)) {
+        case 1:
+            $('.btn_barroco2').removeClass('btn_barroco2Active');
+            $('.barroco11').addClass('btn_barroco2Active');
+
+            $('.ban_blue2').addClass('d-none');
+            $('.banB_11').removeClass('d-none');
+
+          
+
+            break;
+        case 2:
+            $('.btn_barroco2').removeClass('btn_barroco2Active');
+            $('.barroco22').addClass('btn_barroco2Active');
+
+            $('.ban_blue2').addClass('d-none');
+            $('.banB_22').removeClass('d-none');
+
+            break;
+        case 3:
+            $('.btn_barroco2').removeClass('btn_barroco2Active');
+            $('.barroco33').addClass('btn_barroco2Active');
+
+            $('.ban_blue2').addClass('d-none');
+            $('.banB_33').removeClass('d-none');
+
+          
+       
+            break;
+        case 4:
+            $('.btn_barroco2').removeClass('btn_barroco2Active');
+            $('.barroco44').addClass('btn_barroco2Active');
+
+            $('.ban_blue2').addClass('d-none');
+            $('.banB_44').removeClass('d-none');
+
+            break;
+        case 5:
+            $('.btn_barroco2').removeClass('btn_barroco2Active');
+            $('.barroco55').addClass('btn_barroco2Active');
+
+            $('.ban_blue2').addClass('d-none');
+            $('.banB_55').removeClass('d-none');
+
+            break;
+        default:
             break;
     }
 }
