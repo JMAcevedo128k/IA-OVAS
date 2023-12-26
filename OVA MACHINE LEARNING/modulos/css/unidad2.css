@@ -135,3 +135,9 @@
 .a5Active{
   background: #181363;
 }
+
+.head_activiti{
+  background: #FF7F00;
+  padding: 10px;
+  border-radius: 10px;
+}
