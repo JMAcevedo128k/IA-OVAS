@@ -129,3 +129,9 @@ function maspant(num){
     $(".masPnat").addClass('d-none');
     $(".masPnat"+num).removeClass('d-none');
 }
+function A5(num){
+    $(".a5_"+num).addClass('a5Active');
+
+    $(".computadora").addClass('d-none');
+    $(".computadora"+num).removeClass('d-none');
+}
