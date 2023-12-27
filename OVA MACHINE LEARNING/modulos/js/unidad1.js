@@ -116,6 +116,18 @@ $("#smartwizard").on("showStep", function (e, anchorObject, stepIndex, stepDirec
             entrar2();
             break;
         case 22:
+            
+            break;
+         case 23:
+            
+            break;
+        case 24:
+            
+            break;
+        case 25:
+            
+            break;
+        case 26:
             location.href="../index.html?modulo=1";
             $("#next").addClass('escondida');
             break;
@@ -976,4 +988,13 @@ function modal3(num) {
         default:
             break;
     }
+}
+
+
+function letters(num){
+    $('.ban_lett').addClass('d-none');
+    $('.ban_lett'+num).removeClass('d-none');
+
+    $('.letters').removeClass('lettersActive');
+    $('.letters'+num).addClass('lettersActive');
 }

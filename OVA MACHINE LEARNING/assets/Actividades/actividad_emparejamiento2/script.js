@@ -46,13 +46,13 @@ function calificarEmparejamiento(event) {
 
         $('.img_res').html('<img src="img/fuegos-artificiales.png" style="max-width: 90%;">');
         $('.btns_modal').html('<button type="button" class="btn btnsModal" data-dismiss="modal" style="margin-right: 5px;font-size: 22px;color: #fff;">CERRAR</button>');
-        $('#texto-modal').html('<b style="color: #c3c301;font-size: 25px;">¡FELICITACIONES!</b><br><br> Su puntaje es <b style="color: #C3C301;    font-size: 25px;">'+Math.round(puntaje)+"%</b>");
+        $('#texto-modal').html('<b style="color: #181363;font-size: 25px;">¡FELICITACIONES!</b><br><br> Su puntaje es <b style="color: #181363;    font-size: 25px;">'+Math.round(puntaje)+"%</b>");
         $('#modal-ahorcado').modal("show");
     }else{
         var exito = false;
         var mensaje = "Puedes hacerlo mejor"
         $('.img_res').html('<img src="img/mala-critica.png" style="max-width: 90%;">');
-        $('#texto-modal').html('Su puntaje es <b style="color: #C3C301;    font-size: 25px;">'+Math.round(puntaje)+"%</b>");
+        $('#texto-modal').html('Su puntaje es <b style="color: #181363;    font-size: 25px;">'+Math.round(puntaje)+"%</b>");
         $('.btns_modal').html('<button id="add" class="btn btnsModal" data-dismiss="modal" aria-label="close" onclick="reiniciar();" style="font-size: 22px;">INTÉNTELO NUEVAMENTE</button>');
         $('#modal-ahorcado').modal("show");
     }

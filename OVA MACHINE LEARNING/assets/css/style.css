@@ -469,6 +469,11 @@ p {
     line-height: 16px !important;
 }
 
+.font15{
+    font-size: 15px !important;
+    line-height: 15px !important;
+}
+
 .justificado{
     text-align: justify;
 }
