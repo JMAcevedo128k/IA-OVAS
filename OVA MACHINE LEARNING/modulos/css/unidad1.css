@@ -1002,3 +1002,119 @@ background: #181363;
 .bg-verde2{
   background-color: #009490;
 }
+
+
+.btn-br-blue{
+  border: 3px solid #181363;
+  color: #181363;
+  background-color: white;
+  position: relative;
+  z-index: 10;
+}
+
+.btn-br-blue-active{
+  /* border: 3px solid #181363; */
+  color: white;
+  background-color: #FF7F00;
+  position: relative;
+  z-index: 10;
+  border: 0;
+}
+
+
+.corpoV2 {
+ 
+  width: 80%;
+  /* height: 70px; */
+  padding: 15px 15px 15px 39px;
+  border-radius: 14px 14px 14px 14px;
+  margin-inline-start: 10px;
+}
+.frenteV2 {
+  background: #fff;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  /* border: solid #872C2A 10px; */
+  /* margin-left: 21px; */
+}
+
+.frente-verde1V2{
+  border: solid #181363 4px;
+}
+
+
+.bg-verde1V2{
+  background-color: white;
+  
+}
+
+
+
+
+.btn-modalV2{
+  /* border: 3px solid #181363; */
+  color: white;
+  background-color: #0187C4;
+  position: relative;
+  z-index: 10;
+}
+
+.btn-modal2-active{
+  /* border: 3px solid #181363; */
+  color: white;
+  background-color: #8DC640;
+  position: relative;
+  z-index: 10;
+  border: 0;
+}
+
+.lista-modal li::marker {
+  color: #8DC640;
+  font-size: 1.5em;
+}
+
+.rectangulo-blue{
+  width: 65px;
+  height: 24px;
+  background-color: #181363;
+  /* border-radius: 12%; */
+  
+}
+
+
+/*RECURSO #19 */
+.barroco-3 {
+  width: 3px;
+  background: #FF7F00;
+  height: 455px;
+  margin-left: 14px;
+}
+.btn_barroco3Active {
+  background: #0187C4 !important;
+}
+.btn_barroco3 {
+  height: 30px;
+  width: 30px;
+  background: #FF7F00;
+  border-radius: 50%;
+  font-weight: bold;
+  color: black;
+  /* margin-bottom: 80%; */
+  margin-bottom: 137px;
+  z-index: 1;
+  cursor: pointer;
+  padding: 15px;
+  /* margin-top: 26px; */
+}
+.ban_blue2 {
+  /* background: #8DC640; */
+  /* padding: 1px 19px 20px 20px; */
+  border-radius: 15px;
+  /* height: 213px; */
+}
+
+
+
+
+/* FIN RECURSO #19 */

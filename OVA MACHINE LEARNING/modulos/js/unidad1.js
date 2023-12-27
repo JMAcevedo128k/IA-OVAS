@@ -733,3 +733,112 @@ function barroco2(num) {
             break;
     }
 }
+
+
+
+function modal1(num) {
+    switch (parseInt(num)) {
+        case 1:
+            $('.btn-br').removeClass('btn-br-blue-active');
+            $('.btn-br1').addClass('btn-br-blue-active');
+
+            $('.caja').addClass('d-none');
+            $('.caja1').removeClass('d-none');
+
+          
+
+            break;
+        case 2:
+            $('.btn-br').removeClass('btn-br-blue-active');
+            $('.btn-br2').addClass('btn-br-blue-active');
+
+            $('.caja').addClass('d-none');
+            $('.caja2').removeClass('d-none');
+
+
+            break;
+        case 3:
+            $('.btn-br').removeClass('btn-br-blue-active');
+            $('.btn-br3').addClass('btn-br-blue-active');
+
+            $('.caja').addClass('d-none');
+            $('.caja3').removeClass('d-none');
+
+            break;
+
+        default:
+            break;
+    }
+}
+
+function modal2(num) {
+    switch (parseInt(num)) {
+        case 1:
+            $('.btn-modal').removeClass('btn-modal2-active');
+            $('.btn-modal1').addClass('btn-modal2-active');
+
+            $('.caja-modalV2').addClass('d-none');
+            $('.cajaV2-1').removeClass('d-none');
+
+          
+
+            break;
+        case 2:
+            $('.btn-modal').removeClass('btn-modal2-active');
+            $('.btn-modal2').addClass('btn-modal2-active');
+
+            $('.caja-modalV2').addClass('d-none');
+            $('.cajaV2-2').removeClass('d-none');
+
+
+            break;
+        case 3:
+            $('.btn-modal').removeClass('btn-modal2-active');
+            $('.btn-modal3').addClass('btn-modal2-active');
+
+            $('.caja-modalV2').addClass('d-none');
+            $('.cajaV2-3').removeClass('d-none');
+            break;
+
+        default:
+            break;
+    }
+}
+
+
+
+function barroco3(num) {
+    switch (parseInt(num)) {
+        case 1:
+            $('.btn_barroco3').removeClass('btn_barroco3Active');
+            $('.barroco111').addClass('btn_barroco3Active');
+
+            $('.ban_blue3').addClass('d-none');
+            $('.banB_111').removeClass('d-none');
+
+          
+
+            break;
+        case 2:
+            $('.btn_barroco3').removeClass('btn_barroco3Active');
+            $('.barroco222').addClass('btn_barroco3Active');
+
+            $('.ban_blue3').addClass('d-none');
+            $('.banB_222').removeClass('d-none');
+
+            break;
+        case 3:
+            $('.btn_barroco3').removeClass('btn_barroco3Active');
+            $('.barroco333').addClass('btn_barroco3Active');
+
+            $('.ban_blue3').addClass('d-none');
+            $('.banB_333').removeClass('d-none');
+
+          
+       
+            break;
+    
+        default:
+            break;
+    }
+}
