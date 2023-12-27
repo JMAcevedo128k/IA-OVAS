@@ -5057,7 +5057,7 @@
                                                             </div>
                                                         </div>
                                                         <div class="col-md-4">
-                                                            <div class="bot_blus d-flex align-items-center cursor" onclick="pantalla(3)">
+                                                            <div class="bot_blus d-flex align-items-center cursor" data-bs-toggle="modal" data-bs-target="#modal7">
                                                                 <p class="m-0 font16 text-center text-white negrita img-100">
                                                                     <b> Redes Neuronales 
                                                                         Siamesas
@@ -5076,7 +5076,7 @@
                                                             </div>
                                                         </div>
                                                         <div class="col-md-4">
-                                                            <div class="bot_blus d-flex align-items-center cursor" onclick="pantalla(5)">
+                                                            <div class="bot_blus d-flex align-items-center cursor" data-bs-toggle="modal" data-bs-target="#modal5">
                                                                 <p class="m-0 font16 text-center text-white negrita img-100">
                                                                     <b> Redes Neuronales Generativas Adversarias
                                                                     </b>
@@ -5084,7 +5084,7 @@
                                                             </div>
                                                         </div>
                                                         <div class="col-md-4">
-                                                            <div class="bot_blus d-flex align-items-center cursor" onclick="pantalla(6)">
+                                                            <div class="bot_blus d-flex align-items-center cursor" data-bs-toggle="modal" data-bs-target="#modal8">
                                                                 <p class="m-0 font16 text-center text-white negrita img-100">
                                                                     <b> Redes Neuronales 
                                                                         de Atención
@@ -5103,7 +5103,7 @@
                                                             </div>
                                                         </div>
                                                         <div class="col-md-4">
-                                                            <div class="bot_blus d-flex align-items-center cursor" onclick="pantalla(8)">
+                                                            <div class="bot_blus d-flex align-items-center cursor"  data-bs-toggle="modal" data-bs-target="#modal6">
                                                                 <p class="m-0 font16 text-center text-white negrita img-100">
                                                                     <b>Redes Neuronales Autoencoder</b>
                                                                 </p>
@@ -6000,193 +6000,417 @@
         </div>
     </div>
 
-    <div class="modal fade" id="imagen8" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-        aria-labelledby="staticBackdropLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-md modal_ova">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <div class="row m-0 img-100">
-                        <div class="col-md-10 d-flex align-items-center">
-                            <h5 class="modal-title bold m-0" id="staticBackdropLabel">
-                                Reconocimiento facial
-                            </h5>
-                        </div>
-
-                    </div>
-
-                    <div class="content_closeModal">
-                        <img src="../assets/img_ova/botones/Close_modal.png" width="50px" class="icon_close cursor"
-                            alt="" data-bs-dismiss="modal" aria-label="Close">
-                    </div>
-
-                </div>
-                <div class="modal-body">
-                    <div class="row p-3">
-                        <div class="col-md-4 text-center">
-                            <img src="../assets/img_ova/reconocimiento-facial.png" width="100%" alt="">
-                        </div>
-                        <div class="col-md-8">
-                            <p class="font16 justificado m-0">
-                                Por un lado, la capacidad de reconocer objetos en imágenes y videos ha revolucionado
-                                diversas industrias. Desde la identificación de productos en entornos minoristas hasta
-                                la clasificación automatizada en líneas de producción, esta aplicación ha mejorado la
-                                eficiencia y la precisión en diversas tareas.
-                            </p>
-                        </div>
-                    </div>
-                    <p class="font16 justificado m-0">
-                        También el reconocimiento facial utiliza algoritmos para identificar y autenticar personas
-                        mediante el análisis de características faciales únicas. Se aplica en sistemas de seguridad,
-                        acceso a dispositivos y servicios, y en aplicaciones de identificación y seguimiento de
-                        personas.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="modal fade" id="imagen9" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-        aria-labelledby="staticBackdropLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-md modal_ova">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <div class="row m-0 img-100">
-                        <div class="col-md-10 d-flex align-items-center">
-                            <h5 class="modal-title bold m-0" id="staticBackdropLabel">
-                                Detención de movimiento
-                            </h5>
-                        </div>
-
-                    </div>
-
-                    <div class="content_closeModal">
-                        <img src="../assets/img_ova/botones/Close_modal.png" width="50px" class="icon_close cursor"
-                            alt="" data-bs-dismiss="modal" aria-label="Close">
-                    </div>
-
-                </div>
-                <div class="modal-body">
-                    <div class="row p-3">
-                        <div class="col-md-4 text-center">
-                            <img src="../assets/img_ova/sensor.png" width="200px" alt=""
-                                style="    margin-left: -39px;">
-                        </div>
-                        <div class="col-md-8 d-flex align-items-center">
-                            <p class="font16 justificado m-0">
-                                La detección de movimiento emplea algoritmos de seguimiento y análisis para identificar
-                                cambios en la posición de objetos o personas en un entorno. Se utiliza en aplicaciones
-                                de seguridad, monitoreo de tráfico, análisis de comportamiento humano y sistemas de
-                                interacción gestual. En sistemas de seguridad se ha utilizado para la vigilancia y el
-                                análisis de eventos.
-                            </p>
-                        </div>
-                    </div>
-                    <p class="font16 justificado m-0">
-                        Puede detectar actividades sospechosas, identificar intrusiones y alertar automáticamente a los
-                        operadores de seguridad. Esta aplicación es esencial en entornos como aeropuertos, instalaciones
-                        industriales y áreas urbanas.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="modal fade" id="imagen10" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-        aria-labelledby="staticBackdropLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-md modal_ova">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <div class="row m-0 img-100">
-                        <div class="col-md-10 d-flex align-items-center">
-                            <h5 class="modal-title bold m-0" id="staticBackdropLabel">
-                                Autonomia de vehículos
-                            </h5>
-                        </div>
-
-                    </div>
-
-                    <div class="content_closeModal">
-                        <img src="../assets/img_ova/botones/Close_modal.png" width="50px" class="icon_close cursor"
-                            alt="" data-bs-dismiss="modal" aria-label="Close">
-                    </div>
-
-                </div>
-                <div class="modal-body p-3">
-                    <div class="row">
-                        <div class="col-md-4 text-center">
-                            <img src="../assets/img_ova/zumbido.png" width="100%" alt="">
-                        </div>
-                        <div class="col-md-8 d-flex align-items-center">
-                            <p class="font16 justificado m-0">
-                                La visión por computadora es fundamental para la autonomía de vehículos, permite que
-                                automóviles, drones y otros dispositivos interpretan y responden al entorno circundante.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-8 d-flex align-items-center">
-                            <p class="font16 justificado m-0">
-                                La detección de obstáculos, la identificación de señales de tráfico y la navegación
-                                autónoma son ejemplos de aplicaciones en vehículos autónomos.
-                            </p>
-                        </div>
-                        <div class="col-md-4 text-center">
-                            <img src="../assets/img_ova/carro-inteligente.png" width="100%" alt="">
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="modal fade" id="imagen11" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-        aria-labelledby="staticBackdropLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-lg modal_ova">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <div class="row m-0 img-100">
-                        <div class="col-md-10 d-flex align-items-center">
-                            <h5 class="modal-title bold m-0" id="staticBackdropLabel">
-                                Autonomia de vehículos
-                            </h5>
-                        </div>
-
-                    </div>
-
-                    <div class="content_closeModal">
-                        <img src="../assets/img_ova/botones/Close_modal.png" width="50px" class="icon_close cursor"
-                            alt="" data-bs-dismiss="modal" aria-label="Close">
-                    </div>
-
-                </div>
-                <div class="modal-body p-3">
-                    <div class="row">
-                        <div class="col-md-4 text-center">
-                            <img src="../assets/img_ova/vr.png" width="100%" alt="">
-                        </div>
-                        <div class="col-md-8 d-flex align-items-center">
-                            <p class="font16 justificado m-0">
-                                La realidad aumentada permite superponer información digital en el mundo físico. Se
-                                utiliza en aplicaciones interactivas, juegos, capacitación y asistencia en tareas
-                                complejas, proporcionando una capa adicional de información contextual.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="modal fade" id="imagen12" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    <div class="modal fade" id="modal5" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
         aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-xl modal_ova">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <div class="row m-0 img-100">
-                        <div class="col-md-10 d-flex align-items-center">
-                            <h5 class="modal-title bold m-0" id="staticBackdropLabel">
-                                Algunas áreas clave donde se está teniendo un impacto significativo. Use las flechas
-                                para navegar por cada área:
-                            </h5>
+            <div class="modal-content rounded-0" style="border: 4px solid #181363;">
+                <div class="modal-header rounded-0">
+                    <div class="text-center img-100">
+                        <h5 class="modal-title bold" id="staticBackdropLabel">Redes Neuronales Generativas Adversarias (Generative Adversarial Networks - GAN):
+                        </h5>
+                    </div>
+    
+                    <div class="content_closeModal">
+                        <img src="../assets/img_ova/botones/Close_modal.png" width="50px" class="icon_close cursor" alt=""
+                            data-bs-dismiss="modal" aria-label="Close">
+                    </div>
+    
+                </div>
+                <div class="modal-body">
+                    <div class="row m-0">
+                        <div class="col-md-2 d-flex justify-content-center align-items-center">
+                            <img src="../assets/img_ova/img/06.png" class="img-80" style="    position: relative;
+                           top: -60px;">
                         </div>
+                        <div class="col-md-10">
+                            <p class="font16 m-0 justificado ">
+                                Constituyen un enfoque innovador en el campo del aprendizaje profundo y la generación de contenido. La estructura de una GAN involucra dos redes neuronales, el generador y el discriminador, que operan en conjunto en un juego competitivo. Este enfoque ha demostrado ser muy exitoso en la generación de contenido, como imágenes y texto, alcanzando un nivel de realismo notable. 
+                                <b class="negrita">Use el deslizador para continuar.
+                                </b>
+                            </p>
+    
+                        </div>
+                    </div>
+    
+                    <div class="row d-flex justify-content-center ">
+                        <div class="row">
+                            <div class="row col-md-12">
+                                <div class="col-md-12 row">
+                                    <div class="col-md-12 mt-4 rounded-4" style="border: 2px solid #181363;">
+                                        
+                                        <div class="col-md-12 ">
 
+                                            <!-- ejemplo 0 -->
+                                            <div class="deslizadorr deslizaa_0 ">
+                                                <div class="row d-flex justify-content-center align-items-center">
+                                                    <div class="col-md-4">
+                                                        <p class="font16 text-center rounded-2 negrita text-white justificado p-2 m-0" style="background-color: #8DC640;">
+                                                            Componentes Principales de las GAN:
+                                                        </p>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <p class="font16 text-center rounded-2 negrita text-white justificado p-2 m-0" style="background-color: #0187C4;">
+                                                            Dinámicas de juego 
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <div class="row mt-3">
+                                                            <div class="col-md-6">
+                                                                <div class="p-3 rounded-4" style="background-color: #8DC640; height: 100%;">
+                                                                    <div class="p-3 rounded-4 h-100" style="background-color: white; box-shadow: 0px 0px 21px -6px rgb(59, 57, 57);">
+                                                                        <p class="font16 justificado m-0" style="    height: 207px; overflow: auto;">
+                                                                            <b class="negrita">Generador: </b>El generador es responsable de crear datos que imiten la distribución de los datos reales. Su objetivo es generar muestras que sean lo más realistas posible para engañar al discriminador.
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-6">
+                                                                <div class="p-3 rounded-4" style="background-color: #8DC640; height: 100%;">
+                                                                    <div class="p-3 rounded-4 h-100" style="background-color: white; box-shadow: 0px 0px 21px -6px rgb(59, 57, 57);">
+                                                                        <p class="font16 justificado m-0" style="    height: 207px; overflow: auto;">
+                                                                            <b class="negrita">Discriminador:  </b>El discriminador, por otro lado, tiene la tarea de distinguir entre datos reales y generados por el generador. Su objetivo es ser capaz de clasificar correctamente si una muestra proviene del conjunto de datos real o si fue creada por el generador.
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="row mt-3">
+                                                            <div class="col-md-6">
+                                                                <div class="p-3 rounded-4" style="background-color: #0187C4; height: 100%;">
+                                                                    <div class="p-3 rounded-4 h-100" style="background-color: white; box-shadow: 0px 0px 21px -6px rgb(59, 57, 57);">
+                                                                        <p class="font16 justificado m-0" style="    height: 207px; overflow: auto;">
+                                                                            <b class="negrita">Competencia Adversarial:  </b>El generador y el discriminador están en constante competencia. Mientras el generador intenta mejorar la calidad de sus muestras para que el discriminador las clasifique incorrectamente, el discriminador evoluciona para volverse más preciso en la clasificación.
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-6">
+                                                                <div class="p-3 rounded-4" style="background-color: #0187C4; height: 100%;">
+                                                                    <div class="p-3 rounded-4 h-100" style="background-color: white; box-shadow: 0px 0px 21px -6px rgb(59, 57, 57);">
+                                                                        <p class="font16 justificado m-0" style="    height: 207px; overflow: auto;">
+                                                                            <b class="negrita">Entrenamiento Adversarial:   </b>La GAN se entrena mediante un proceso adversarial. El generador y el discriminador se actualizan de manera iterativa en una lucha constante. Este proceso puede llevar a la mejora continua de ambas redes.
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                               
+                                            </div>
+                                            <!-- ejemplo 1 -->
+                                            <div class="deslizadorr deslizaa_1 d-none">
+                                                <div class="row d-flex justify-content-center align-items-center">
+                                                    <div class="col-md-4">
+                                                        <p class="font16 text-center rounded-2 negrita text-white justificado p-2 m-0" style="background-color: #FF7F00;">
+                                                            Aplicaciones Destacadas de las GAN:
+
+                                                        </p>
+                                                    </div>
+                                                    
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <div class="row mt-3">
+                                                            <div class="col-md-6">
+                                                                <div class="p-3 rounded-4" style="background-color: #FF7F00; height: 100%;">
+                                                                    <div class="p-3 rounded-4 h-100" style="background-color: white; box-shadow: 0px 0px 21px -6px rgb(59, 57, 57);">
+                                                                        <p class="font16 justificado m-0" style="    height: 207px; overflow: auto;">
+                                                                            <b class="negrita">Generación de Imágenes Realistas: </b>Las GAN se utilizan para generar imágenes que son visualmente indistinguibles de fotografías reales. Esto se ha aplicado en la creación de retratos, paisajes y otros tipos de contenido visual.
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-6">
+                                                                <div class="p-3 rounded-4" style="background-color: #FF7F00; height: 100%;">
+                                                                    <div class="p-3 rounded-4 h-100" style="background-color: white; box-shadow: 0px 0px 21px -6px rgb(59, 57, 57);">
+                                                                        <p class="font16 justificado m-0" style="    height: 207px; overflow: auto;">
+                                                                            <b class="negrita">Estilo y Transferencia de Imágenes:  </b>Las GAN permiten la transferencia de estilos entre imágenes, lo que significa que el contenido de una imagen se puede recrear en el estilo artístico de otra. Esto ha llevado a aplicaciones creativas en el campo del arte digital.
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="row mt-3">
+                                                            <div class="col-md-6">
+                                                                <div class="p-3 rounded-4" style="background-color: #FF7F00; height: 100%;">
+                                                                    <div class="p-3 rounded-4 h-100" style="background-color: white; box-shadow: 0px 0px 21px -6px rgb(59, 57, 57);">
+                                                                        <p class="font16 justificado m-0" style="    height: 207px; overflow: auto;">
+                                                                            <b class="negrita">Creación de Datos Sintéticos:   </b>En campos como la visión por computadora, las GAN se utilizan para crear conjuntos de datos sintéticos que pueden ayudar en el entrenamiento de modelos de aprendizaje automático cuando los datos reales son limitados.
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-6">
+                                                                <div class="p-3 rounded-4" style="background-color: #FF7F00; height: 100%;">
+                                                                    <div class="p-3 rounded-4 h-100" style="background-color: white; box-shadow: 0px 0px 21px -6px rgb(59, 57, 57);">
+                                                                        <p class="font16 justificado m-0" style="    height: 207px; overflow: auto;">
+                                                                            <b class="negrita">Generación de Texto Creativo:  </b>Las GAN se han aplicado en la generación de texto, creando contenido que puede parecer escrito por humanos. Esto incluye la creación de historias, poemas o incluso noticias ficticias.
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- ejemplo 2 -->
+                                            <div class="deslizadorr deslizaa_2 d-none ">
+                                                <div class="row d-flex justify-content-center align-items-center">
+                                                    <div class="col-md-4">
+                                                        <p class="font16 text-center rounded-2 negrita text-white justificado p-2 m-0" style="background-color: #181363;">
+                                                            Desafíos y Consideraciones:
+                                                        </p>
+                                                    </div>
+                                                    
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <div class="row mt-3">
+                                                            <div class="col-md-6">
+                                                                <div class="p-3 rounded-4" style="background-color: #181363; height: 100%;">
+                                                                    <div class="p-3 rounded-4 h-100" style="background-color: white; box-shadow: 0px 0px 21px -6px rgb(59, 57, 57);">
+                                                                        <p class="font16 justificado m-0" style="    height: 207px; overflow: auto;">
+                                                                            <b class="negrita">Estabilidad del Entrenamiento: </b>El entrenamiento de GAN puede ser desafiante y a veces inestable. Lograr un equilibrio en la dinámica entre el generador y el discriminador puede requerir ajustes cuidadosos.
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-6">
+                                                                <div class="p-3 rounded-4" style="background-color: #181363; height: 100%;">
+                                                                    <div class="p-3 rounded-4 h-100" style="background-color: white; box-shadow: 0px 0px 21px -6px rgb(59, 57, 57);">
+                                                                        <p class="font16 justificado m-0" style="    height: 207px; overflow: auto;">
+                                                                            <b class="negrita">Prevención de Colapsos del Generador:  </b>En algunos casos, el generador puede colapsar y producir muestras similares en exceso. Estrategias como el uso de arquitecturas de red más complejas o técnicas específicas de entrenamiento se emplean para abordar este problema.
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="row mt-3">
+                                                            <div class="col-md-6">
+                                                                <div class="p-3 rounded-4" style="background-color: #181363; height: 100%;">
+                                                                    <div class="p-3 rounded-4 h-100" style="background-color: white; box-shadow: 0px 0px 21px -6px rgb(59, 57, 57);">
+                                                                        <p class="font16 justificado m-0" style="    height: 207px; overflow: auto;">
+                                                                            La investigación continua en GAN se centra en mejorar la estabilidad del entrenamiento, controlar la calidad de las muestras generadas y explorar aplicaciones más diversas en la generación de contenido.
+
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-6">
+                                                                <div class="p-3 rounded-4" style="background-color: #181363; height: 100%;">
+                                                                    <div class="p-3 rounded-4 h-100" style="background-color: white; box-shadow: 0px 0px 21px -6px rgb(59, 57, 57);">
+                                                                        <p class="font16 justificado m-0" style="    height: 207px; overflow: auto;">
+                                                                            Las Redes Neuronales Generativas Adversarias han revolucionado la capacidad de generar contenido artificialmente realista. Su enfoque único de competencia adversarial ha llevado a avances significativos en campos como la visión por computadora, el arte digital y la generación de texto creativo.
+
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+
+                                        </div>
+                                        <div class="text-center mt-4">
+                                            <div class="inputDiv2 i1"
+                                                style="padding-inline: 22px;"></div>
+                                            <div class="inputDiv2 i2" style="display: none;">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                    </div>
+    
+    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal6" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl modal_ova">
+            <div class="modal-content rounded-0" style="border: 4px solid #181363;">
+                <div class="modal-header rounded-0">
+                    <div class="text-center img-100">
+                        <h5 class="modal-title bold" id="staticBackdropLabel">Redes Neuronales Autoencoder:
+                        </h5>
+                    </div>
+    
+                    <div class="content_closeModal">
+                        <img src="../assets/img_ova/botones/Close_modal.png" width="50px" class="icon_close cursor" alt=""
+                            data-bs-dismiss="modal" aria-label="Close">
+                    </div>
+    
+                </div>
+                <div class="modal-body">
+                    <div class="row m-0">
+                        <div class="col-md-2 d-flex justify-content-center align-items-center">
+                            <img src="../assets/img_ova/img/07.png" class="img-80" style="    position: relative;
+                           top: -60px;">
+                        </div>
+                        <div class="col-md-10">
+                            <p class="font16 m-0 justificado ">
+                                Son un tipo especial de red neuronal que se entrena para aprender representaciones eficientes y compactas de datos de entrada. El proceso implica la compresión de datos en una representación más pequeña y luego la reconstrucción de los datos originales a partir de esta representación. Los autoencoders son utilizados para diversas tareas, como reducción de dimensionalidad, denoising, y generación de datos.  
+                                <b class="negrita">Presione cada uno de los botones para observar cada detalle de las Redes Neuronales Autoencoder. </b>
+                            </p>
+    
+                        </div>
+                    </div>
+    
+                    <div class="row d-flex justify-content-center ">
+                        <div class="mt-2 d-flex justify-content-center">
+                            <div class="col-md-1 d-flex justify-content-center mx-5">
+                                <div class="boton_verdee boton_verdee1 boton_verdeActivee  d-flex align-items-center justify-content-center cursor"
+                                    onclick="bote2(1)">
+                                    <img src="../assets/img_ova/img/001.png" width="70%"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="col-md-1 d-flex justify-content-center mx-5">
+                                <div class="boton_verdee boton_verdee2 d-flex align-items-center justify-content-center cursor"
+                                    onclick="bote2(2)">
+                                    <img src="../assets/img_ova/img/002.png" width="70%"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="col-md-1 d-flex justify-content-center mx-5">
+                                <div class="boton_verdee boton_verdee3 d-flex align-items-center justify-content-center cursor"
+                                    onclick="bote2(3)">
+                                    <img src="../assets/img_ova/img/003.png" width="70%"
+                                        alt="">
+                                </div>
+                            </div>
+                          
+                        </div>
+                        <div class="col-md-8">
+                            <div class="img-100 lineaa"></div>
+                        </div>
+                        <div class="mt-3 mb-4 ">
+                            <div class="bote_bluee bote_bluee1 ">
+                                <div class="row d-flex justify-content-center align-items-center">
+                                    <div class="col-md-5 me-3 d-flex justify-content-center align-items-center flex-column rounded-4" style="border: 2px solid #FF7F00;">
+                                        <div class="img-70">
+                                            <p class="font16 negrita text-center text-white justificado p-2 rounded-2" style="background-color: #FF7F00;">
+                                                Componentes Principales de los Autoencoders
+    
+                                            </p>
+                                        </div>
+                                        <p class="font16 justificado ">
+                                            <b class="negrita">Codificación:</b> El autoencoder consta de dos partes principales: el codificador y el decodificador. El codificador toma los datos de entrada y los transforma en una representación más compacta. Esta etapa es esencial para la reducción de dimensionalidad.
+                                            <br><br>
+                                           <b class="negrita">Decodificación:</b> El decodificador toma la representación codificada y la reconstruye de nuevo en una forma que se asemeje a los datos originales. Este proceso de reconstrucción es crucial para evaluar qué tan bien el autoencoder ha aprendido a representar los datos.
+                                        </p>
+                                    </div>
+                                    
+                                    <div class="col-md-5 d-flex justify-content-center align-items-center flex-column rounded-4" style="border: 2px solid #FF7F00;">
+                                        <div class="img-70">
+                                            <p class="font16 negrita text-center text-white justificado p-2 rounded-2" style="background-color: #FF7F00;">
+                                                Entrenamiento y Objetivo
+                                            </p>
+                                        </div>
+                                        <p class="font16 justificado ">
+                                            <b class="negrita">Objetivo de Reconstrucción: </b> Durante el entrenamiento, el autoencoder busca minimizar la diferencia entre los datos de entrada y los datos reconstruidos. Esto se logra optimizando una función de pérdida que mide la discrepancia entre los datos originales y los datos reconstruidos.
+                                            <br><br>
+                                           <b class="negrita">Reducción de Dimensionalidad: </b> La capa central del autoencoder, que representa la representación codificada, actúa como una versión comprimida de los datos de entrada y, por lo tanto, funciona como una forma de reducción de dimensionalidad.
+                                        </p>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="bote_bluee bote_bluee2 d-none">
+                                <div class="row d-flex justify-content-center align-items-center">
+                                    <div class="col-md-12 me-3 d-flex justify-content-center align-items-center flex-column rounded-4" style="border: 2px solid #FF7F00;">
+                                        <div class="img-50">
+                                            <p class="font16 negrita text-center text-white justificado p-2 rounded-2" style="background-color: #FF7F00;">
+                                                Aplicaciones Destacadas de los Autoencoders:
+    
+                                            </p>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <p class="font16 justificado ">
+                                                    <b class="negrita">Reducción de Dimensionalidad: </b> Los autoencoders son utilizados para reducir la dimensionalidad de los datos, manteniendo al mismo tiempo la información esencial. Esto es útil en la visualización de datos y en la aceleración del entrenamiento de modelos de aprendizaje automático.
+                                                    <br><br>
+                                                   <b class="negrita">Denoising Autoencoders: </b> Los autoencoders también se utilizan para el proceso de eliminación de ruido en datos. Se entrenan para reconstruir datos limpios a partir de versiones ruidosas, mejorando así su capacidad para manejar datos corruptos o incompletos.
+                                                </p>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p class="font16 justificado ">
+                                                    <b class="negrita">Generación de Datos: </b> Los autoencoders pueden generar nuevos datos al muestrear la representación codificada y decodificarla. Esto se ha aplicado en la generación de imágenes, texto y otros tipos de contenido.
+                                                    <br><br>
+                                                   <b class="negrita">Transferencia de Estilo: </b> Los autoencoders se han utilizado en tareas de transferencia de estilo, donde la representación codificada de un tipo de contenido se aplica a otro tipo de contenido para lograr una fusión única de estilos.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    
+                                </div>
+                            </div>
+                            <div class="bote_bluee bote_bluee3 d-none">
+                                <div class="row d-flex justify-content-center align-items-center">
+                                    <div class="col-md-12 me-3 d-flex justify-content-center align-items-center flex-column rounded-4" style="border: 2px solid #FF7F00;">
+                                        <div class="img-50">
+                                            <p class="font16 negrita text-center text-white justificado p-2 rounded-2" style="background-color: #FF7F00;">
+                                                Desafíos y Consideraciones:
+                                            </p>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <p class="font16 justificado ">
+                                                    <b class="negrita">Sobreajuste: </b> Los autoencoders pueden enfrentar el problema del sobreajuste, especialmente si la capacidad del modelo es demasiado grande en comparación con el tamaño de los datos de entrenamiento.
+                                                    <br><br>
+                                                   <b class="negrita">Interpretación de Representaciones:  </b> Interpretar las representaciones aprendidas por un autoencoder puede ser desafiante, ya que estas suelen ser representaciones latentes complejas y no siempre fácilmente interpretables.
+                                                </p>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p class="font16 justificado ">
+                                                    La investigación en autoencoders se centra en mejorar la estabilidad del entrenamiento, explorar arquitecturas más avanzadas y aplicar autoencoders en una variedad de dominios y tareas.
+                                                    <br><br>
+                                                    Los Autoencoders son herramientas versátiles en el aprendizaje automático, proporcionando una forma eficaz de reducir la dimensionalidad de los datos y aprender representaciones significativas que pueden ser utilizadas en diversas aplicaciones, desde la generación de datos hasta la transferencia de estilos.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    
+                                </div>
+                            </div>
+                            
+                        </div>
+    
+                    </div>
+    
+    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal7" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl modal_ova">
+            <div class="modal-content rounded-0" style="border: 4px solid #181363;">
+                <div class="modal-header rounded-0">
+                    <div class="text-center img-100">
+                        <h5 class="modal-title bold" id="staticBackdropLabel">  Redes Neuronales Siamesas:                             
+                        </h5>
                     </div>
 
                     <div class="content_closeModal">
@@ -6195,175 +6419,522 @@
                     </div>
 
                 </div>
-                <div class="modal-body p-3">
-                    <div id="carru3" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <div class="row">
-                                    <div class="col-md-11" style="margin-left: 3%;">
-                                        <div class="d-flex">
-                                            <div class="d-flex align-items-center justify-content-center"
-                                                style="background: #181363;height: 100px;width: 100px;">
-                                                <img src="../assets/img_ova/examen.png" width="80px" alt="">
-                                            </div>
-                                            <div class="d-flex align-items-center"
-                                                style="background: #0187C4;padding: 15px;width: 90%;">
-                                                <p class="m-0 font16 justificado text-white">
-                                                    En el diagnóstico de enfermedades, algoritmos de aprendizaje
-                                                    profundo analizan datos clínicos, resultados de pruebas y otros
-                                                    datos médicos para identificar patrones que podrían ser indicativos
-                                                    de condiciones médicas. Esto es particularmente valioso en áreas
-                                                    como la detección temprana de cáncer, enfermedades cardiovasculares
-                                                    y trastornos neurológicos.
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="d-flex">
-                                            <div class="d-flex align-items-center"
-                                                style="background: #8DC640;padding: 15px;width: 90%;">
-                                                <p class="m-0 font16 justificado">
-                                                    Al analizar datos epidemiológicos se puede prever la propagación de
-                                                    enfermedades. Los modelos predictivos pueden tener en cuenta
-                                                    variables como la movilidad de la población, patrones climáticos y
-                                                    otros factores para anticipar brotes y ayudar a tomar decisiones
-                                                    informadas en la gestión de la salud pública.
-                                                </p>
-                                            </div>
-                                            <div class="d-flex align-items-center justify-content-center"
-                                                style="background: #181363;height: 100px;width: 100px;">
-                                                <img src="../assets/img_ova/epidemia.png" width="80px" alt="">
-                                            </div>
+                <div class="modal-body">
+                    <div class="row m-0">
+                        <div class="col-md-2 d-flex justify-content-center align-items-center">
+                           <img src="../assets/img_ova/img/08.png" class="img-80" style="    position: relative;
+                           top: -60px;">
+                        </div>
+                        <div class="col-md-10">
+                            <div class="p-3 rounded-3">
+                                <p class="font16 m-0 justificado ">
+                                    Son una arquitectura especializada diseñada para comparar la similitud entre dos entradas. Estas redes comparten los mismos pesos y arquitectura para ambas entradas y se entrenan de manera que minimizan la distancia entre pares de datos similares y maximizan la distancia entre pares de datos no similares. Este enfoque se utiliza comúnmente en tareas como reconocimiento facial, comparación de documentos, y clasificación de pares de texto, entre otras. <b class="negrita"> Presione los botones para ampliar la información.</b>
 
-                                        </div>
-                                        <div class="d-flex">
-                                            <div class="d-flex align-items-center justify-content-center"
-                                                style="background: #181363;height: 100px;width: 100px;">
-                                                <img src="../assets/img_ova/evaluacion.png" width="80px" alt="">
-                                            </div>
-                                            <div class="d-flex align-items-center"
-                                                style="background: #FF7F00;padding: 15px;width: 90%;">
-                                                <p class="m-0 font16 justificado text-white">
-                                                    Al analizar grandes conjuntos de datos de pacientes se pueden
-                                                    identificar patrones de salud. Esto incluye la identificación de
-                                                    factores de riesgo, correlaciones entre diversos síntomas y la
-                                                    personalización de intervenciones y tratamientos según el perfil de
-                                                    salud individual de un paciente.
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="d-flex">
-                                            <div class="d-flex align-items-center"
-                                                style="background: #0187C4;padding: 15px;width: 90%;">
-                                                <p class="m-0 font16 justificado text-white">
-                                                    En la interpretación de imágenes médicas, algoritmos de visión por
-                                                    computadora pueden analizar radiografías, resonancias magnéticas,
-                                                    tomografías computarizadas y otros tipos de imágenes para
-                                                    identificar anomalías, tumores o lesiones, esto agiliza el proceso
-                                                    de diagnóstico y permite una intervención más rápida y precisa.
-                                                </p>
-                                            </div>
-                                            <div class="d-flex align-items-center justify-content-center"
-                                                style="background: #181363;height: 100px;width: 100px;">
-                                                <img src="../assets/img_ova/rayos-x.png" width="80px" alt="">
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                    <div class="d-flex align-items-center" style="width: 5%;">
-                                        <div class="triangulo" data-bs-target="#carru3" data-bs-slide="next"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="row">
-                                    <div class="d-flex align-items-center justify-content-end" style="width: 5%;">
-                                        <div class="triangulo" data-bs-target="#carru3" data-bs-slide="prev"
-                                            style="transform: scaleX(-1);"></div>
-                                    </div>
-                                    <div class="col-md-11">
-                                        <div class="d-flex">
-                                            <div class="d-flex align-items-center justify-content-center"
-                                                style="background: #181363;height: 100px;width: 100px;">
-                                                <img src="../assets/img_ova/fisico.png" width="80px" alt="">
-                                            </div>
-                                            <div class="d-flex align-items-center"
-                                                style="background: #8DC640;padding: 15px; width: 90%;">
-                                                <p class="m-0 font16 justificado">
-                                                    La personalización de tratamientos implica la adaptación de planes
-                                                    terapéuticos a las características individuales de cada paciente.
-                                                    Los algoritmos pueden analizar datos genéticos, historiales médicos
-                                                    y respuestas anteriores al tratamiento para recomendar opciones
-                                                    terapéuticas personalizadas, mejorando así la eficacia de la
-                                                    atención médica.
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="d-flex">
-                                            <div class="d-flex align-items-center"
-                                                style="background: #FF7F00;padding: 15px;width: 90%;">
-                                                <p class="m-0 font16 justificado text-white">
-                                                    En el proceso de descubrimiento de medicamentos, se acelera la
-                                                    identificación de compuestos potenciales. Algoritmos de aprendizaje
-                                                    automático pueden analizar grandes bases de datos de información
-                                                    molecular y genómica para predecir la efectividad de ciertos
-                                                    compuestos en el tratamiento de enfermedades, agilizando el proceso
-                                                    de investigación y desarrollo de nuevos medicamentos.
-                                                </p>
-                                            </div>
-                                            <div class="d-flex align-items-center justify-content-center"
-                                                style="background: #181363;height: 100px;width: 100px;">
-                                                <img src="../assets/img_ova/medicamentos.png" width="80px" alt="">
-                                            </div>
-
-                                        </div>
-                                        <div class="d-flex">
-                                            <div class="d-flex align-items-center justify-content-center"
-                                                style="background: #181363;width: 100px;">
-                                                <img src="../assets/img_ova/cita-medica.png" width="80px" alt="">
-                                            </div>
-                                            <div class="d-flex align-items-center"
-                                                style="background: #0187C4;padding: 15px;width: 90%;">
-                                                <p class="m-0 font16 justificado text-white">
-                                                    La implementación de asistentes virtuales y chatbots para brindar
-                                                    información y apoyo a los pacientes, pueden ayudar en la
-                                                    programación de citas, proporcionar información sobre medicamentos y
-                                                    ofrecer orientación sobre síntomas, mejorando así la accesibilidad a
-                                                    la atención médica. Sistemas inteligentes pueden ayudar en la
-                                                    gestión de recursos, la programación de procedimientos y la
-                                                    asignación de personal, contribuyendo a una atención más efectiva y
-                                                    a una administración eficiente de los recursos.
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="d-flex">
-                                            <div class="d-flex align-items-center"
-                                                style="background: #8DC640;padding: 15px;width: 90%;">
-                                                <p class="m-0 font16 justificado">
-                                                    En conjunto, la aplicación de la IA en Medicina y Ciencias de la
-                                                    Salud está transformando la atención médica al mejorar la precisión
-                                                    del diagnóstico, personalizar los tratamientos y optimizar la
-                                                    gestión de la salud a nivel individual y poblacional. Estos avances
-                                                    tienen el potencial de mejorar significativamente los resultados
-                                                    para los pacientes y avanzar en la comprensión y tratamiento de
-                                                    diversas condiciones médicas.
-                                                </p>
-                                            </div>
-                                            <div class="d-flex align-items-center justify-content-center"
-                                                style="background: #181363;height: 100px;width: 100px;">
-                                                <img src="../assets/img_ova/cita-medica(1).png" width="80px" alt="">
-                                            </div>
-
-                                        </div>
-                                    </div>
-
-                                </div>
+                                </p>
                             </div>
                         </div>
                     </div>
+
+                    <div class="row d-flex justify-content-center ">
+                        <div class="col-md-3  mt-5">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="rounded-3 p-3 btn-modallV2 btn-modall2-active btn-modall btn-modall1 d-flex justify-content-center align-items-center cursor" onclick="modal3(1)">
+                                        <p class="font16 text-center negrita justificado m-0">
+                                            Características Principales de las CNN
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 mt-3">
+                                    <div class="rounded-3 p-3 btn-modallV2  btn-modall btn-modall2 d-flex justify-content-center align-items-center cursor" onclick="modal3(2)">
+                                        <p class="font16 text-center negrita justificado m-0">
+                                            Aplicaciones Destacadas de las CNN
+
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 mt-3">
+                                    <div class="rounded-3 p-3 btn-modallV2  btn-modall btn-modall3  d-flex justify-content-center align-items-center cursor" onclick="modal3(3)">
+                                        <p class="font16 text-center negrita justificado m-0">
+                                            Desafíos y Consideraciones
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-9">
+                            <div class="row caja-modallV2 cajaVv2-1  p-3  z-0 rounded-3">
+                        
+                                <p class=" p-3 font16 justificado rounded-3" style="border: 2px solid #0187C4;">
+                                    <b class="negrita">Arquitectura Compartida:  </b> Ambas ramas de la red (una por cada entrada) comparten la misma arquitectura y pesos. Esto significa que los datos de ambas entradas se procesan a través de capas idénticas.
+                                </p>
+                                <p class=" p-3 font16 justificado rounded-3" style="border: 2px solid #0187C4;">
+                                    <b class="negrita">Función de Comparación:  </b> Después de que ambas ramas han 	procesado 	sus respectivas entradas, se utiliza una función de 	comparación para medir 	la similitud entre las representaciones obtenidas. Esta función puede ser 	una medida de distancia, como la 	distancia euclidiana o una función de 	similitud como la función de coseno.
+                                </p>
+                                <p class=" p-3 font16 justificado rounded-3" style="border: 2px solid #0187C4;">
+                                    <b class="negrita">Entrenamiento con Pares de Datos:   </b> Durante el entrenamiento, la red se presenta con pares de datos  etiquetados como similares o no similares. Se ajustan los pesos de la red de manera que minimiza la distancia entre pares similares y maximiza la distancia entre pares no similares.
+                                </p>
+                               
+                        
+                            </div>
+
+                            <div class="row caja-modallV2 cajaVv2-2 d-none  p-3  z-0 rounded-3" style="border: 2px solid #0187C4;" >
+                        
+                               <div class="col-md-4">
+                                    <p class="font16 justificado">
+                                       <b class="negrita"> Entrenamiento y Objetivo:</b>  Función de Pérdida Contrastiva: La función de pérdida contrastiva es clave en las redes neuronales siamesas. Esta función penaliza las distancias entre representaciones de pares similares si son demasiado grandes y penaliza las distancias entre pares no similares si son demasiado pequeñas. Así, se busca aprender una representación que agrupe datos similares y separe datos no similares.
+                                    </p>
+                               </div>
+                               <div class="col-md-8">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <p class="font16 justificado negrita">
+                                                Aplicaciones Destacadas de las Redes Neuronales Siamesas:
+                                             </p>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p class="font16 justificado">
+                                                <b class="negrita"> Reconocimiento Facial: </b> Las redes neuronales siamesas se utilizan en el reconocimiento facial para comparar la similitud entre dos imágenes de caras y determinar si pertenecen a la misma persona.
+                                             </p>
+                                             <p class="font16 justificado">
+                                                <b class="negrita"> Emparejamiento de Imágenes:  </b> En aplicaciones de visión por computadora, las redes siamesas se aplican para emparejar imágenes en tareas como el seguimiento de objetos o la búsqueda de correspondencias.
+                                             </p>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p class="font16 justificado">
+                                                <b class="negrita"> Clasificación de Pares de Texto:  </b> Se utilizan para evaluar la similitud entre dos fragmentos de texto, lo que es útil en tareas como la búsqueda de duplicados o la clasificación de pares de oraciones.
+                                             </p>
+                                             <p class="font16 justificado">
+                                                <b class="negrita"> Comparación de Documentos:  </b> En tareas de procesamiento de lenguaje natural, las redes siamesas se aplican para comparar la similitud entre dos documentos o fragmentos de texto.
+
+                                             </p>
+                                        </div>
+                                    </div>
+                               </div>
+                        
+                        
+                            </div>
+
+                            <div class="row caja-modallV2 cajaVv2-3 d-none p-3  z-0 rounded-3">
+                        
+                                <div class="col-md-6">
+                                    <p class="font16 justificado p-3 rounded-3" style="border: 2px solid #0187C4;">
+                                        <b class="negrita"> Ventajas:  </b> Las redes neuronales siamesas son efectivas para aprender representaciones que capturan la similitud entre pares de datos. Además, al compartir pesos, estas redes suelen ser más eficientes y requieren menos datos de entrenamiento.
+                                    </p>
+                                </div>
+                                <div class="col-md-6">
+                                    <p class="font16 justificado p-3 rounded-3" style="border: 2px solid #0187C4;">
+                                        <b class="negrita"> Desafíos:   </b> La selección de la función de pérdida y la afinación de hiperparámetros pueden ser críticas en el rendimiento de una red siamesa. Además, pueden requerir más recursos computacionales durante el entrenamiento.
+                                    </p>
+                                </div>
+                                <div class="col-md-12">
+                                    <p class="font16 justificado p-3 rounded-3" >
+                                        La investigación en redes neuronales siamesas se centra en la mejora de arquitecturas y estrategias de entrenamiento para adaptarse a tareas específicas y manejar conjuntos de datos más complejos.
+                                        <br><br>
+                                        Las Redes Neuronales Siamesas son una herramienta poderosa para la comparación de similitud entre pares de datos, y su aplicación se extiende a una variedad de tareas en reconocimiento de patrones y aprendizaje siamesa.
+                                    </p>
+                                </div>
+                        
+                            </div>
+                        </div>
+                      
+                    </div>
+                    
+                  
                 </div>
             </div>
         </div>
     </div>
+
+    <div class="modal fade" id="modal8" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl modal_ova">
+        <div class="modal-content rounded-0" style="border: 4px solid #181363;">
+            <div class="modal-header rounded-0">
+                <div class="text-center img-100">
+                    <h5 class="modal-title bold" id="staticBackdropLabel"> Redes Neuronales de Atención (Transformers):
+                    </h5>
+                </div>
+
+                <div class="content_closeModal">
+                    <img src="../assets/img_ova/botones/Close_modal.png" width="50px" class="icon_close cursor"
+                        alt="" data-bs-dismiss="modal" aria-label="Close">
+                </div>
+
+            </div>
+            <div class="modal-body">
+                <div class="row m-0">
+                    <div class="col-md-2 d-flex justify-content-center align-items-center">
+                       <img src="../assets/img_ova/img/aprendizaje.png" class="img-80" style="    position: relative;
+                       top: -60px;">
+                    </div>
+                    <div class="col-md-10">
+                        <div class="p-3 rounded-3">
+                            <p class="font16 m-0 justificado ">
+                                Representan una arquitectura revolucionaria en el campo del aprendizaje profundo. Estas redes utilizan mecanismos de atención para procesar secuencias de entrada y han demostrado ser especialmente efectivas en tareas de procesamiento del lenguaje natural (PLN). Su diseño ha llevado a avances significativos en la capacidad de modelar relaciones a larga distancia en datos secuenciales.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row d-flex justify-content-center ">
+                  
+                    <div class="col-md-12 mb-3">
+                        <div id="carru4" class="carousel slide" data-bs-touch="false"
+                            data-bs-interval="false">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="row d-flex justify-content-center">
+
+                                        <div class="col-md-11">
+                                            <div class="row mb-2 ">
+                                                <div
+                                                    class="col-md-2 d-flex justify-content-center align-items-center ">
+                                                    <img src="../assets/img_ova/img/C1.png"
+                                                        class="img-70">
+                                                </div>
+                                                <div class="col-md-10">
+                                                    <div class="p-3 rounded-4"
+                                                        style="background-color: #0187C4;">
+                                                        <p
+                                                            class="font16 text-white justificado m-0">
+                                                            La documentación y comunicación
+                                                            son elementos críticos en el
+                                                            ciclo de vida de la aplicación
+                                                            de Machine Learning, ya que
+                                                            facilitan la comprensión,
+                                                            colaboración y toma de
+                                                            decisiones informadas. Se deben
+                                                            comunicar claramente los
+                                                            resultados y las limitaciones
+                                                            del modelo a partes interesadas
+                                                            no técnicas.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row mb-2   ps-5">
+                                                <div class="row rounded-4"
+                                                    style="background-color: #0187C4;">
+                                                    <div class="col-md-10 pe-0 ">
+                                                        <div class="p-3 ">
+                                                            <p
+                                                                class="font16 text-white justificado m-0">
+                                                                <b class="negrita">
+                                                                    Documentar cada fase del
+                                                                    proceso</b> de Machine
+                                                                Learning es esencial para
+                                                                preservar el conocimiento y
+                                                                permitir la
+                                                                reproducibilidad. Esto
+                                                                incluye la descripción
+                                                                detallada de la adquisición
+                                                                de datos, la limpieza y
+                                                                transformación de datos, el
+                                                                proceso de entrenamiento del
+                                                                modelo, la evaluación y
+                                                                optimización, así como el
+                                                                despliegue y el monitoreo
+                                                                continuo. La documentación
+                                                                precisa y completa facilita
+                                                                la colaboración entre
+                                                                miembros del equipo y
+                                                                permite a otros comprender y
+                                                                replicar el trabajo.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-2 d-flex justify-content-center align-items-center "
+                                                        style="background-color: #0187C4;">
+                                                        <img src="../assets/img_ova/img/C3.png"
+                                                            class="img-90">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row mb-2   ps-5">
+                                                <div class="row rounded-4"
+                                                    style="background-color: #0187C4;">
+                                                    <div class="col-md-11 pe-0 ">
+                                                        <div class="p-3 ">
+                                                            <p
+                                                                class="font16 text-white justificado m-0">
+                                                                La documentación debe
+                                                                incluir una <b
+                                                                    class="negrita">
+                                                                    descripción de la
+                                                                    arquitectura</b> del
+                                                                modelo, la elección de
+                                                                algoritmos, la configuración
+                                                                de hiperparámetros y
+                                                                cualquier decisión clave
+                                                                tomada durante el desarrollo
+                                                                del modelo. Esto no solo
+                                                                ayuda a los miembros del
+                                                                equipo actual, sino que
+                                                                también facilita la
+                                                                incorporación de nuevos
+                                                                colaboradores en el futuro.
+                                                                <b class="negrita"> Haga
+                                                                    clic en la flecha para
+                                                                    conocer más sobre
+                                                                    documentación y
+                                                                    comunicación. </b>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="col-md-1 d-flex align-items-center justify-content-center">
+                                                        <div class="fechasBtnDer cursor "
+                                                            data-bs-target="#carru4"
+                                                            data-bs-slide="next">
+
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row d-flex justify-content-center">
+
+                                        <div class="col-md-12">
+                                            <div class="row mb-2 ">
+
+                                                <div class="col-md-12">
+                                                    <div class="p-3 rounded-4"
+                                                        style="background-color: #0187C4;">
+                                                        <p
+                                                            class="font16 text-white justificado m-0">
+                                                            Las <b class="negrita">métricas
+                                                                de evaluación</b> del modelo
+                                                            deben ser documentadas y
+                                                            explicadas claramente. Esto
+                                                            incluye las métricas utilizadas
+                                                            para medir la precisión, recall,
+                                                            F1-score, entre otras,
+                                                            dependiendo del tipo de
+                                                            problema. Explicar estas
+                                                            métricas ayuda a las partes
+                                                            interesadas a comprender el
+                                                            rendimiento del modelo y su
+                                                            relevancia para los objetivos
+                                                            comerciales.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row mb-2   ps-4">
+                                                <div class="row rounded-4"
+                                                    style="background-color: #0187C4;">
+                                                    <div class="col-md-10 pe-0 ">
+                                                        <div class="p-3 ">
+                                                            <p
+                                                                class="font16 text-white justificado m-0">
+                                                                Es crucial comunicar de
+                                                                manera clara y accesible los
+                                                                resultados del modelo a
+                                                                partes interesadas no
+                                                                técnicas. Esto implica
+                                                                traducir métricas técnicas
+                                                                en términos comprensibles y
+                                                                presentar los hallazgos de
+                                                                manera visual cuando sea
+                                                                posible. La comunicación
+                                                                efectiva ayuda a generar
+                                                                confianza y respaldo para la
+                                                                aplicación del modelo en
+                                                                entornos del mundo real.
+
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-2 d-flex justify-content-center align-items-center "
+                                                        style="background-color: #0187C4;">
+                                                        <img src="../assets/img_ova/img/C2.png"
+                                                            class="img-70">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row mb-2   ps-4">
+                                                <div class="row rounded-4"
+                                                    style="background-color: #0187C4;">
+                                                    <div
+                                                        class="col-md-1 d-flex align-items-center justify-content-center">
+                                                        <div class="fechasBtnIzq cursor "
+                                                            data-bs-target="#carru4"
+                                                            data-bs-slide="prev">
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-10 p-0 ">
+                                                        <div class="p-3 ">
+                                                            <p
+                                                                class="font16 text-white justificado m-0">
+                                                                La documentación debe
+                                                                abordar las limitaciones del
+                                                                modelo, incluidas las áreas
+                                                                en las que puede no ser tan
+                                                                preciso o donde se debe
+                                                                tener precaución. Además, es
+                                                                esencial comunicar cualquier
+                                                                consideración ética
+                                                                relacionada con el uso del
+                                                                modelo, como la equidad, la
+                                                                privacidad y la
+                                                                interpretabilidad.
+                                                                <br><br>
+                                                                La documentación también
+                                                                debe incluir la gestión de
+                                                                versiones del modelo.
+                                                                Registrar las versiones
+                                                                específicas del código, los
+                                                                conjunto de datos y los
+                                                                modelos entrenados garantiza
+                                                                la trazabilidad y facilita
+                                                                futuras actualizaciones o
+                                                                retrocesos en caso de
+                                                                necesidad.
+
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="col-md-1 d-flex align-items-center justify-content-center">
+                                                        <div class="fechasBtnDer cursor "
+                                                            data-bs-target="#carru4"
+                                                            data-bs-slide="next">
+
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row d-flex justify-content-center">
+
+                                        <div class="col-md-12">
+                                            <div class="row mb-2 ">
+
+                                                <div class="col-md-12">
+                                                    <div class="p-3 rounded-4"
+                                                        style="background-color: #0187C4;">
+                                                        <p
+                                                            class="font16 text-white justificado m-0">
+                                                            La comunicación no debe ser un
+                                                            evento único. A medida que
+                                                            evoluciona el proyecto de
+                                                            Machine Learning, se deben
+                                                            realizar actualizaciones
+                                                            regulares y comunicar los
+                                                            cambios significativos. Esto
+                                                            mantiene a todas las partes
+                                                            interesadas informadas sobre el
+                                                            estado del proyecto y las
+                                                            mejoras realizadas.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="row mb-2   ps-4">
+                                                <div class="row rounded-4"
+                                                    style="background-color: #0187C4;">
+                                                    <div
+                                                        class="col-md-2  d-flex justify-content-center align-items-center">
+                                                        <img src="../assets/img_ova/img/C4.png"
+                                                            class="img-100" alt="">
+                                                    </div>
+                                                    <div class="col-md-10 px-0 py-3">
+                                                        <p class="font16 text-white">
+                                                            La documentación y comunicación
+                                                            efectivas fomentan la
+                                                            colaboración entre equipos
+                                                            técnicos y no técnicos. Un
+                                                            entendimiento compartido
+                                                            facilita la toma de decisiones
+                                                            informadas y alinea el trabajo
+                                                            técnico con los objetivos
+                                                            comerciales.
+                                                        </p>
+                                                        <p class="font16 m-0 text-white">
+                                                            La documentación y la
+                                                            comunicación son prácticas
+                                                            esenciales en la aplicación de
+                                                            Machine Learning. No solo
+                                                            preservan el conocimiento y
+                                                            permiten la colaboración
+                                                            interna, sino que también son
+                                                            cruciales para asegurar la
+                                                            comprensión y el respaldo de las
+                                                            partes interesadas no técnicas,
+                                                            contribuyendo así al éxito
+                                                            continuo del proyecto de Machine
+                                                            Learning.
+                                                        </p>
+                                                    </div>
+                                                    <div
+                                                        class="col-md-1 d-flex align-items-center justify-content-center">
+                                                        <div class="fechasBtnIzq cursor "
+                                                            data-bs-target="#carru4"
+                                                            data-bs-slide="prev">
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-10 p-0 mb-3 ">
+                                                        <div class="p-3 rounded-4"
+                                                            style="background-color: #181363;">
+                                                            <p
+                                                                class="font16 text-white justificado m-0">
+                                                                Estas fases forman un ciclo
+                                                                continuo de mejora, donde
+                                                                cada paso contribuye al
+                                                                desarrollo efectivo de
+                                                                soluciones basadas en
+                                                                machine learning.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="col-md-1 d-flex align-items-center justify-content-center">
+                                                        <div class="fechasBtnDer cursor "
+                                                            data-bs-target="#carru4"
+                                                            data-bs-slide="next">
+
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+                
+              
+            </div>
+        </div>
+    </div>
+</div>
+
+ 
+
 
 
     <div class="modal fade" id="video1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"

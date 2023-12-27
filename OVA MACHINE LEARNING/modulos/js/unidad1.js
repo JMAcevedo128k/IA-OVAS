@@ -109,7 +109,11 @@ $("#smartwizard").on("showStep", function (e, anchorObject, stepIndex, stepDirec
             break;
         case 9:
             break;
+        case 20:
+                entrar2();
+                break;
         case 21:
+            entrar2();
             break;
         case 22:
             location.href="../index.html?modulo=1";
@@ -838,6 +842,137 @@ function barroco3(num) {
        
             break;
     
+        default:
+            break;
+    }
+}
+
+
+
+
+/* RECURSO # 1 BARRA DESLIZADORA HORIZONTAL */
+
+/* se debe hacer el llamado a esta funcion el el Ready o en el case correspondiente de la pantalla donde se vaya a ubicar*/
+function entrar2() {
+    $(".i1").html('')
+    var elementoPadre11 = document.querySelector(".inputDiv2.i1");
+    var elementoPadre22 = document.querySelector(".inputDiv2.i2");
+    var inputsRy = [];
+    // cantidad de texto
+    var i = new Input2(2);
+    i.crear(elementoPadre11);
+    inputsRy.push(i);
+    // cantidad de texto
+    var i2 = new Input2(2);
+    i2.att.value = 70;
+    i2.att.min = 20;
+    i2.att.max = 120;
+    i2.crear(elementoPadre22);
+    inputsRy.push(i2);
+
+    for (var n = 0; n < inputsRy.length; n++) {
+        (function (n) {
+            inputsRy[n].input.addEventListener("input", function () {
+                /* se define a que funcion dentro de la funcion input se quiere entrar */
+                inputsRy[n].actualizar();
+            }, false)
+        }(n));
+    }
+}
+/* esta funcion la usaran los distintos tipos de deslizadores  */
+function Input2(num) {
+    //<input type="range" value="35" min="0" max="100" autocomplete="off" step="1">
+    this.att = {};
+    this.att.type = "range";
+    this.att.value = 0;
+    this.att.min = 0;
+    this.att.max = num;
+    this.att.autocomplete = "off";
+    this.att.step = "1";
+    this.input;
+    this.att.style = "background: #fff0;"
+    this.output;
+
+    this.crear = function (elementoPadre) {
+        // crea un nuevo elemento input
+        this.input = document.createElement("input");
+        //para cada propiedad del objeto att establece un nuevo atributo del elemento input
+        for (var name in this.att) {
+            if (this.att.hasOwnProperty(name)) {
+                this.input.setAttribute(name, this.att[name]);
+            }
+        }
+        // crea un nuevo elemento div
+        this.output = document.createElement("div");
+        // establece el valor del atributo class del nuevo div
+        this.output.setAttribute("class", "output");
+        // y el contenido (innerHTML) de este
+        this.output.innerHTML = this.att.value;
+
+        // inserta los dos elementos creados al final  del elemento Padre
+        elementoPadre.appendChild(this.input);
+        elementoPadre.appendChild(this.output);
+    }
+
+    /* esta parte es la encargada de hacer el llamado correspondiente a la funcion que realizara la funcionalidad deseada */
+    this.actualizar = function () {
+        /* se llama a la funcion deseada y se le manda el valor desde el 0 en adelante*/
+        lineaHorizontal2(this.input.value);
+        this.output.innerHTML = this.input.value;
+        this.att.value = this.input.value;
+    }
+
+    this.actualizar2 = function () {
+        lineaVertical(this.input.value);
+        this.output.innerHTML = this.input.value;
+        this.att.value = this.input.value;
+    }
+    $("input[type=range]").on('change', function () {
+    });
+}
+function lineaHorizontal2(num) {
+    $(".deslizadorr").addClass('d-none');
+    $(".deslizaa_" + num).removeClass('d-none');
+}
+
+
+function bote2(num) {
+    $(".boton_verdee").removeClass('boton_verdeActivee');
+    $(".boton_verdee" + num).addClass('boton_verdeActivee');
+
+    $(".bote_bluee").addClass('d-none');
+    $(".bote_bluee" + num).removeClass('d-none');
+}
+
+function modal3(num) {
+    switch (parseInt(num)) {
+        case 1:
+            $('.btn-modall').removeClass('btn-modall2-active');
+            $('.btn-modall1').addClass('btn-modall2-active');
+
+            $('.caja-modallV2').addClass('d-none');
+            $('.cajaVv2-1').removeClass('d-none');
+
+          
+
+            break;
+        case 2:
+            $('.btn-modall').removeClass('btn-modall2-active');
+            $('.btn-modall2').addClass('btn-modall2-active');
+
+            $('.caja-modallV2').addClass('d-none');
+            $('.cajaVv2-2').removeClass('d-none');
+
+
+            break;
+        case 3:
+            $('.btn-modall').removeClass('btn-modall2-active');
+            $('.btn-modall3').addClass('btn-modall2-active');
+
+            $('.caja-modallV2').addClass('d-none');
+            $('.cajaVv2-3').removeClass('d-none');
+            break;
+
         default:
             break;
     }

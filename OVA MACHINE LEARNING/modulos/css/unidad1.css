@@ -1118,3 +1118,60 @@ background: #181363;
 
 
 /* FIN RECURSO #19 */
+
+
+
+.boton_verdee{
+  background-color: #FBE5D6;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  z-index: 1;
+  border: 2px dashed #FF7F00;
+}
+.boton_verdeActivee{
+  background-color: #FF7F00 !important;
+}
+.lineaa{
+  height: 3px;
+  background-color: #FF7F00;
+  margin-top: -40px;
+}
+
+.bote_bluee{
+  /* border: 2px solid #FF7F00; */
+  padding: 10px 30px;
+  border-radius: 30px;
+  /* height: 150px; */
+}
+
+
+
+.bote_verdee{
+  background-color: #FF7F00;
+  border-radius: 30px;
+  padding: 20px 40px;
+  padding-bottom: 40px;
+}
+
+
+
+
+.btn-modallV2{
+  /* border: 3px solid #181363; */
+  color: white;
+  background-color: #181363;
+  position: relative;
+  z-index: 10;
+}
+
+.btn-modall2-active{
+  /* border: 3px solid #181363; */
+  color: white;
+  background-color: #0187C4;
+  position: relative;
+  z-index: 10;
+  border: 0;
+}
+
+
